@@ -24498,8 +24498,8 @@ var Context = _react.default.createContext();
 
 var _default = Context;
 exports.default = _default;
-},{"react":"node_modules/react/index.js"}],"images/logo11.png":[function(require,module,exports) {
-module.exports = "/logo11.8d047817.png";
+},{"react":"node_modules/react/index.js"}],"images/1.png":[function(require,module,exports) {
+module.exports = "/1.a7f2b1ea.png";
 },{}],"images/logo2.png":[function(require,module,exports) {
 module.exports = "/logo2.3cb6a286.png";
 },{}],"images/logo3.png":[function(require,module,exports) {
@@ -24559,24 +24559,32 @@ function (_React$Component) {
     value: function render() {
       return _react.default.createElement(_context.default.Consumer, null, function (ctx) {
         return _react.default.createElement("div", null, _react.default.createElement("div", {
+          class: "header"
+        }, _react.default.createElement("div", {
           className: "grid"
         }, _react.default.createElement("div", {
           className: "img1"
         }, _react.default.createElement("img", {
-          src: require("../images/logo11.png")
+          src: require("../images/1.png"),
+          height: "200",
+          width: "250"
         })), _react.default.createElement("div", {
           className: "img2"
         }, _react.default.createElement("img", {
-          src: require("../images/logo2.png")
+          src: require("../images/logo2.png"),
+          height: "70",
+          width: "250"
         })), _react.default.createElement("div", {
           className: "img3"
         }, _react.default.createElement("img", {
-          src: require("../images/logo3.png")
-        }))), _react.default.createElement("div", {
+          src: require("../images/logo3.png"),
+          height: "200",
+          width: "250"
+        })))), _react.default.createElement("div", {
           id: "he"
         }, _react.default.createElement("h1", null, "\u0623\u0633\u062A\u0645\u0627\u0631\u0629 \u062A\u0633\u062C\u064A\u0644 \u0645\u0646\u0638\u0645\u0629 \u0623\u062C\u0646\u0628\u064A\u0629")), _react.default.createElement("div", {
           id: "he1"
-        }, _react.default.createElement("h1", null, " \u0646\u0631\u062C\u0648 \u0627\u0644\u062A\u0641\u0636\u0644 \u0628\u0627\u0644\u0645\u0648\u0627\u0641\u0642\u0629 \u0639\u0644\u0649 \u062A\u0633\u062C\u06CC\u0644 \u0641\u0631\u0639 \u0645\u0646\u0638\u0645\u062A\u0646\u0627 \u0641\u064A \u0627\u0644\u0639\u0631\u0627\u0642 \u0648\u0641\u0642\u0627 \u0644\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062A \u0627\u0644\u0627\u062A\u06CC\u0629")));
+        }, _react.default.createElement("h2", null, " \u0646\u0631\u062C\u0648 \u0627\u0644\u062A\u0641\u0636\u0644 \u0628\u0627\u0644\u0645\u0648\u0627\u0641\u0642\u0629 \u0639\u0644\u0649 \u062A\u0633\u062C\u06CC\u0644 \u0641\u0631\u0639 \u0645\u0646\u0638\u0645\u062A\u0646\u0627 \u0641\u064A \u0627\u0644\u0639\u0631\u0627\u0642 \u0648\u0641\u0642\u0627 \u0644\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062A \u0627\u0644\u0627\u062A\u06CC\u0629")));
       });
     }
   }]);
@@ -24586,50 +24594,7 @@ function (_React$Component) {
 
 var _default = Header;
 exports.default = _default;
-{}
-/* const useStyles = makeStyles(theme => ({ */
-//   root: {
-//     background: theme.background,
-//     border: 0,
-//     borderRadius: 3,
-//     boxShadow: theme.boxShadow,
-//     color: 'white',
-//     height: 48,
-//     padding: '0 30px',
-//   },
-// }));
-// function DeepChild() {
-//   const classes = useStyles();
-//   return <Button className={classes.root}>Theme nesting</Button>;
-// }
-// function Theme() {
-//   return (
-//     <div>
-//       <ThemeProvider
-//         theme={{
-//           background: 'linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)',
-//           boxShadow: '0 3px 5px 2px rgba(255, 105, 135, .3)',
-//         }}
-//       >
-//         <DeepChild />
-//         <br />
-//         <br />
-//         <ThemeProvider
-//           theme={outerTheme => ({
-//             ...outerTheme,
-//             background: 'linear-gradient(45deg, #2196F3 30%, #21CBF3 90%)',
-//             boxShadow: '0 3px 5px 2px rgba(33, 203, 243, .3)',
-//           })}
-//         >
-//           <DeepChild />
-//         </ThemeProvider>
-//       </ThemeProvider>
-//     </div>
-//   );
-// }
-// }} 
-// export default Header;
-},{"react":"node_modules/react/index.js","../context":"context.js","../images/logo11.png":"images/logo11.png","../images/logo2.png":"images/logo2.png","../images/logo3.png":"images/logo3.png"}],"node_modules/glamor/lib/sheet.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../context":"context.js","../images/1.png":"images/1.png","../images/logo2.png":"images/logo2.png","../images/logo3.png":"images/logo3.png"}],"node_modules/glamor/lib/sheet.js":[function(require,module,exports) {
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -61772,7 +61737,9 @@ function (_React$Component) {
     _classCallCheck(this, Content);
 
     _this = _possibleConstructorReturn(this, _getPrototypeOf(Content).call(this));
-    _this.state = {};
+    _this.state = {
+      name: ''
+    };
     return _this;
   }
 
@@ -61785,188 +61752,1095 @@ function (_React$Component) {
         var _this2$state = _this2.state,
             name = _this2$state.name,
             country = _this2$state.country,
-            phon = _this2$state.phon,
+            phone = _this2$state.phone,
             isShown = _this2$state.isShown,
             email = _this2$state.email;
-        return _react.default.createElement("div", {
-          id: "grid"
-        }, _react.default.createElement("div", null, _react.default.createElement("ul", {
-          class: "list-group"
-        }, _react.default.createElement("li", {
-          class: "list-group-item active"
-        }, " ", _react.default.createElement("h1", null, "          \u0645\u0639\u0644\u0648\u0645\u0627\u062A \u0627\u0644\u0645\u0646\u0638\u0645\u0629 \u0641\u064A \u0627\u0644\u0639\u0631\u0627\u0642             "), " "), _react.default.createElement("li", {
-          class: "list-group-item"
-        }, _react.default.createElement("h2", null, "\u0623\u0633\u0645 \u0627\u0644\u0645\u0646\u0638\u0645\u0629 \u0628\u0627\u0644\u0644\u063A\u0629 \u0627\u0644\u0627\u0646\u0643\u0644\u064A\u0632\u064A\u0629\u064A"), _react.default.createElement(_evergreenUi.TextInput, {
-          width: 500,
-          height: 50,
-          placeholder: " \u0623\u0633\u0645 \u0627\u0644\u0645\u0646\u0638\u0645\u0629 \u0628\u0627\u0644\u0644\u063A\u0629 \u0627\u0644\u0627\u0646\u0643\u0644\u064A\u0632\u064A\u0629 "
-        })), _react.default.createElement("li", {
-          class: "list-group-item"
-        }, _react.default.createElement("h2", null, "   \u0623\u0633\u0645 \u0627\u0644\u0645\u0646\u0638\u0645\u0629 \u0628\u0627\u0644\u0644\u063A\u0629 \u0627\u0644\u0639\u0631\u0628\u064A\u0629 "), " ", _react.default.createElement(_evergreenUi.TextInput, {
-          width: 500,
-          height: 50,
-          placeholder: " \u0623\u0633\u0645 \u0627\u0644\u0645\u0646\u0638\u0645\u0629 \u0628\u0627\u0644\u0644\u063A\u0629 \u0627\u0644\u0639\u0631\u0628\u064A\u0629 "
-        })), _react.default.createElement("li", {
-          class: "list-group-item"
-        }, _react.default.createElement("h2", null, "\u0639\u0646\u0648\u0627\u0646 \u0641\u0631\u0639 \u0627\u0644\u0645\u0643\u062A\u0628 \u0627\u0644\u0631\u0626\u064A\u0633\u064A \u0641\u064A \u0628\u063A\u062F\u0627\u062F"), " ", _react.default.createElement(_evergreenUi.TextInput, {
-          width: 500,
-          height: 50,
-          placeholder: "\u0639\u0646\u0648\u0627\u0646 \u0641\u0631\u0639 \u0627\u0644\u0645\u0643\u062A\u0628 \u0627\u0644\u0631\u0626\u064A\u0633\u064A \u0641\u064A \u0628\u063A\u062F\u0627\u062F"
-        })), _react.default.createElement("li", {
-          class: "list-group-item"
-        }, "  ", _react.default.createElement("h2", null, "\u0623\u062E\u062A\u0635\u0627\u0635 \u0627\u0644\u0645\u0646\u0638\u0645\u0629"), "  ", _react.default.createElement(_evergreenUi.Combobox, {
-          label: _react.default.createElement("h4", null, "\u0623\u062E\u062A\u0635\u0627\u0635 \u0627\u0644\u0645\u0646\u0638\u0645\u0629"),
-          items: ['jjj', 'mnm', 'kljk'],
-          onChange: function onChange(selected) {
-            return console.log(selected);
-          },
-          placeholder: "\u0623\u062E\u062A\u0635\u0627\u0635 \u0627\u0644\u0645\u0646\u0638\u0645\u0629",
-          autocompleteProps: {
-            title: 'أختصاص المنظمة'
-          },
-          width: "50%",
-          padding: "10px"
-        })))), _react.default.createElement("div", null, _react.default.createElement("ul", {
-          class: "list-group"
-        }, _react.default.createElement("li", {
-          class: "list-group-item active"
-        }, _react.default.createElement("h1", null, "\u0645\u0639\u0644\u0648\u0645\u0627\u062A \u062E\u0627\u0635\u0629 \u0628\u0627\u0644\u0645\u0646\u0638\u0645\u0629 \u0627\u0644\u0627\u0645 "), " "), _react.default.createElement("li", {
-          class: "list-group-item"
-        }, _react.default.createElement("h2", null, "\u0627\u0633\u0645 \u0631\u0626\u064A\u0633 \u0627\u0644\u0645\u0646\u0638\u0645\u0629/\u0627\u0644\u0645\u062F\u064A\u0631 \u0627\u0644\u062A\u0646\u0641\u064A\u0630\u064A \u0630"), _react.default.createElement(_evergreenUi.TextInput, {
-          width: 500,
-          height: 50,
-          placeholder: " \u0627\u0633\u0645 \u0631\u0626\u064A\u0633 \u0627\u0644\u0645\u0646\u0638\u0645\u0629/\u0627\u0644\u0645\u062F\u064A\u0631 \u0627\u0644\u062A\u0646\u0641\u064A\u0630\u064A "
-        })), _react.default.createElement("li", {
-          class: "list-group-item"
-        }, _react.default.createElement("h2", null, "\u0647\u0627\u062A\u0641 \u0627\u0644\u0645\u0646\u0638\u0645\u0629"), " ", _react.default.createElement(_evergreenUi.TextInput, {
-          width: 500,
-          height: 50,
-          placeholder: "\u0647\u0627\u062A\u0641 \u0627\u0644\u0645\u0646\u0638\u0645\u0629"
-        })), _react.default.createElement("li", {
-          class: "list-group-item"
-        }, _react.default.createElement("h2", null, "\u0627\u0644\u0628\u0631\u064A\u062F \u0627\u0644\u0627\u0644\u0643\u062A\u0631\u0648\u0646\u064A"), _react.default.createElement(_evergreenUi.TextInput, {
-          width: 500,
-          height: 50,
-          placeholder: "\u0627\u0644\u0628\u0631\u064A\u062F \u0627\u0644\u0627\u0644\u0643\u062A\u0631\u0648\u0646\u064A"
-        })), _react.default.createElement("li", {
-          class: "list-group-item"
-        }, _react.default.createElement("h2", null, "   \u062C\u0646\u0633\u064A\u0629 \u0627\u0644\u0645\u0646\u0638\u0645\u0629 "), " ", _react.default.createElement(_evergreenUi.TextInput, {
-          placeholder: "\u062C\u0646\u0633\u064A\u0629 \u0627\u0644\u0645\u0646\u0638\u0645\u0629",
-          width: 500,
-          height: 50
-        })))), _react.default.createElement("div", null, _react.default.createElement("ul", {
-          class: "list-group"
-        }, _react.default.createElement("li", {
-          class: "list-group-item active"
-        }, _react.default.createElement("h1", null, "  \u0645\u0639\u0644\u0648\u0645\u0627\u062A \u0631\u0626\u064A\u0633 \u0641\u0631\u0639 \u0627\u0644\u0645\u0646\u0638\u0645\u0629 \u0641\u064A \u0627\u0644\u0639\u0631\u0627\u0642 "), " "), _react.default.createElement("li", {
-          class: "list-group-item"
-        }, _react.default.createElement("h2", null, "\u0627\u0633\u0645 \u0631\u0626\u064A\u0633 \u0641\u0631\u0639 \u0627\u0644\u0645\u0646\u0638\u0645\u0629 \u0627\u0644\u0645\u062E\u0648\u0644 \u0641\u064A \u0627\u0644\u0639\u0631\u0627\u0642"), _react.default.createElement(_evergreenUi.TextInput, {
-          width: 500,
-          height: 50,
-          placeholder: " \u0627\u0633\u0645 \u0631\u0626\u064A\u0633 \u0641\u0631\u0639 \u0627\u0644\u0645\u0646\u0638\u0645\u0629 \u0627\u0644\u0645\u062E\u0648\u0644 \u0641\u064A \u0627\u0644\u0639\u0631\u0627\u0642"
-        })), _react.default.createElement("li", {
-          class: "list-group-item"
-        }, _react.default.createElement("h2", null, "\u0631\u0642\u0645 \u0627\u0644\u0647\u0627\u062A\u0641"), " ", _react.default.createElement(_evergreenUi.TextInput, {
-          width: 500,
-          height: 50,
-          placeholder: " \u0631\u0642\u0645 \u0627\u0644\u0647\u0627\u062A\u0641    "
-        })), _react.default.createElement("li", {
-          class: "list-group-item"
-        }, _react.default.createElement("h2", null, "\u0627\u0644\u0628\u0631\u064A\u062F \u0627\u0644\u0627\u0644\u0643\u062A\u0631\u0648\u0646\u064A"), _react.default.createElement(_evergreenUi.TextInput, {
-          width: 500,
-          height: 50,
-          placeholder: "\u0627\u0644\u0628\u0631\u064A\u062F \u0627\u0644\u0627\u0644\u0643\u062A\u0631\u0648\u0646\u064A"
-        })), _react.default.createElement("li", {
-          class: "list-group-item"
-        }, _react.default.createElement("h2", null, " \u0627\u0644\u062C\u0646\u0633\u064A\u0629  "), " ", _react.default.createElement(_evergreenUi.TextInput, {
-          placeholder: "\u0627\u0644\u062C\u0646\u0633\u064A\u0629",
-          width: 500,
-          height: 50
-        })), _react.default.createElement("li", {
-          class: "list-group-item"
-        }, _react.default.createElement("h2", null, " \u0639\u0646\u0648\u0627\u0646 \u0627\u0644\u0633\u0643\u0646 \u0641\u064A \u0627\u0644\u0639\u0631\u0627\u0642  "), " ", _react.default.createElement(_evergreenUi.TextInput, {
-          placeholder: "\u0639\u0646\u0648\u0627\u0646 \u0627\u0644\u0633\u0643\u0646 \u0641\u064A \u0627\u0644\u0639\u0631\u0627\u0642",
-          width: 500,
-          height: 50
-        })))), _react.default.createElement(_evergreenUi.Pane, null, _react.default.createElement(_evergreenUi.Dialog, {
-          className: "modal",
-          isShown: isShown,
-          title: "\u0623\u0636\u0627\u0641\u0629 \u0645\u0646\u062A\u0633\u0628\u064A \u0627\u0644\u0645\u0646\u0638\u0645\u0629 \u0641\u064A \u0627\u0644\u0639\u0631\u0627\u0642",
-          onCloseComplete: function onCloseComplete() {
-            return _this2.setState({
-              isShown: false
-            });
-          } // confirmLabel="Save"
-          ,
-          confirmLabel: "Custom Label"
-        }, _react.default.createElement(_evergreenUi.Pane, {
-          display: "flex",
-          flex: "colum",
-          padding: 16,
-          background: "tint2",
-          borderRadius: 3
-        }, _react.default.createElement(_evergreenUi.Pane, {
-          flex: 1,
-          paddingRight: 10
-        }, _react.default.createElement(_evergreenUi.TextInputField, {
-          width: "100%",
-          label: "\u0627\u0644\u0627\u0633\u0645 \u0627\u0644\u0631\u0628\u0627\u0639\u064A .",
-          placeholder: "\u0627\u0644\u0627\u0633\u0645 \u0627\u0644\u0631\u0628\u0627\u0639\u064A",
-          onChange: function onChange(e) {
-            return _this2.setState({
-              name: e.target.value
-            });
-          },
-          value: name
-        })), _react.default.createElement(_evergreenUi.Pane, {
-          display: "flex"
-        }, _react.default.createElement(_evergreenUi.TextInputField, {
-          label: "\u0627\u0644\u062C\u0646\u0633\u064A\u0629 .",
-          placeholder: "\u0627\u0644\u062C\u0646\u0633\u064A\u0629",
-          onChange: function onChange(e) {
-            return _this2.setState({
-              country: e.target.value
-            });
-          },
-          value: country
-        })), _react.default.createElement(_evergreenUi.Pane, {
-          display: "flex"
-        }, _react.default.createElement(_evergreenUi.TextInputField // type="number"
-        , {
-          label: "\u0627\u0644\u0647\u0627\u062A\u0641",
-          placeholder: "\u0627\u0644\u0647\u0627\u062A\u0641",
-          onChange: function onChange(e) {
-            return _this2.setState({
-              phon: e.target.value
-            });
-          },
-          value: phon
-        })), _react.default.createElement(_evergreenUi.Pane, {
-          display: "flex"
-        }, _react.default.createElement(_evergreenUi.TextInputField // type="number"
-        , {
-          label: "\u0627\u0644\u0628\u0631\u064A\u062F \u0627\u0644\u0627\u0644\u0643\u062A\u0631\u0648\u0646\u064A",
-          placeholder: "Email",
-          onChange: function onChange(e) {
-            return _this2.setState({
-              email: e.target.value
-            });
-          },
-          value: email
-        })))), _react.default.createElement(_evergreenUi.Button, {
-          className: "create-btn",
-          onClick: function onClick() {
-            _this2.setState({
-              isShown: true
-            });
-          }
-        }, _react.default.createElement(_evergreenUi.Icon, {
-          style: {
-            marginRight: 5
-          },
-          icon: "add",
-          size: 20
-        }), "\u0623\u0636\u0627\u0641\u0629 \u0645\u0646\u062A\u0633\u0628\u064A \u0627\u0644\u0645\u0646\u0638\u0645\u0629 \u0641\u064A \u0627\u0644\u0639\u0631\u0627\u0642")));
+        return (// <div id="site_content">
+          _react.default.createElement("div", {
+            id: "grid"
+          }, _react.default.createElement("div", null, _react.default.createElement("ul", {
+            className: "list-group"
+          }, _react.default.createElement("li", {
+            className: "list-group-item active"
+          }, " ", _react.default.createElement("h2", null, "          \u0645\u0639\u0644\u0648\u0645\u0627\u062A \u0627\u0644\u0645\u0646\u0638\u0645\u0629 \u0641\u064A \u0627\u0644\u0639\u0631\u0627\u0642             "), " "), _react.default.createElement("li", {
+            className: "list-group-item"
+          }, _react.default.createElement("h3", null, "\u0623\u0633\u0645 \u0627\u0644\u0645\u0646\u0638\u0645\u0629 \u0628\u0627\u0644\u0644\u063A\u0629 \u0627\u0644\u0627\u0646\u0643\u0644\u064A\u0632\u064A\u0629"), _react.default.createElement(_evergreenUi.TextInput, {
+            width: 400,
+            height: 40,
+            placeholder: " \u0623\u0633\u0645 \u0627\u0644\u0645\u0646\u0638\u0645\u0629 \u0628\u0627\u0644\u0644\u063A\u0629 \u0627\u0644\u0627\u0646\u0643\u0644\u064A\u0632\u064A\u0629 "
+          })), _react.default.createElement("li", {
+            className: "list-group-item"
+          }, _react.default.createElement("h3", null, "   \u0623\u0633\u0645 \u0627\u0644\u0645\u0646\u0638\u0645\u0629 \u0628\u0627\u0644\u0644\u063A\u0629 \u0627\u0644\u0639\u0631\u0628\u064A\u0629 "), " ", _react.default.createElement(_evergreenUi.TextInput, {
+            width: 400,
+            height: 40,
+            placeholder: " \u0623\u0633\u0645 \u0627\u0644\u0645\u0646\u0638\u0645\u0629 \u0628\u0627\u0644\u0644\u063A\u0629 \u0627\u0644\u0639\u0631\u0628\u064A\u0629 "
+          })), _react.default.createElement("li", {
+            className: "list-group-item"
+          }, _react.default.createElement("h3", null, "\u0639\u0646\u0648\u0627\u0646 \u0641\u0631\u0639 \u0627\u0644\u0645\u0643\u062A\u0628 \u0627\u0644\u0631\u0626\u064A\u0633\u064A \u0641\u064A \u0628\u063A\u062F\u0627\u062F"), " ", _react.default.createElement(_evergreenUi.TextInput, {
+            width: 400,
+            height: 40,
+            placeholder: "\u0639\u0646\u0648\u0627\u0646 \u0641\u0631\u0639 \u0627\u0644\u0645\u0643\u062A\u0628 \u0627\u0644\u0631\u0626\u064A\u0633\u064A \u0641\u064A \u0628\u063A\u062F\u0627\u062F"
+          })), _react.default.createElement("li", {
+            className: "list-group-item"
+          }, "  ", _react.default.createElement("h3", null, "\u0623\u062E\u062A\u0635\u0627\u0635 \u0627\u0644\u0645\u0646\u0638\u0645\u0629"), _react.default.createElement(_evergreenUi.Combobox, {
+            label: _react.default.createElement("h4", null, "\u0623\u062E\u062A\u0635\u0627\u0635 \u0627\u0644\u0645\u0646\u0638\u0645\u0629"),
+            items: ['افغانستان', 'البانيا', 'kljk'],
+            onChange: function onChange(selected) {
+              return console.log(selected);
+            },
+            placeholder: "\u0623\u062E\u062A\u0635\u0627\u0635 \u0627\u0644\u0645\u0646\u0638\u0645\u0629",
+            autocompleteProps: {
+              title: 'أختصاص المنظمة'
+            },
+            width: 400,
+            height: 40 // padding="10px"
+
+          })))), _react.default.createElement("div", null, _react.default.createElement("ul", {
+            className: "list-group"
+          }, _react.default.createElement("li", {
+            className: "list-group-item active"
+          }, _react.default.createElement("h2", null, "\u0645\u0639\u0644\u0648\u0645\u0627\u062A \u062E\u0627\u0635\u0629 \u0628\u0627\u0644\u0645\u0646\u0638\u0645\u0629 \u0627\u0644\u0627\u0645 "), " "), _react.default.createElement("li", {
+            className: "list-group-item"
+          }, _react.default.createElement("h3", null, "\u0623\u0633\u0645 \u0631\u0626\u064A\u0633 \u0627\u0644\u0645\u0646\u0638\u0645\u0629/\u0627\u0644\u0645\u062F\u064A\u0631\u0627\u0644\u062A\u0646\u0641\u064A\u0630\u064A"), _react.default.createElement(_evergreenUi.TextInput, {
+            width: 400,
+            height: 40,
+            placeholder: " \u0627\u0633\u0645 \u0631\u0626\u064A\u0633 \u0627\u0644\u0645\u0646\u0638\u0645\u0629/\u0627\u0644\u0645\u062F\u064A\u0631 \u0627\u0644\u062A\u0646\u0641\u064A\u0630\u064A "
+          })), _react.default.createElement("li", {
+            className: "list-group-item"
+          }, _react.default.createElement("h3", null, "\u0647\u0627\u062A\u0641 \u0627\u0644\u0645\u0646\u0638\u0645\u0629"), " ", _react.default.createElement(_evergreenUi.TextInput, {
+            width: 400,
+            height: 40,
+            placeholder: "\u0647\u0627\u062A\u0641 \u0627\u0644\u0645\u0646\u0638\u0645\u0629"
+          })), _react.default.createElement("li", {
+            className: "list-group-item"
+          }, _react.default.createElement("h3", null, "\u0627\u0644\u0628\u0631\u064A\u062F \u0627\u0644\u0627\u0644\u0643\u062A\u0631\u0648\u0646\u064A"), _react.default.createElement(_evergreenUi.TextInput, {
+            width: 400,
+            height: 40,
+            placeholder: "\u0627\u0644\u0628\u0631\u064A\u062F \u0627\u0644\u0627\u0644\u0643\u062A\u0631\u0648\u0646\u064A"
+          })), _react.default.createElement("li", {
+            className: "list-group-item"
+          }, _react.default.createElement("div", {
+            className: "col-xs-2"
+          }, _react.default.createElement("h3", null, "\u0627\u0644\u062C\u0646\u0633\u064A\u0629"), _react.default.createElement("select", {
+            className: "custom-select"
+          }, _react.default.createElement("option", {
+            value: "AW"
+          }, "\u0622\u0648\u0631\u0628\u0627"), _react.default.createElement("option", {
+            value: "AZ"
+          }, "\u0623\u0630\u0631\u0628\u064A\u062C\u0627\u0646"), _react.default.createElement("option", {
+            value: "AM"
+          }, "\u0623\u0631\u0645\u064A\u0646\u064A\u0627"), _react.default.createElement("option", {
+            value: "ES"
+          }, "\u0623\u0633\u0628\u0627\u0646\u064A\u0627"), _react.default.createElement("option", {
+            value: "AU"
+          }, "\u0623\u0633\u062A\u0631\u0627\u0644\u064A\u0627"), _react.default.createElement("option", {
+            value: "AF"
+          }, "\u0623\u0641\u063A\u0627\u0646\u0633\u062A\u0627\u0646"), _react.default.createElement("option", {
+            value: "AL"
+          }, "\u0623\u0644\u0628\u0627\u0646\u064A\u0627"), _react.default.createElement("option", {
+            value: "DE"
+          }, "\u0623\u0644\u0645\u0627\u0646\u064A\u0627"), _react.default.createElement("option", {
+            value: "AG"
+          }, "\u0623\u0646\u062A\u064A\u062C\u0648\u0627 \u0648\u0628\u0631\u0628\u0648\u062F\u0627"), _react.default.createElement("option", {
+            value: "AO"
+          }, "\u0623\u0646\u062C\u0648\u0644\u0627"), _react.default.createElement("option", {
+            value: "AI"
+          }, "\u0623\u0646\u062C\u0648\u064A\u0644\u0627"), _react.default.createElement("option", {
+            value: "AD"
+          }, "\u0623\u0646\u062F\u0648\u0631\u0627"), _react.default.createElement("option", {
+            value: "UY"
+          }, "\u0623\u0648\u0631\u062C\u0648\u0627\u064A"), _react.default.createElement("option", {
+            value: "UZ"
+          }, "\u0623\u0648\u0632\u0628\u0643\u0633\u062A\u0627\u0646"), _react.default.createElement("option", {
+            value: "UG"
+          }, "\u0623\u0648\u063A\u0646\u062F\u0627"), _react.default.createElement("option", {
+            value: "UA"
+          }, "\u0623\u0648\u0643\u0631\u0627\u0646\u064A\u0627"), _react.default.createElement("option", {
+            value: "IE"
+          }, "\u0623\u064A\u0631\u0644\u0646\u062F\u0627"), _react.default.createElement("option", {
+            value: "IS"
+          }, "\u0623\u064A\u0633\u0644\u0646\u062F\u0627"), _react.default.createElement("option", {
+            value: "ET"
+          }, "\u0627\u062B\u064A\u0648\u0628\u064A\u0627"), _react.default.createElement("option", {
+            value: "ER"
+          }, "\u0627\u0631\u064A\u062A\u0631\u064A\u0627"), _react.default.createElement("option", {
+            value: "EE"
+          }, "\u0627\u0633\u062A\u0648\u0646\u064A\u0627"), _react.default.createElement("option", {
+            value: "IL"
+          }, "\u0627\u0633\u0631\u0627\u0626\u064A\u0644"), _react.default.createElement("option", {
+            value: "AR"
+          }, "\u0627\u0644\u0623\u0631\u062C\u0646\u062A\u064A\u0646"), _react.default.createElement("option", {
+            value: "JO"
+          }, "\u0627\u0644\u0623\u0631\u062F\u0646"), _react.default.createElement("option", {
+            value: "EC"
+          }, "\u0627\u0644\u0627\u0643\u0648\u0627\u062F\u0648\u0631"), _react.default.createElement("option", {
+            value: "AE"
+          }, "\u0627\u0644\u0627\u0645\u0627\u0631\u0627\u062A \u0627\u0644\u0639\u0631\u0628\u064A\u0629 \u0627\u0644\u0645\u062A\u062D\u062F\u0629"), _react.default.createElement("option", {
+            value: "BS"
+          }, "\u0627\u0644\u0628\u0627\u0647\u0627\u0645\u0627"), _react.default.createElement("option", {
+            value: "BH"
+          }, "\u0627\u0644\u0628\u062D\u0631\u064A\u0646"), _react.default.createElement("option", {
+            value: "BR"
+          }, "\u0627\u0644\u0628\u0631\u0627\u0632\u064A\u0644"), _react.default.createElement("option", {
+            value: "PT"
+          }, "\u0627\u0644\u0628\u0631\u062A\u063A\u0627\u0644"), _react.default.createElement("option", {
+            value: "BA"
+          }, "\u0627\u0644\u0628\u0648\u0633\u0646\u0629 \u0648\u0627\u0644\u0647\u0631\u0633\u0643"), _react.default.createElement("option", {
+            value: "GA"
+          }, "\u0627\u0644\u062C\u0627\u0628\u0648\u0646"), _react.default.createElement("option", {
+            value: "ME"
+          }, "\u0627\u0644\u062C\u0628\u0644 \u0627\u0644\u0623\u0633\u0648\u062F"), _react.default.createElement("option", {
+            value: "DZ"
+          }, "\u0627\u0644\u062C\u0632\u0627\u0626\u0631"), _react.default.createElement("option", {
+            value: "DK"
+          }, "\u0627\u0644\u062F\u0627\u0646\u0645\u0631\u0643"), _react.default.createElement("option", {
+            value: "CV"
+          }, "\u0627\u0644\u0631\u0623\u0633 \u0627\u0644\u0623\u062E\u0636\u0631"), _react.default.createElement("option", {
+            value: "SV"
+          }, "\u0627\u0644\u0633\u0644\u0641\u0627\u062F\u0648\u0631"), _react.default.createElement("option", {
+            value: "SN"
+          }, "\u0627\u0644\u0633\u0646\u063A\u0627\u0644"), _react.default.createElement("option", {
+            value: "SD"
+          }, "\u0627\u0644\u0633\u0648\u062F\u0627\u0646"), _react.default.createElement("option", {
+            value: "SE"
+          }, "\u0627\u0644\u0633\u0648\u064A\u062F"), _react.default.createElement("option", {
+            value: "EH"
+          }, "\u0627\u0644\u0635\u062D\u0631\u0627\u0621 \u0627\u0644\u063A\u0631\u0628\u064A\u0629"), _react.default.createElement("option", {
+            value: "SO"
+          }, "\u0627\u0644\u0635\u0648\u0645\u0627\u0644"), _react.default.createElement("option", {
+            value: "CN"
+          }, "\u0627\u0644\u0635\u064A\u0646"), _react.default.createElement("option", {
+            value: "IQ"
+          }, "\u0627\u0644\u0639\u0631\u0627\u0642"), _react.default.createElement("option", {
+            value: "VA"
+          }, "\u0627\u0644\u0641\u0627\u062A\u064A\u0643\u0627\u0646"), _react.default.createElement("option", {
+            value: "PH"
+          }, "\u0627\u0644\u0641\u064A\u0644\u0628\u064A\u0646"), _react.default.createElement("option", {
+            value: "AQ"
+          }, "\u0627\u0644\u0642\u0637\u0628 \u0627\u0644\u062C\u0646\u0648\u0628\u064A"), _react.default.createElement("option", {
+            value: "CM"
+          }, "\u0627\u0644\u0643\u0627\u0645\u064A\u0631\u0648\u0646"), _react.default.createElement("option", {
+            value: "CG"
+          }, "\u0627\u0644\u0643\u0648\u0646\u063A\u0648 - \u0628\u0631\u0627\u0632\u0627\u0641\u064A\u0644"), _react.default.createElement("option", {
+            value: "KW"
+          }, "\u0627\u0644\u0643\u0648\u064A\u062A"), _react.default.createElement("option", {
+            value: "HU"
+          }, "\u0627\u0644\u0645\u062C\u0631"), _react.default.createElement("option", {
+            value: "IO"
+          }, "\u0627\u0644\u0645\u062D\u064A\u0637 \u0627\u0644\u0647\u0646\u062F\u064A \u0627\u0644\u0628\u0631\u064A\u0637\u0627\u0646\u064A"), _react.default.createElement("option", {
+            value: "MA"
+          }, "\u0627\u0644\u0645\u063A\u0631\u0628"), _react.default.createElement("option", {
+            value: "TF"
+          }, "\u0627\u0644\u0645\u0642\u0627\u0637\u0639\u0627\u062A \u0627\u0644\u062C\u0646\u0648\u0628\u064A\u0629 \u0627\u0644\u0641\u0631\u0646\u0633\u064A\u0629"), _react.default.createElement("option", {
+            value: "MX"
+          }, "\u0627\u0644\u0645\u0643\u0633\u064A\u0643"), _react.default.createElement("option", {
+            value: "SA"
+          }, "\u0627\u0644\u0645\u0645\u0644\u0643\u0629 \u0627\u0644\u0639\u0631\u0628\u064A\u0629 \u0627\u0644\u0633\u0639\u0648\u062F\u064A\u0629"), _react.default.createElement("option", {
+            value: "GB"
+          }, "\u0627\u0644\u0645\u0645\u0644\u0643\u0629 \u0627\u0644\u0645\u062A\u062D\u062F\u0629"), _react.default.createElement("option", {
+            value: "NO"
+          }, "\u0627\u0644\u0646\u0631\u0648\u064A\u062C"), _react.default.createElement("option", {
+            value: "AT"
+          }, "\u0627\u0644\u0646\u0645\u0633\u0627"), _react.default.createElement("option", {
+            value: "NE"
+          }, "\u0627\u0644\u0646\u064A\u062C\u0631"), _react.default.createElement("option", {
+            value: "IN"
+          }, "\u0627\u0644\u0647\u0646\u062F"), _react.default.createElement("option", {
+            value: "US"
+          }, "\u0627\u0644\u0648\u0644\u0627\u064A\u0627\u062A \u0627\u0644\u0645\u062A\u062D\u062F\u0629 \u0627\u0644\u0623\u0645\u0631\u064A\u0643\u064A\u0629"), _react.default.createElement("option", {
+            value: "JP"
+          }, "\u0627\u0644\u064A\u0627\u0628\u0627\u0646"), _react.default.createElement("option", {
+            value: "YE"
+          }, "\u0627\u0644\u064A\u0645\u0646"), _react.default.createElement("option", {
+            value: "GR"
+          }, "\u0627\u0644\u064A\u0648\u0646\u0627\u0646"), _react.default.createElement("option", {
+            value: "ID"
+          }, "\u0627\u0646\u062F\u0648\u0646\u064A\u0633\u064A\u0627"), _react.default.createElement("option", {
+            value: "IR"
+          }, "\u0627\u064A\u0631\u0627\u0646"), _react.default.createElement("option", {
+            value: "IT"
+          }, "\u0627\u064A\u0637\u0627\u0644\u064A\u0627"), _react.default.createElement("option", {
+            value: "PG"
+          }, "\u0628\u0627\u0628\u0648\u0627 \u063A\u064A\u0646\u064A\u0627 \u0627\u0644\u062C\u062F\u064A\u062F\u0629"), _react.default.createElement("option", {
+            value: "PY"
+          }, "\u0628\u0627\u0631\u0627\u062C\u0648\u0627\u064A"), _react.default.createElement("option", {
+            value: "PK"
+          }, "\u0628\u0627\u0643\u0633\u062A\u0627\u0646"), _react.default.createElement("option", {
+            value: "PW"
+          }, "\u0628\u0627\u0644\u0627\u0648"), _react.default.createElement("option", {
+            value: "BW"
+          }, "\u0628\u062A\u0633\u0648\u0627\u0646\u0627"), _react.default.createElement("option", {
+            value: "PN"
+          }, "\u0628\u062A\u0643\u0627\u064A\u0631\u0646"), _react.default.createElement("option", {
+            value: "BB"
+          }, "\u0628\u0631\u0628\u0627\u062F\u0648\u0633"), _react.default.createElement("option", {
+            value: "BM"
+          }, "\u0628\u0631\u0645\u0648\u062F\u0627"), _react.default.createElement("option", {
+            value: "BN"
+          }, "\u0628\u0631\u0648\u0646\u0627\u064A"), _react.default.createElement("option", {
+            value: "BE"
+          }, "\u0628\u0644\u062C\u064A\u0643\u0627"), _react.default.createElement("option", {
+            value: "BG"
+          }, "\u0628\u0644\u063A\u0627\u0631\u064A\u0627"), _react.default.createElement("option", {
+            value: "BZ"
+          }, "\u0628\u0644\u064A\u0632"), _react.default.createElement("option", {
+            value: "BD"
+          }, "\u0628\u0646\u062C\u0644\u0627\u062F\u064A\u0634"), _react.default.createElement("option", {
+            value: "PA"
+          }, "\u0628\u0646\u0645\u0627"), _react.default.createElement("option", {
+            value: "BJ"
+          }, "\u0628\u0646\u064A\u0646"), _react.default.createElement("option", {
+            value: "BT"
+          }, "\u0628\u0648\u062A\u0627\u0646"), _react.default.createElement("option", {
+            value: "PR"
+          }, "\u0628\u0648\u0631\u062A\u0648\u0631\u064A\u0643\u0648"), _react.default.createElement("option", {
+            value: "BF"
+          }, "\u0628\u0648\u0631\u0643\u064A\u0646\u0627 \u0641\u0627\u0633\u0648"), _react.default.createElement("option", {
+            value: "BI"
+          }, "\u0628\u0648\u0631\u0648\u0646\u062F\u064A"), _react.default.createElement("option", {
+            value: "PL"
+          }, "\u0628\u0648\u0644\u0646\u062F\u0627"), _react.default.createElement("option", {
+            value: "BO"
+          }, "\u0628\u0648\u0644\u064A\u0641\u064A\u0627"), _react.default.createElement("option", {
+            value: "PF"
+          }, "\u0628\u0648\u0644\u064A\u0646\u064A\u0632\u064A\u0627 \u0627\u0644\u0641\u0631\u0646\u0633\u064A\u0629"), _react.default.createElement("option", {
+            value: "PE"
+          }, "\u0628\u064A\u0631\u0648"), _react.default.createElement("option", {
+            value: "TZ"
+          }, "\u062A\u0627\u0646\u0632\u0627\u0646\u064A\u0627"), _react.default.createElement("option", {
+            value: "TH"
+          }, "\u062A\u0627\u064A\u0644\u0646\u062F"), _react.default.createElement("option", {
+            value: "TW"
+          }, "\u062A\u0627\u064A\u0648\u0627\u0646"), _react.default.createElement("option", {
+            value: "TM"
+          }, "\u062A\u0631\u0643\u0645\u0627\u0646\u0633\u062A\u0627\u0646"), _react.default.createElement("option", {
+            value: "TR"
+          }, "\u062A\u0631\u0643\u064A\u0627"), _react.default.createElement("option", {
+            value: "TT"
+          }, "\u062A\u0631\u064A\u0646\u064A\u062F\u0627\u062F \u0648\u062A\u0648\u0628\u0627\u063A\u0648"), _react.default.createElement("option", {
+            value: "TD"
+          }, "\u062A\u0634\u0627\u062F"), _react.default.createElement("option", {
+            value: "TG"
+          }, "\u062A\u0648\u062C\u0648"), _react.default.createElement("option", {
+            value: "TV"
+          }, "\u062A\u0648\u0641\u0627\u0644\u0648"), _react.default.createElement("option", {
+            value: "TK"
+          }, "\u062A\u0648\u0643\u064A\u0644\u0648"), _react.default.createElement("option", {
+            value: "TO"
+          }, "\u062A\u0648\u0646\u062C\u0627"), _react.default.createElement("option", {
+            value: "TN"
+          }, "\u062A\u0648\u0646\u0633"), _react.default.createElement("option", {
+            value: "TL"
+          }, "\u062A\u064A\u0645\u0648\u0631 \u0627\u0644\u0634\u0631\u0642\u064A\u0629"), _react.default.createElement("option", {
+            value: "JM"
+          }, "\u062C\u0627\u0645\u0627\u064A\u0643\u0627"), _react.default.createElement("option", {
+            value: "GI"
+          }, "\u062C\u0628\u0644 \u0637\u0627\u0631\u0642"), _react.default.createElement("option", {
+            value: "GD"
+          }, "\u062C\u0631\u064A\u0646\u0627\u062F\u0627"), _react.default.createElement("option", {
+            value: "GL"
+          }, "\u062C\u0631\u064A\u0646\u0644\u0627\u0646\u062F"), _react.default.createElement("option", {
+            value: "AX"
+          }, "\u062C\u0632\u0631 \u0623\u0648\u0644\u0627\u0646"), _react.default.createElement("option", {
+            value: "AN"
+          }, "\u062C\u0632\u0631 \u0627\u0644\u0623\u0646\u062A\u064A\u0644 \u0627\u0644\u0647\u0648\u0644\u0646\u062F\u064A\u0629"), _react.default.createElement("option", {
+            value: "TC"
+          }, "\u062C\u0632\u0631 \u0627\u0644\u062A\u0631\u0643 \u0648\u062C\u0627\u064A\u0643\u0648\u0633"), _react.default.createElement("option", {
+            value: "KM"
+          }, "\u062C\u0632\u0631 \u0627\u0644\u0642\u0645\u0631"), _react.default.createElement("option", {
+            value: "KY"
+          }, "\u062C\u0632\u0631 \u0627\u0644\u0643\u0627\u064A\u0645\u0646"), _react.default.createElement("option", {
+            value: "MH"
+          }, "\u062C\u0632\u0631 \u0627\u0644\u0645\u0627\u0631\u0634\u0627\u0644"), _react.default.createElement("option", {
+            value: "MV"
+          }, "\u062C\u0632\u0631 \u0627\u0644\u0645\u0644\u062F\u064A\u0641"), _react.default.createElement("option", {
+            value: "UM"
+          }, "\u062C\u0632\u0631 \u0627\u0644\u0648\u0644\u0627\u064A\u0627\u062A \u0627\u0644\u0645\u062A\u062D\u062F\u0629 \u0627\u0644\u0628\u0639\u064A\u062F\u0629 \u0627\u0644\u0635\u063A\u064A\u0631\u0629"), _react.default.createElement("option", {
+            value: "SB"
+          }, "\u062C\u0632\u0631 \u0633\u0644\u064A\u0645\u0627\u0646"), _react.default.createElement("option", {
+            value: "FO"
+          }, "\u062C\u0632\u0631 \u0641\u0627\u0631\u0648"), _react.default.createElement("option", {
+            value: "VI"
+          }, "\u062C\u0632\u0631 \u0641\u0631\u062C\u064A\u0646 \u0627\u0644\u0623\u0645\u0631\u064A\u0643\u064A\u0629"), _react.default.createElement("option", {
+            value: "VG"
+          }, "\u062C\u0632\u0631 \u0641\u0631\u062C\u064A\u0646 \u0627\u0644\u0628\u0631\u064A\u0637\u0627\u0646\u064A\u0629"), _react.default.createElement("option", {
+            value: "FK"
+          }, "\u062C\u0632\u0631 \u0641\u0648\u0643\u0644\u0627\u0646\u062F"), _react.default.createElement("option", {
+            value: "CK"
+          }, "\u062C\u0632\u0631 \u0643\u0648\u0643"), _react.default.createElement("option", {
+            value: "CC"
+          }, "\u062C\u0632\u0631 \u0643\u0648\u0643\u0648\u0633"), _react.default.createElement("option", {
+            value: "MP"
+          }, "\u062C\u0632\u0631 \u0645\u0627\u0631\u064A\u0627\u0646\u0627 \u0627\u0644\u0634\u0645\u0627\u0644\u064A\u0629"), _react.default.createElement("option", {
+            value: "WF"
+          }, "\u062C\u0632\u0631 \u0648\u0627\u0644\u0633 \u0648\u0641\u0648\u062A\u0648\u0646\u0627"), _react.default.createElement("option", {
+            value: "CX"
+          }, "\u062C\u0632\u064A\u0631\u0629 \u0627\u0644\u0643\u0631\u064A\u0633\u0645\u0627\u0633"), _react.default.createElement("option", {
+            value: "BV"
+          }, "\u062C\u0632\u064A\u0631\u0629 \u0628\u0648\u0641\u064A\u0647"), _react.default.createElement("option", {
+            value: "IM"
+          }, "\u062C\u0632\u064A\u0631\u0629 \u0645\u0627\u0646"), _react.default.createElement("option", {
+            value: "NF"
+          }, "\u062C\u0632\u064A\u0631\u0629 \u0646\u0648\u0631\u0641\u0648\u0643"), _react.default.createElement("option", {
+            value: "HM"
+          }, "\u062C\u0632\u064A\u0631\u0629 \u0647\u064A\u0631\u062F \u0648\u0645\u0627\u0643\u062F\u0648\u0646\u0627\u0644\u062F"), _react.default.createElement("option", {
+            value: "CF"
+          }, "\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u0627\u0641\u0631\u064A\u0642\u064A\u0627 \u0627\u0644\u0648\u0633\u0637\u0649"), _react.default.createElement("option", {
+            value: "CZ"
+          }, "\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u0627\u0644\u062A\u0634\u064A\u0643"), _react.default.createElement("option", {
+            value: "DO"
+          }, "\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u0627\u0644\u062F\u0648\u0645\u064A\u0646\u064A\u0643"), _react.default.createElement("option", {
+            value: "CD"
+          }, "\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u0627\u0644\u0643\u0648\u0646\u063A\u0648 \u0627\u0644\u062F\u064A\u0645\u0642\u0631\u0627\u0637\u064A\u0629"), _react.default.createElement("option", {
+            value: "ZA"
+          }, "\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u062C\u0646\u0648\u0628 \u0627\u0641\u0631\u064A\u0642\u064A\u0627"), _react.default.createElement("option", {
+            value: "GT"
+          }, "\u062C\u0648\u0627\u062A\u064A\u0645\u0627\u0644\u0627"), _react.default.createElement("option", {
+            value: "GP"
+          }, "\u062C\u0648\u0627\u062F\u0644\u0648\u0628"), _react.default.createElement("option", {
+            value: "GU"
+          }, "\u062C\u0648\u0627\u0645"), _react.default.createElement("option", {
+            value: "GE"
+          }, "\u062C\u0648\u0631\u062C\u064A\u0627"), _react.default.createElement("option", {
+            value: "GS"
+          }, "\u062C\u0648\u0631\u062C\u064A\u0627 \u0627\u0644\u062C\u0646\u0648\u0628\u064A\u0629 \u0648\u062C\u0632\u0631 \u0633\u0627\u0646\u062F\u0648\u064A\u062A\u0634 \u0627\u0644\u062C\u0646\u0648\u0628\u064A\u0629"), _react.default.createElement("option", {
+            value: "DJ"
+          }, "\u062C\u064A\u0628\u0648\u062A\u064A"), _react.default.createElement("option", {
+            value: "JE"
+          }, "\u062C\u064A\u0631\u0633\u064A"), _react.default.createElement("option", {
+            value: "DM"
+          }, "\u062F\u0648\u0645\u064A\u0646\u064A\u0643\u0627"), _react.default.createElement("option", {
+            value: "RW"
+          }, "\u0631\u0648\u0627\u0646\u062F\u0627"), _react.default.createElement("option", {
+            value: "RU"
+          }, "\u0631\u0648\u0633\u064A\u0627"), _react.default.createElement("option", {
+            value: "BY"
+          }, "\u0631\u0648\u0633\u064A\u0627 \u0627\u0644\u0628\u064A\u0636\u0627\u0621"), _react.default.createElement("option", {
+            value: "RO"
+          }, "\u0631\u0648\u0645\u0627\u0646\u064A\u0627"), _react.default.createElement("option", {
+            value: "RE"
+          }, "\u0631\u0648\u064A\u0646\u064A\u0648\u0646"), _react.default.createElement("option", {
+            value: "ZM"
+          }, "\u0632\u0627\u0645\u0628\u064A\u0627"), _react.default.createElement("option", {
+            value: "ZW"
+          }, "\u0632\u064A\u0645\u0628\u0627\u0628\u0648\u064A"), _react.default.createElement("option", {
+            value: "CI"
+          }, "\u0633\u0627\u062D\u0644 \u0627\u0644\u0639\u0627\u062C"), _react.default.createElement("option", {
+            value: "WS"
+          }, "\u0633\u0627\u0645\u0648\u0627"), _react.default.createElement("option", {
+            value: "AS"
+          }, "\u0633\u0627\u0645\u0648\u0627 \u0627\u0644\u0623\u0645\u0631\u064A\u0643\u064A\u0629"), _react.default.createElement("option", {
+            value: "SM"
+          }, "\u0633\u0627\u0646 \u0645\u0627\u0631\u064A\u0646\u0648"), _react.default.createElement("option", {
+            value: "PM"
+          }, "\u0633\u0627\u0646\u062A \u0628\u064A\u064A\u0631 \u0648\u0645\u064A\u0643\u0648\u0644\u0648\u0646"), _react.default.createElement("option", {
+            value: "VC"
+          }, "\u0633\u0627\u0646\u062A \u0641\u0646\u0633\u0646\u062A \u0648\u063A\u0631\u0646\u0627\u062F\u064A\u0646"), _react.default.createElement("option", {
+            value: "KN"
+          }, "\u0633\u0627\u0646\u062A \u0643\u064A\u062A\u0633 \u0648\u0646\u064A\u0641\u064A\u0633"), _react.default.createElement("option", {
+            value: "LC"
+          }, "\u0633\u0627\u0646\u062A \u0644\u0648\u0633\u064A\u0627"), _react.default.createElement("option", {
+            value: "MF"
+          }, "\u0633\u0627\u0646\u062A \u0645\u0627\u0631\u062A\u064A\u0646"), _react.default.createElement("option", {
+            value: "SH"
+          }, "\u0633\u0627\u0646\u062A \u0647\u064A\u0644\u0646\u0627"), _react.default.createElement("option", {
+            value: "ST"
+          }, "\u0633\u0627\u0648 \u062A\u0648\u0645\u064A \u0648\u0628\u0631\u064A\u0646\u0633\u064A\u0628\u064A"), _react.default.createElement("option", {
+            value: "LK"
+          }, "\u0633\u0631\u064A\u0644\u0627\u0646\u0643\u0627"), _react.default.createElement("option", {
+            value: "SJ"
+          }, "\u0633\u0641\u0627\u0644\u0628\u0627\u0631\u062F \u0648\u062C\u0627\u0646 \u0645\u0627\u064A\u0627\u0646"), _react.default.createElement("option", {
+            value: "SK"
+          }, "\u0633\u0644\u0648\u0641\u0627\u0643\u064A\u0627"), _react.default.createElement("option", {
+            value: "SI"
+          }, "\u0633\u0644\u0648\u0641\u064A\u0646\u064A\u0627"), _react.default.createElement("option", {
+            value: "SG"
+          }, "\u0633\u0646\u063A\u0627\u0641\u0648\u0631\u0629"), _react.default.createElement("option", {
+            value: "SZ"
+          }, "\u0633\u0648\u0627\u0632\u064A\u0644\u0627\u0646\u062F"), _react.default.createElement("option", {
+            value: "SY"
+          }, "\u0633\u0648\u0631\u064A\u0627"), _react.default.createElement("option", {
+            value: "SR"
+          }, "\u0633\u0648\u0631\u064A\u0646\u0627\u0645"), _react.default.createElement("option", {
+            value: "CH"
+          }, "\u0633\u0648\u064A\u0633\u0631\u0627"), _react.default.createElement("option", {
+            value: "SL"
+          }, "\u0633\u064A\u0631\u0627\u0644\u064A\u0648\u0646"), _react.default.createElement("option", {
+            value: "SC"
+          }, "\u0633\u064A\u0634\u0644"), _react.default.createElement("option", {
+            value: "CL"
+          }, "\u0634\u064A\u0644\u064A"), _react.default.createElement("option", {
+            value: "RS"
+          }, "\u0635\u0631\u0628\u064A\u0627"), _react.default.createElement("option", {
+            value: "CS"
+          }, "\u0635\u0631\u0628\u064A\u0627 \u0648\u0627\u0644\u062C\u0628\u0644 \u0627\u0644\u0623\u0633\u0648\u062F"), _react.default.createElement("option", {
+            value: "TJ"
+          }, "\u0637\u0627\u062C\u0643\u0633\u062A\u0627\u0646"), _react.default.createElement("option", {
+            value: "OM"
+          }, "\u0639\u0645\u0627\u0646"), _react.default.createElement("option", {
+            value: "GM"
+          }, "\u063A\u0627\u0645\u0628\u064A\u0627"), _react.default.createElement("option", {
+            value: "GH"
+          }, "\u063A\u0627\u0646\u0627"), _react.default.createElement("option", {
+            value: "GF"
+          }, "\u063A\u0648\u064A\u0627\u0646\u0627"), _react.default.createElement("option", {
+            value: "GY"
+          }, "\u063A\u064A\u0627\u0646\u0627"), _react.default.createElement("option", {
+            value: "GN"
+          }, "\u063A\u064A\u0646\u064A\u0627"), _react.default.createElement("option", {
+            value: "GQ"
+          }, "\u063A\u064A\u0646\u064A\u0627 \u0627\u0644\u0627\u0633\u062A\u0648\u0627\u0626\u064A\u0629"), _react.default.createElement("option", {
+            value: "GW"
+          }, "\u063A\u064A\u0646\u064A\u0627 \u0628\u064A\u0633\u0627\u0648"), _react.default.createElement("option", {
+            value: "VU"
+          }, "\u0641\u0627\u0646\u0648\u0627\u062A\u0648"), _react.default.createElement("option", {
+            value: "FR"
+          }, "\u0641\u0631\u0646\u0633\u0627"), _react.default.createElement("option", {
+            value: "PS"
+          }, "\u0641\u0644\u0633\u0637\u064A\u0646"), _react.default.createElement("option", {
+            value: "VE"
+          }, "\u0641\u0646\u0632\u0648\u064A\u0644\u0627"), _react.default.createElement("option", {
+            value: "FI"
+          }, "\u0641\u0646\u0644\u0646\u062F\u0627"), _react.default.createElement("option", {
+            value: "VN"
+          }, "\u0641\u064A\u062A\u0646\u0627\u0645"), _react.default.createElement("option", {
+            value: "FJ"
+          }, "\u0641\u064A\u062C\u064A"), _react.default.createElement("option", {
+            value: "CY"
+          }, "\u0642\u0628\u0631\u0635"), _react.default.createElement("option", {
+            value: "KG"
+          }, "\u0642\u0631\u063A\u064A\u0632\u0633\u062A\u0627\u0646"), _react.default.createElement("option", {
+            value: "QA"
+          }, "\u0642\u0637\u0631"), _react.default.createElement("option", {
+            value: "KZ"
+          }, "\u0643\u0627\u0632\u0627\u062E\u0633\u062A\u0627\u0646"), _react.default.createElement("option", {
+            value: "NC"
+          }, "\u0643\u0627\u0644\u064A\u062F\u0648\u0646\u064A\u0627 \u0627\u0644\u062C\u062F\u064A\u062F\u0629"), _react.default.createElement("option", {
+            value: "HR"
+          }, "\u0643\u0631\u0648\u0627\u062A\u064A\u0627"), _react.default.createElement("option", {
+            value: "KH"
+          }, "\u0643\u0645\u0628\u0648\u062F\u064A\u0627"), _react.default.createElement("option", {
+            value: "CA"
+          }, "\u0643\u0646\u062F\u0627"), _react.default.createElement("option", {
+            value: "CU"
+          }, "\u0643\u0648\u0628\u0627"), _react.default.createElement("option", {
+            value: "KR"
+          }, "\u0643\u0648\u0631\u064A\u0627 \u0627\u0644\u062C\u0646\u0648\u0628\u064A\u0629"), _react.default.createElement("option", {
+            value: "KP"
+          }, "\u0643\u0648\u0631\u064A\u0627 \u0627\u0644\u0634\u0645\u0627\u0644\u064A\u0629"), _react.default.createElement("option", {
+            value: "CR"
+          }, "\u0643\u0648\u0633\u062A\u0627\u0631\u064A\u0643\u0627"), _react.default.createElement("option", {
+            value: "CO"
+          }, "\u0643\u0648\u0644\u0648\u0645\u0628\u064A\u0627"), _react.default.createElement("option", {
+            value: "KI"
+          }, "\u0643\u064A\u0631\u064A\u0628\u0627\u062A\u064A"), _react.default.createElement("option", {
+            value: "KE"
+          }, "\u0643\u064A\u0646\u064A\u0627"), _react.default.createElement("option", {
+            value: "LV"
+          }, "\u0644\u0627\u062A\u0641\u064A\u0627"), _react.default.createElement("option", {
+            value: "LA"
+          }, "\u0644\u0627\u0648\u0633"), _react.default.createElement("option", {
+            value: "LB"
+          }, "\u0644\u0628\u0646\u0627\u0646"), _react.default.createElement("option", {
+            value: "LU"
+          }, "\u0644\u0648\u0643\u0633\u0645\u0628\u0648\u0631\u062C"), _react.default.createElement("option", {
+            value: "LY"
+          }, "\u0644\u064A\u0628\u064A\u0627"), _react.default.createElement("option", {
+            value: "LR"
+          }, "\u0644\u064A\u0628\u064A\u0631\u064A\u0627"), _react.default.createElement("option", {
+            value: "LT"
+          }, "\u0644\u064A\u062A\u0648\u0627\u0646\u064A\u0627"), _react.default.createElement("option", {
+            value: "LI"
+          }, "\u0644\u064A\u062E\u062A\u0646\u0634\u062A\u0627\u064A\u0646"), _react.default.createElement("option", {
+            value: "LS"
+          }, "\u0644\u064A\u0633\u0648\u062A\u0648"), _react.default.createElement("option", {
+            value: "MQ"
+          }, "\u0645\u0627\u0631\u062A\u064A\u0646\u064A\u0643"), _react.default.createElement("option", {
+            value: "MO"
+          }, "\u0645\u0627\u0643\u0627\u0648 \u0627\u0644\u0635\u064A\u0646\u064A\u0629"), _react.default.createElement("option", {
+            value: "MT"
+          }, "\u0645\u0627\u0644\u0637\u0627"), _react.default.createElement("option", {
+            value: "ML"
+          }, "\u0645\u0627\u0644\u064A"), _react.default.createElement("option", {
+            value: "MY"
+          }, "\u0645\u0627\u0644\u064A\u0632\u064A\u0627"), _react.default.createElement("option", {
+            value: "YT"
+          }, "\u0645\u0627\u064A\u0648\u062A"), _react.default.createElement("option", {
+            value: "MG"
+          }, "\u0645\u062F\u063A\u0634\u0642\u0631"), _react.default.createElement("option", {
+            value: "EG"
+          }, "\u0645\u0635\u0631"), _react.default.createElement("option", {
+            value: "MK"
+          }, "\u0645\u0642\u062F\u0648\u0646\u064A\u0627"), _react.default.createElement("option", {
+            value: "MW"
+          }, "\u0645\u0644\u0627\u0648\u064A"), _react.default.createElement("option", {
+            value: "ZZ"
+          }, "\u0645\u0646\u0637\u0642\u0629 \u063A\u064A\u0631 \u0645\u0639\u0631\u0641\u0629"), _react.default.createElement("option", {
+            value: "MN"
+          }, "\u0645\u0646\u063A\u0648\u0644\u064A\u0627"), _react.default.createElement("option", {
+            value: "MR"
+          }, "\u0645\u0648\u0631\u064A\u062A\u0627\u0646\u064A\u0627"), _react.default.createElement("option", {
+            value: "MU"
+          }, "\u0645\u0648\u0631\u064A\u0634\u064A\u0648\u0633"), _react.default.createElement("option", {
+            value: "MZ"
+          }, "\u0645\u0648\u0632\u0645\u0628\u064A\u0642"), _react.default.createElement("option", {
+            value: "MD"
+          }, "\u0645\u0648\u0644\u062F\u0627\u0641\u064A\u0627"), _react.default.createElement("option", {
+            value: "MC"
+          }, "\u0645\u0648\u0646\u0627\u0643\u0648"), _react.default.createElement("option", {
+            value: "MS"
+          }, "\u0645\u0648\u0646\u062A\u0633\u0631\u0627\u062A"), _react.default.createElement("option", {
+            value: "MM"
+          }, "\u0645\u064A\u0627\u0646\u0645\u0627\u0631"), _react.default.createElement("option", {
+            value: "FM"
+          }, "\u0645\u064A\u0643\u0631\u0648\u0646\u064A\u0632\u064A\u0627"), _react.default.createElement("option", {
+            value: "NA"
+          }, "\u0646\u0627\u0645\u064A\u0628\u064A\u0627"), _react.default.createElement("option", {
+            value: "NR"
+          }, "\u0646\u0648\u0631\u0648"), _react.default.createElement("option", {
+            value: "NP"
+          }, "\u0646\u064A\u0628\u0627\u0644"), _react.default.createElement("option", {
+            value: "NG"
+          }, "\u0646\u064A\u062C\u064A\u0631\u064A\u0627"), _react.default.createElement("option", {
+            value: "NI"
+          }, "\u0646\u064A\u0643\u0627\u0631\u0627\u062C\u0648\u0627"), _react.default.createElement("option", {
+            value: "NZ"
+          }, "\u0646\u064A\u0648\u0632\u064A\u0644\u0627\u0646\u062F\u0627"), _react.default.createElement("option", {
+            value: "NU"
+          }, "\u0646\u064A\u0648\u064A"), _react.default.createElement("option", {
+            value: "HT"
+          }, "\u0647\u0627\u064A\u062A\u064A"), _react.default.createElement("option", {
+            value: "HN"
+          }, "\u0647\u0646\u062F\u0648\u0631\u0627\u0633"), _react.default.createElement("option", {
+            value: "NL"
+          }, "\u0647\u0648\u0644\u0646\u062F\u0627"), _react.default.createElement("option", {
+            value: "HK"
+          }, "\u0647\u0648\u0646\u062C \u0643\u0648\u0646\u062C \u0627\u0644\u0635\u064A\u0646\u064A\u0629")))))), _react.default.createElement("div", null, _react.default.createElement("ul", {
+            className: "list-group"
+          }, _react.default.createElement("li", {
+            className: "list-group-item active"
+          }, _react.default.createElement("h2", null, "  \u0645\u0639\u0644\u0648\u0645\u0627\u062A \u0631\u0626\u064A\u0633 \u0641\u0631\u0639 \u0627\u0644\u0645\u0646\u0638\u0645\u0629 \u0641\u064A \u0627\u0644\u0639\u0631\u0627\u0642 "), " "), _react.default.createElement("li", {
+            className: "list-group-item"
+          }, _react.default.createElement("h3", null, "\u0627\u0633\u0645 \u0631\u0626\u064A\u0633 \u0641\u0631\u0639 \u0627\u0644\u0645\u0646\u0638\u0645\u0629 \u0627\u0644\u0645\u062E\u0648\u0644 \u0641\u064A \u0627\u0644\u0639\u0631\u0627\u0642"), _react.default.createElement(_evergreenUi.TextInput, {
+            width: 400,
+            height: 40,
+            placeholder: " \u0627\u0633\u0645 \u0631\u0626\u064A\u0633 \u0641\u0631\u0639 \u0627\u0644\u0645\u0646\u0638\u0645\u0629 \u0627\u0644\u0645\u062E\u0648\u0644 \u0641\u064A \u0627\u0644\u0639\u0631\u0627\u0642"
+          })), _react.default.createElement("li", {
+            className: "list-group-item"
+          }, _react.default.createElement("h3", null, "\u0631\u0642\u0645 \u0627\u0644\u0647\u0627\u062A\u0641"), " ", _react.default.createElement(_evergreenUi.TextInput, {
+            width: 400,
+            height: 40,
+            placeholder: " \u0631\u0642\u0645 \u0627\u0644\u0647\u0627\u062A\u0641    "
+          })), _react.default.createElement("li", {
+            className: "list-group-item"
+          }, _react.default.createElement("h3", null, "\u0627\u0644\u0628\u0631\u064A\u062F \u0627\u0644\u0627\u0644\u0643\u062A\u0631\u0648\u0646\u064A"), _react.default.createElement(_evergreenUi.TextInput, {
+            width: 400,
+            height: 40,
+            placeholder: "\u0627\u0644\u0628\u0631\u064A\u062F \u0627\u0644\u0627\u0644\u0643\u062A\u0631\u0648\u0646\u064A"
+          })), _react.default.createElement("li", {
+            className: "list-group-item"
+          }, _react.default.createElement("h3", null, " \u0627\u0644\u062C\u0646\u0633\u064A\u0629  "), _react.default.createElement("select", {
+            className: "custom-select"
+          }, _react.default.createElement("option", {
+            value: "AW"
+          }, "\u0622\u0648\u0631\u0628\u0627"), _react.default.createElement("option", {
+            value: "AZ"
+          }, "\u0623\u0630\u0631\u0628\u064A\u062C\u0627\u0646"), _react.default.createElement("option", {
+            value: "AM"
+          }, "\u0623\u0631\u0645\u064A\u0646\u064A\u0627"), _react.default.createElement("option", {
+            value: "ES"
+          }, "\u0623\u0633\u0628\u0627\u0646\u064A\u0627"), _react.default.createElement("option", {
+            value: "AU"
+          }, "\u0623\u0633\u062A\u0631\u0627\u0644\u064A\u0627"), _react.default.createElement("option", {
+            value: "AF"
+          }, "\u0623\u0641\u063A\u0627\u0646\u0633\u062A\u0627\u0646"), _react.default.createElement("option", {
+            value: "AL"
+          }, "\u0623\u0644\u0628\u0627\u0646\u064A\u0627"), _react.default.createElement("option", {
+            value: "DE"
+          }, "\u0623\u0644\u0645\u0627\u0646\u064A\u0627"), _react.default.createElement("option", {
+            value: "AG"
+          }, "\u0623\u0646\u062A\u064A\u062C\u0648\u0627 \u0648\u0628\u0631\u0628\u0648\u062F\u0627"), _react.default.createElement("option", {
+            value: "AO"
+          }, "\u0623\u0646\u062C\u0648\u0644\u0627"), _react.default.createElement("option", {
+            value: "AI"
+          }, "\u0623\u0646\u062C\u0648\u064A\u0644\u0627"), _react.default.createElement("option", {
+            value: "AD"
+          }, "\u0623\u0646\u062F\u0648\u0631\u0627"), _react.default.createElement("option", {
+            value: "UY"
+          }, "\u0623\u0648\u0631\u062C\u0648\u0627\u064A"), _react.default.createElement("option", {
+            value: "UZ"
+          }, "\u0623\u0648\u0632\u0628\u0643\u0633\u062A\u0627\u0646"), _react.default.createElement("option", {
+            value: "UG"
+          }, "\u0623\u0648\u063A\u0646\u062F\u0627"), _react.default.createElement("option", {
+            value: "UA"
+          }, "\u0623\u0648\u0643\u0631\u0627\u0646\u064A\u0627"), _react.default.createElement("option", {
+            value: "IE"
+          }, "\u0623\u064A\u0631\u0644\u0646\u062F\u0627"), _react.default.createElement("option", {
+            value: "IS"
+          }, "\u0623\u064A\u0633\u0644\u0646\u062F\u0627"), _react.default.createElement("option", {
+            value: "ET"
+          }, "\u0627\u062B\u064A\u0648\u0628\u064A\u0627"), _react.default.createElement("option", {
+            value: "ER"
+          }, "\u0627\u0631\u064A\u062A\u0631\u064A\u0627"), _react.default.createElement("option", {
+            value: "EE"
+          }, "\u0627\u0633\u062A\u0648\u0646\u064A\u0627"), _react.default.createElement("option", {
+            value: "IL"
+          }, "\u0627\u0633\u0631\u0627\u0626\u064A\u0644"), _react.default.createElement("option", {
+            value: "AR"
+          }, "\u0627\u0644\u0623\u0631\u062C\u0646\u062A\u064A\u0646"), _react.default.createElement("option", {
+            value: "JO"
+          }, "\u0627\u0644\u0623\u0631\u062F\u0646"), _react.default.createElement("option", {
+            value: "EC"
+          }, "\u0627\u0644\u0627\u0643\u0648\u0627\u062F\u0648\u0631"), _react.default.createElement("option", {
+            value: "AE"
+          }, "\u0627\u0644\u0627\u0645\u0627\u0631\u0627\u062A \u0627\u0644\u0639\u0631\u0628\u064A\u0629 \u0627\u0644\u0645\u062A\u062D\u062F\u0629"), _react.default.createElement("option", {
+            value: "BS"
+          }, "\u0627\u0644\u0628\u0627\u0647\u0627\u0645\u0627"), _react.default.createElement("option", {
+            value: "BH"
+          }, "\u0627\u0644\u0628\u062D\u0631\u064A\u0646"), _react.default.createElement("option", {
+            value: "BR"
+          }, "\u0627\u0644\u0628\u0631\u0627\u0632\u064A\u0644"), _react.default.createElement("option", {
+            value: "PT"
+          }, "\u0627\u0644\u0628\u0631\u062A\u063A\u0627\u0644"), _react.default.createElement("option", {
+            value: "BA"
+          }, "\u0627\u0644\u0628\u0648\u0633\u0646\u0629 \u0648\u0627\u0644\u0647\u0631\u0633\u0643"), _react.default.createElement("option", {
+            value: "GA"
+          }, "\u0627\u0644\u062C\u0627\u0628\u0648\u0646"), _react.default.createElement("option", {
+            value: "ME"
+          }, "\u0627\u0644\u062C\u0628\u0644 \u0627\u0644\u0623\u0633\u0648\u062F"), _react.default.createElement("option", {
+            value: "DZ"
+          }, "\u0627\u0644\u062C\u0632\u0627\u0626\u0631"), _react.default.createElement("option", {
+            value: "DK"
+          }, "\u0627\u0644\u062F\u0627\u0646\u0645\u0631\u0643"), _react.default.createElement("option", {
+            value: "CV"
+          }, "\u0627\u0644\u0631\u0623\u0633 \u0627\u0644\u0623\u062E\u0636\u0631"), _react.default.createElement("option", {
+            value: "SV"
+          }, "\u0627\u0644\u0633\u0644\u0641\u0627\u062F\u0648\u0631"), _react.default.createElement("option", {
+            value: "SN"
+          }, "\u0627\u0644\u0633\u0646\u063A\u0627\u0644"), _react.default.createElement("option", {
+            value: "SD"
+          }, "\u0627\u0644\u0633\u0648\u062F\u0627\u0646"), _react.default.createElement("option", {
+            value: "SE"
+          }, "\u0627\u0644\u0633\u0648\u064A\u062F"), _react.default.createElement("option", {
+            value: "EH"
+          }, "\u0627\u0644\u0635\u062D\u0631\u0627\u0621 \u0627\u0644\u063A\u0631\u0628\u064A\u0629"), _react.default.createElement("option", {
+            value: "SO"
+          }, "\u0627\u0644\u0635\u0648\u0645\u0627\u0644"), _react.default.createElement("option", {
+            value: "CN"
+          }, "\u0627\u0644\u0635\u064A\u0646"), _react.default.createElement("option", {
+            value: "IQ"
+          }, "\u0627\u0644\u0639\u0631\u0627\u0642"), _react.default.createElement("option", {
+            value: "VA"
+          }, "\u0627\u0644\u0641\u0627\u062A\u064A\u0643\u0627\u0646"), _react.default.createElement("option", {
+            value: "PH"
+          }, "\u0627\u0644\u0641\u064A\u0644\u0628\u064A\u0646"), _react.default.createElement("option", {
+            value: "AQ"
+          }, "\u0627\u0644\u0642\u0637\u0628 \u0627\u0644\u062C\u0646\u0648\u0628\u064A"), _react.default.createElement("option", {
+            value: "CM"
+          }, "\u0627\u0644\u0643\u0627\u0645\u064A\u0631\u0648\u0646"), _react.default.createElement("option", {
+            value: "CG"
+          }, "\u0627\u0644\u0643\u0648\u0646\u063A\u0648 - \u0628\u0631\u0627\u0632\u0627\u0641\u064A\u0644"), _react.default.createElement("option", {
+            value: "KW"
+          }, "\u0627\u0644\u0643\u0648\u064A\u062A"), _react.default.createElement("option", {
+            value: "HU"
+          }, "\u0627\u0644\u0645\u062C\u0631"), _react.default.createElement("option", {
+            value: "IO"
+          }, "\u0627\u0644\u0645\u062D\u064A\u0637 \u0627\u0644\u0647\u0646\u062F\u064A \u0627\u0644\u0628\u0631\u064A\u0637\u0627\u0646\u064A"), _react.default.createElement("option", {
+            value: "MA"
+          }, "\u0627\u0644\u0645\u063A\u0631\u0628"), _react.default.createElement("option", {
+            value: "TF"
+          }, "\u0627\u0644\u0645\u0642\u0627\u0637\u0639\u0627\u062A \u0627\u0644\u062C\u0646\u0648\u0628\u064A\u0629 \u0627\u0644\u0641\u0631\u0646\u0633\u064A\u0629"), _react.default.createElement("option", {
+            value: "MX"
+          }, "\u0627\u0644\u0645\u0643\u0633\u064A\u0643"), _react.default.createElement("option", {
+            value: "SA"
+          }, "\u0627\u0644\u0645\u0645\u0644\u0643\u0629 \u0627\u0644\u0639\u0631\u0628\u064A\u0629 \u0627\u0644\u0633\u0639\u0648\u062F\u064A\u0629"), _react.default.createElement("option", {
+            value: "GB"
+          }, "\u0627\u0644\u0645\u0645\u0644\u0643\u0629 \u0627\u0644\u0645\u062A\u062D\u062F\u0629"), _react.default.createElement("option", {
+            value: "NO"
+          }, "\u0627\u0644\u0646\u0631\u0648\u064A\u062C"), _react.default.createElement("option", {
+            value: "AT"
+          }, "\u0627\u0644\u0646\u0645\u0633\u0627"), _react.default.createElement("option", {
+            value: "NE"
+          }, "\u0627\u0644\u0646\u064A\u062C\u0631"), _react.default.createElement("option", {
+            value: "IN"
+          }, "\u0627\u0644\u0647\u0646\u062F"), _react.default.createElement("option", {
+            value: "US"
+          }, "\u0627\u0644\u0648\u0644\u0627\u064A\u0627\u062A \u0627\u0644\u0645\u062A\u062D\u062F\u0629 \u0627\u0644\u0623\u0645\u0631\u064A\u0643\u064A\u0629"), _react.default.createElement("option", {
+            value: "JP"
+          }, "\u0627\u0644\u064A\u0627\u0628\u0627\u0646"), _react.default.createElement("option", {
+            value: "YE"
+          }, "\u0627\u0644\u064A\u0645\u0646"), _react.default.createElement("option", {
+            value: "GR"
+          }, "\u0627\u0644\u064A\u0648\u0646\u0627\u0646"), _react.default.createElement("option", {
+            value: "ID"
+          }, "\u0627\u0646\u062F\u0648\u0646\u064A\u0633\u064A\u0627"), _react.default.createElement("option", {
+            value: "IR"
+          }, "\u0627\u064A\u0631\u0627\u0646"), _react.default.createElement("option", {
+            value: "IT"
+          }, "\u0627\u064A\u0637\u0627\u0644\u064A\u0627"), _react.default.createElement("option", {
+            value: "PG"
+          }, "\u0628\u0627\u0628\u0648\u0627 \u063A\u064A\u0646\u064A\u0627 \u0627\u0644\u062C\u062F\u064A\u062F\u0629"), _react.default.createElement("option", {
+            value: "PY"
+          }, "\u0628\u0627\u0631\u0627\u062C\u0648\u0627\u064A"), _react.default.createElement("option", {
+            value: "PK"
+          }, "\u0628\u0627\u0643\u0633\u062A\u0627\u0646"), _react.default.createElement("option", {
+            value: "PW"
+          }, "\u0628\u0627\u0644\u0627\u0648"), _react.default.createElement("option", {
+            value: "BW"
+          }, "\u0628\u062A\u0633\u0648\u0627\u0646\u0627"), _react.default.createElement("option", {
+            value: "PN"
+          }, "\u0628\u062A\u0643\u0627\u064A\u0631\u0646"), _react.default.createElement("option", {
+            value: "BB"
+          }, "\u0628\u0631\u0628\u0627\u062F\u0648\u0633"), _react.default.createElement("option", {
+            value: "BM"
+          }, "\u0628\u0631\u0645\u0648\u062F\u0627"), _react.default.createElement("option", {
+            value: "BN"
+          }, "\u0628\u0631\u0648\u0646\u0627\u064A"), _react.default.createElement("option", {
+            value: "BE"
+          }, "\u0628\u0644\u062C\u064A\u0643\u0627"), _react.default.createElement("option", {
+            value: "BG"
+          }, "\u0628\u0644\u063A\u0627\u0631\u064A\u0627"), _react.default.createElement("option", {
+            value: "BZ"
+          }, "\u0628\u0644\u064A\u0632"), _react.default.createElement("option", {
+            value: "BD"
+          }, "\u0628\u0646\u062C\u0644\u0627\u062F\u064A\u0634"), _react.default.createElement("option", {
+            value: "PA"
+          }, "\u0628\u0646\u0645\u0627"), _react.default.createElement("option", {
+            value: "BJ"
+          }, "\u0628\u0646\u064A\u0646"), _react.default.createElement("option", {
+            value: "BT"
+          }, "\u0628\u0648\u062A\u0627\u0646"), _react.default.createElement("option", {
+            value: "PR"
+          }, "\u0628\u0648\u0631\u062A\u0648\u0631\u064A\u0643\u0648"), _react.default.createElement("option", {
+            value: "BF"
+          }, "\u0628\u0648\u0631\u0643\u064A\u0646\u0627 \u0641\u0627\u0633\u0648"), _react.default.createElement("option", {
+            value: "BI"
+          }, "\u0628\u0648\u0631\u0648\u0646\u062F\u064A"), _react.default.createElement("option", {
+            value: "PL"
+          }, "\u0628\u0648\u0644\u0646\u062F\u0627"), _react.default.createElement("option", {
+            value: "BO"
+          }, "\u0628\u0648\u0644\u064A\u0641\u064A\u0627"), _react.default.createElement("option", {
+            value: "PF"
+          }, "\u0628\u0648\u0644\u064A\u0646\u064A\u0632\u064A\u0627 \u0627\u0644\u0641\u0631\u0646\u0633\u064A\u0629"), _react.default.createElement("option", {
+            value: "PE"
+          }, "\u0628\u064A\u0631\u0648"), _react.default.createElement("option", {
+            value: "TZ"
+          }, "\u062A\u0627\u0646\u0632\u0627\u0646\u064A\u0627"), _react.default.createElement("option", {
+            value: "TH"
+          }, "\u062A\u0627\u064A\u0644\u0646\u062F"), _react.default.createElement("option", {
+            value: "TW"
+          }, "\u062A\u0627\u064A\u0648\u0627\u0646"), _react.default.createElement("option", {
+            value: "TM"
+          }, "\u062A\u0631\u0643\u0645\u0627\u0646\u0633\u062A\u0627\u0646"), _react.default.createElement("option", {
+            value: "TR"
+          }, "\u062A\u0631\u0643\u064A\u0627"), _react.default.createElement("option", {
+            value: "TT"
+          }, "\u062A\u0631\u064A\u0646\u064A\u062F\u0627\u062F \u0648\u062A\u0648\u0628\u0627\u063A\u0648"), _react.default.createElement("option", {
+            value: "TD"
+          }, "\u062A\u0634\u0627\u062F"), _react.default.createElement("option", {
+            value: "TG"
+          }, "\u062A\u0648\u062C\u0648"), _react.default.createElement("option", {
+            value: "TV"
+          }, "\u062A\u0648\u0641\u0627\u0644\u0648"), _react.default.createElement("option", {
+            value: "TK"
+          }, "\u062A\u0648\u0643\u064A\u0644\u0648"), _react.default.createElement("option", {
+            value: "TO"
+          }, "\u062A\u0648\u0646\u062C\u0627"), _react.default.createElement("option", {
+            value: "TN"
+          }, "\u062A\u0648\u0646\u0633"), _react.default.createElement("option", {
+            value: "TL"
+          }, "\u062A\u064A\u0645\u0648\u0631 \u0627\u0644\u0634\u0631\u0642\u064A\u0629"), _react.default.createElement("option", {
+            value: "JM"
+          }, "\u062C\u0627\u0645\u0627\u064A\u0643\u0627"), _react.default.createElement("option", {
+            value: "GI"
+          }, "\u062C\u0628\u0644 \u0637\u0627\u0631\u0642"), _react.default.createElement("option", {
+            value: "GD"
+          }, "\u062C\u0631\u064A\u0646\u0627\u062F\u0627"), _react.default.createElement("option", {
+            value: "GL"
+          }, "\u062C\u0631\u064A\u0646\u0644\u0627\u0646\u062F"), _react.default.createElement("option", {
+            value: "AX"
+          }, "\u062C\u0632\u0631 \u0623\u0648\u0644\u0627\u0646"), _react.default.createElement("option", {
+            value: "AN"
+          }, "\u062C\u0632\u0631 \u0627\u0644\u0623\u0646\u062A\u064A\u0644 \u0627\u0644\u0647\u0648\u0644\u0646\u062F\u064A\u0629"), _react.default.createElement("option", {
+            value: "TC"
+          }, "\u062C\u0632\u0631 \u0627\u0644\u062A\u0631\u0643 \u0648\u062C\u0627\u064A\u0643\u0648\u0633"), _react.default.createElement("option", {
+            value: "KM"
+          }, "\u062C\u0632\u0631 \u0627\u0644\u0642\u0645\u0631"), _react.default.createElement("option", {
+            value: "KY"
+          }, "\u062C\u0632\u0631 \u0627\u0644\u0643\u0627\u064A\u0645\u0646"), _react.default.createElement("option", {
+            value: "MH"
+          }, "\u062C\u0632\u0631 \u0627\u0644\u0645\u0627\u0631\u0634\u0627\u0644"), _react.default.createElement("option", {
+            value: "MV"
+          }, "\u062C\u0632\u0631 \u0627\u0644\u0645\u0644\u062F\u064A\u0641"), _react.default.createElement("option", {
+            value: "UM"
+          }, "\u062C\u0632\u0631 \u0627\u0644\u0648\u0644\u0627\u064A\u0627\u062A \u0627\u0644\u0645\u062A\u062D\u062F\u0629 \u0627\u0644\u0628\u0639\u064A\u062F\u0629 \u0627\u0644\u0635\u063A\u064A\u0631\u0629"), _react.default.createElement("option", {
+            value: "SB"
+          }, "\u062C\u0632\u0631 \u0633\u0644\u064A\u0645\u0627\u0646"), _react.default.createElement("option", {
+            value: "FO"
+          }, "\u062C\u0632\u0631 \u0641\u0627\u0631\u0648"), _react.default.createElement("option", {
+            value: "VI"
+          }, "\u062C\u0632\u0631 \u0641\u0631\u062C\u064A\u0646 \u0627\u0644\u0623\u0645\u0631\u064A\u0643\u064A\u0629"), _react.default.createElement("option", {
+            value: "VG"
+          }, "\u062C\u0632\u0631 \u0641\u0631\u062C\u064A\u0646 \u0627\u0644\u0628\u0631\u064A\u0637\u0627\u0646\u064A\u0629"), _react.default.createElement("option", {
+            value: "FK"
+          }, "\u062C\u0632\u0631 \u0641\u0648\u0643\u0644\u0627\u0646\u062F"), _react.default.createElement("option", {
+            value: "CK"
+          }, "\u062C\u0632\u0631 \u0643\u0648\u0643"), _react.default.createElement("option", {
+            value: "CC"
+          }, "\u062C\u0632\u0631 \u0643\u0648\u0643\u0648\u0633"), _react.default.createElement("option", {
+            value: "MP"
+          }, "\u062C\u0632\u0631 \u0645\u0627\u0631\u064A\u0627\u0646\u0627 \u0627\u0644\u0634\u0645\u0627\u0644\u064A\u0629"), _react.default.createElement("option", {
+            value: "WF"
+          }, "\u062C\u0632\u0631 \u0648\u0627\u0644\u0633 \u0648\u0641\u0648\u062A\u0648\u0646\u0627"), _react.default.createElement("option", {
+            value: "CX"
+          }, "\u062C\u0632\u064A\u0631\u0629 \u0627\u0644\u0643\u0631\u064A\u0633\u0645\u0627\u0633"), _react.default.createElement("option", {
+            value: "BV"
+          }, "\u062C\u0632\u064A\u0631\u0629 \u0628\u0648\u0641\u064A\u0647"), _react.default.createElement("option", {
+            value: "IM"
+          }, "\u062C\u0632\u064A\u0631\u0629 \u0645\u0627\u0646"), _react.default.createElement("option", {
+            value: "NF"
+          }, "\u062C\u0632\u064A\u0631\u0629 \u0646\u0648\u0631\u0641\u0648\u0643"), _react.default.createElement("option", {
+            value: "HM"
+          }, "\u062C\u0632\u064A\u0631\u0629 \u0647\u064A\u0631\u062F \u0648\u0645\u0627\u0643\u062F\u0648\u0646\u0627\u0644\u062F"), _react.default.createElement("option", {
+            value: "CF"
+          }, "\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u0627\u0641\u0631\u064A\u0642\u064A\u0627 \u0627\u0644\u0648\u0633\u0637\u0649"), _react.default.createElement("option", {
+            value: "CZ"
+          }, "\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u0627\u0644\u062A\u0634\u064A\u0643"), _react.default.createElement("option", {
+            value: "DO"
+          }, "\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u0627\u0644\u062F\u0648\u0645\u064A\u0646\u064A\u0643"), _react.default.createElement("option", {
+            value: "CD"
+          }, "\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u0627\u0644\u0643\u0648\u0646\u063A\u0648 \u0627\u0644\u062F\u064A\u0645\u0642\u0631\u0627\u0637\u064A\u0629"), _react.default.createElement("option", {
+            value: "ZA"
+          }, "\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u062C\u0646\u0648\u0628 \u0627\u0641\u0631\u064A\u0642\u064A\u0627"), _react.default.createElement("option", {
+            value: "GT"
+          }, "\u062C\u0648\u0627\u062A\u064A\u0645\u0627\u0644\u0627"), _react.default.createElement("option", {
+            value: "GP"
+          }, "\u062C\u0648\u0627\u062F\u0644\u0648\u0628"), _react.default.createElement("option", {
+            value: "GU"
+          }, "\u062C\u0648\u0627\u0645"), _react.default.createElement("option", {
+            value: "GE"
+          }, "\u062C\u0648\u0631\u062C\u064A\u0627"), _react.default.createElement("option", {
+            value: "GS"
+          }, "\u062C\u0648\u0631\u062C\u064A\u0627 \u0627\u0644\u062C\u0646\u0648\u0628\u064A\u0629 \u0648\u062C\u0632\u0631 \u0633\u0627\u0646\u062F\u0648\u064A\u062A\u0634 \u0627\u0644\u062C\u0646\u0648\u0628\u064A\u0629"), _react.default.createElement("option", {
+            value: "DJ"
+          }, "\u062C\u064A\u0628\u0648\u062A\u064A"), _react.default.createElement("option", {
+            value: "JE"
+          }, "\u062C\u064A\u0631\u0633\u064A"), _react.default.createElement("option", {
+            value: "DM"
+          }, "\u062F\u0648\u0645\u064A\u0646\u064A\u0643\u0627"), _react.default.createElement("option", {
+            value: "RW"
+          }, "\u0631\u0648\u0627\u0646\u062F\u0627"), _react.default.createElement("option", {
+            value: "RU"
+          }, "\u0631\u0648\u0633\u064A\u0627"), _react.default.createElement("option", {
+            value: "BY"
+          }, "\u0631\u0648\u0633\u064A\u0627 \u0627\u0644\u0628\u064A\u0636\u0627\u0621"), _react.default.createElement("option", {
+            value: "RO"
+          }, "\u0631\u0648\u0645\u0627\u0646\u064A\u0627"), _react.default.createElement("option", {
+            value: "RE"
+          }, "\u0631\u0648\u064A\u0646\u064A\u0648\u0646"), _react.default.createElement("option", {
+            value: "ZM"
+          }, "\u0632\u0627\u0645\u0628\u064A\u0627"), _react.default.createElement("option", {
+            value: "ZW"
+          }, "\u0632\u064A\u0645\u0628\u0627\u0628\u0648\u064A"), _react.default.createElement("option", {
+            value: "CI"
+          }, "\u0633\u0627\u062D\u0644 \u0627\u0644\u0639\u0627\u062C"), _react.default.createElement("option", {
+            value: "WS"
+          }, "\u0633\u0627\u0645\u0648\u0627"), _react.default.createElement("option", {
+            value: "AS"
+          }, "\u0633\u0627\u0645\u0648\u0627 \u0627\u0644\u0623\u0645\u0631\u064A\u0643\u064A\u0629"), _react.default.createElement("option", {
+            value: "SM"
+          }, "\u0633\u0627\u0646 \u0645\u0627\u0631\u064A\u0646\u0648"), _react.default.createElement("option", {
+            value: "PM"
+          }, "\u0633\u0627\u0646\u062A \u0628\u064A\u064A\u0631 \u0648\u0645\u064A\u0643\u0648\u0644\u0648\u0646"), _react.default.createElement("option", {
+            value: "VC"
+          }, "\u0633\u0627\u0646\u062A \u0641\u0646\u0633\u0646\u062A \u0648\u063A\u0631\u0646\u0627\u062F\u064A\u0646"), _react.default.createElement("option", {
+            value: "KN"
+          }, "\u0633\u0627\u0646\u062A \u0643\u064A\u062A\u0633 \u0648\u0646\u064A\u0641\u064A\u0633"), _react.default.createElement("option", {
+            value: "LC"
+          }, "\u0633\u0627\u0646\u062A \u0644\u0648\u0633\u064A\u0627"), _react.default.createElement("option", {
+            value: "MF"
+          }, "\u0633\u0627\u0646\u062A \u0645\u0627\u0631\u062A\u064A\u0646"), _react.default.createElement("option", {
+            value: "SH"
+          }, "\u0633\u0627\u0646\u062A \u0647\u064A\u0644\u0646\u0627"), _react.default.createElement("option", {
+            value: "ST"
+          }, "\u0633\u0627\u0648 \u062A\u0648\u0645\u064A \u0648\u0628\u0631\u064A\u0646\u0633\u064A\u0628\u064A"), _react.default.createElement("option", {
+            value: "LK"
+          }, "\u0633\u0631\u064A\u0644\u0627\u0646\u0643\u0627"), _react.default.createElement("option", {
+            value: "SJ"
+          }, "\u0633\u0641\u0627\u0644\u0628\u0627\u0631\u062F \u0648\u062C\u0627\u0646 \u0645\u0627\u064A\u0627\u0646"), _react.default.createElement("option", {
+            value: "SK"
+          }, "\u0633\u0644\u0648\u0641\u0627\u0643\u064A\u0627"), _react.default.createElement("option", {
+            value: "SI"
+          }, "\u0633\u0644\u0648\u0641\u064A\u0646\u064A\u0627"), _react.default.createElement("option", {
+            value: "SG"
+          }, "\u0633\u0646\u063A\u0627\u0641\u0648\u0631\u0629"), _react.default.createElement("option", {
+            value: "SZ"
+          }, "\u0633\u0648\u0627\u0632\u064A\u0644\u0627\u0646\u062F"), _react.default.createElement("option", {
+            value: "SY"
+          }, "\u0633\u0648\u0631\u064A\u0627"), _react.default.createElement("option", {
+            value: "SR"
+          }, "\u0633\u0648\u0631\u064A\u0646\u0627\u0645"), _react.default.createElement("option", {
+            value: "CH"
+          }, "\u0633\u0648\u064A\u0633\u0631\u0627"), _react.default.createElement("option", {
+            value: "SL"
+          }, "\u0633\u064A\u0631\u0627\u0644\u064A\u0648\u0646"), _react.default.createElement("option", {
+            value: "SC"
+          }, "\u0633\u064A\u0634\u0644"), _react.default.createElement("option", {
+            value: "CL"
+          }, "\u0634\u064A\u0644\u064A"), _react.default.createElement("option", {
+            value: "RS"
+          }, "\u0635\u0631\u0628\u064A\u0627"), _react.default.createElement("option", {
+            value: "CS"
+          }, "\u0635\u0631\u0628\u064A\u0627 \u0648\u0627\u0644\u062C\u0628\u0644 \u0627\u0644\u0623\u0633\u0648\u062F"), _react.default.createElement("option", {
+            value: "TJ"
+          }, "\u0637\u0627\u062C\u0643\u0633\u062A\u0627\u0646"), _react.default.createElement("option", {
+            value: "OM"
+          }, "\u0639\u0645\u0627\u0646"), _react.default.createElement("option", {
+            value: "GM"
+          }, "\u063A\u0627\u0645\u0628\u064A\u0627"), _react.default.createElement("option", {
+            value: "GH"
+          }, "\u063A\u0627\u0646\u0627"), _react.default.createElement("option", {
+            value: "GF"
+          }, "\u063A\u0648\u064A\u0627\u0646\u0627"), _react.default.createElement("option", {
+            value: "GY"
+          }, "\u063A\u064A\u0627\u0646\u0627"), _react.default.createElement("option", {
+            value: "GN"
+          }, "\u063A\u064A\u0646\u064A\u0627"), _react.default.createElement("option", {
+            value: "GQ"
+          }, "\u063A\u064A\u0646\u064A\u0627 \u0627\u0644\u0627\u0633\u062A\u0648\u0627\u0626\u064A\u0629"), _react.default.createElement("option", {
+            value: "GW"
+          }, "\u063A\u064A\u0646\u064A\u0627 \u0628\u064A\u0633\u0627\u0648"), _react.default.createElement("option", {
+            value: "VU"
+          }, "\u0641\u0627\u0646\u0648\u0627\u062A\u0648"), _react.default.createElement("option", {
+            value: "FR"
+          }, "\u0641\u0631\u0646\u0633\u0627"), _react.default.createElement("option", {
+            value: "PS"
+          }, "\u0641\u0644\u0633\u0637\u064A\u0646"), _react.default.createElement("option", {
+            value: "VE"
+          }, "\u0641\u0646\u0632\u0648\u064A\u0644\u0627"), _react.default.createElement("option", {
+            value: "FI"
+          }, "\u0641\u0646\u0644\u0646\u062F\u0627"), _react.default.createElement("option", {
+            value: "VN"
+          }, "\u0641\u064A\u062A\u0646\u0627\u0645"), _react.default.createElement("option", {
+            value: "FJ"
+          }, "\u0641\u064A\u062C\u064A"), _react.default.createElement("option", {
+            value: "CY"
+          }, "\u0642\u0628\u0631\u0635"), _react.default.createElement("option", {
+            value: "KG"
+          }, "\u0642\u0631\u063A\u064A\u0632\u0633\u062A\u0627\u0646"), _react.default.createElement("option", {
+            value: "QA"
+          }, "\u0642\u0637\u0631"), _react.default.createElement("option", {
+            value: "KZ"
+          }, "\u0643\u0627\u0632\u0627\u062E\u0633\u062A\u0627\u0646"), _react.default.createElement("option", {
+            value: "NC"
+          }, "\u0643\u0627\u0644\u064A\u062F\u0648\u0646\u064A\u0627 \u0627\u0644\u062C\u062F\u064A\u062F\u0629"), _react.default.createElement("option", {
+            value: "HR"
+          }, "\u0643\u0631\u0648\u0627\u062A\u064A\u0627"), _react.default.createElement("option", {
+            value: "KH"
+          }, "\u0643\u0645\u0628\u0648\u062F\u064A\u0627"), _react.default.createElement("option", {
+            value: "CA"
+          }, "\u0643\u0646\u062F\u0627"), _react.default.createElement("option", {
+            value: "CU"
+          }, "\u0643\u0648\u0628\u0627"), _react.default.createElement("option", {
+            value: "KR"
+          }, "\u0643\u0648\u0631\u064A\u0627 \u0627\u0644\u062C\u0646\u0648\u0628\u064A\u0629"), _react.default.createElement("option", {
+            value: "KP"
+          }, "\u0643\u0648\u0631\u064A\u0627 \u0627\u0644\u0634\u0645\u0627\u0644\u064A\u0629"), _react.default.createElement("option", {
+            value: "CR"
+          }, "\u0643\u0648\u0633\u062A\u0627\u0631\u064A\u0643\u0627"), _react.default.createElement("option", {
+            value: "CO"
+          }, "\u0643\u0648\u0644\u0648\u0645\u0628\u064A\u0627"), _react.default.createElement("option", {
+            value: "KI"
+          }, "\u0643\u064A\u0631\u064A\u0628\u0627\u062A\u064A"), _react.default.createElement("option", {
+            value: "KE"
+          }, "\u0643\u064A\u0646\u064A\u0627"), _react.default.createElement("option", {
+            value: "LV"
+          }, "\u0644\u0627\u062A\u0641\u064A\u0627"), _react.default.createElement("option", {
+            value: "LA"
+          }, "\u0644\u0627\u0648\u0633"), _react.default.createElement("option", {
+            value: "LB"
+          }, "\u0644\u0628\u0646\u0627\u0646"), _react.default.createElement("option", {
+            value: "LU"
+          }, "\u0644\u0648\u0643\u0633\u0645\u0628\u0648\u0631\u062C"), _react.default.createElement("option", {
+            value: "LY"
+          }, "\u0644\u064A\u0628\u064A\u0627"), _react.default.createElement("option", {
+            value: "LR"
+          }, "\u0644\u064A\u0628\u064A\u0631\u064A\u0627"), _react.default.createElement("option", {
+            value: "LT"
+          }, "\u0644\u064A\u062A\u0648\u0627\u0646\u064A\u0627"), _react.default.createElement("option", {
+            value: "LI"
+          }, "\u0644\u064A\u062E\u062A\u0646\u0634\u062A\u0627\u064A\u0646"), _react.default.createElement("option", {
+            value: "LS"
+          }, "\u0644\u064A\u0633\u0648\u062A\u0648"), _react.default.createElement("option", {
+            value: "MQ"
+          }, "\u0645\u0627\u0631\u062A\u064A\u0646\u064A\u0643"), _react.default.createElement("option", {
+            value: "MO"
+          }, "\u0645\u0627\u0643\u0627\u0648 \u0627\u0644\u0635\u064A\u0646\u064A\u0629"), _react.default.createElement("option", {
+            value: "MT"
+          }, "\u0645\u0627\u0644\u0637\u0627"), _react.default.createElement("option", {
+            value: "ML"
+          }, "\u0645\u0627\u0644\u064A"), _react.default.createElement("option", {
+            value: "MY"
+          }, "\u0645\u0627\u0644\u064A\u0632\u064A\u0627"), _react.default.createElement("option", {
+            value: "YT"
+          }, "\u0645\u0627\u064A\u0648\u062A"), _react.default.createElement("option", {
+            value: "MG"
+          }, "\u0645\u062F\u063A\u0634\u0642\u0631"), _react.default.createElement("option", {
+            value: "EG"
+          }, "\u0645\u0635\u0631"), _react.default.createElement("option", {
+            value: "MK"
+          }, "\u0645\u0642\u062F\u0648\u0646\u064A\u0627"), _react.default.createElement("option", {
+            value: "MW"
+          }, "\u0645\u0644\u0627\u0648\u064A"), _react.default.createElement("option", {
+            value: "ZZ"
+          }, "\u0645\u0646\u0637\u0642\u0629 \u063A\u064A\u0631 \u0645\u0639\u0631\u0641\u0629"), _react.default.createElement("option", {
+            value: "MN"
+          }, "\u0645\u0646\u063A\u0648\u0644\u064A\u0627"), _react.default.createElement("option", {
+            value: "MR"
+          }, "\u0645\u0648\u0631\u064A\u062A\u0627\u0646\u064A\u0627"), _react.default.createElement("option", {
+            value: "MU"
+          }, "\u0645\u0648\u0631\u064A\u0634\u064A\u0648\u0633"), _react.default.createElement("option", {
+            value: "MZ"
+          }, "\u0645\u0648\u0632\u0645\u0628\u064A\u0642"), _react.default.createElement("option", {
+            value: "MD"
+          }, "\u0645\u0648\u0644\u062F\u0627\u0641\u064A\u0627"), _react.default.createElement("option", {
+            value: "MC"
+          }, "\u0645\u0648\u0646\u0627\u0643\u0648"), _react.default.createElement("option", {
+            value: "MS"
+          }, "\u0645\u0648\u0646\u062A\u0633\u0631\u0627\u062A"), _react.default.createElement("option", {
+            value: "MM"
+          }, "\u0645\u064A\u0627\u0646\u0645\u0627\u0631"), _react.default.createElement("option", {
+            value: "FM"
+          }, "\u0645\u064A\u0643\u0631\u0648\u0646\u064A\u0632\u064A\u0627"), _react.default.createElement("option", {
+            value: "NA"
+          }, "\u0646\u0627\u0645\u064A\u0628\u064A\u0627"), _react.default.createElement("option", {
+            value: "NR"
+          }, "\u0646\u0648\u0631\u0648"), _react.default.createElement("option", {
+            value: "NP"
+          }, "\u0646\u064A\u0628\u0627\u0644"), _react.default.createElement("option", {
+            value: "NG"
+          }, "\u0646\u064A\u062C\u064A\u0631\u064A\u0627"), _react.default.createElement("option", {
+            value: "NI"
+          }, "\u0646\u064A\u0643\u0627\u0631\u0627\u062C\u0648\u0627"), _react.default.createElement("option", {
+            value: "NZ"
+          }, "\u0646\u064A\u0648\u0632\u064A\u0644\u0627\u0646\u062F\u0627"), _react.default.createElement("option", {
+            value: "NU"
+          }, "\u0646\u064A\u0648\u064A"), _react.default.createElement("option", {
+            value: "HT"
+          }, "\u0647\u0627\u064A\u062A\u064A"), _react.default.createElement("option", {
+            value: "HN"
+          }, "\u0647\u0646\u062F\u0648\u0631\u0627\u0633"), _react.default.createElement("option", {
+            value: "NL"
+          }, "\u0647\u0648\u0644\u0646\u062F\u0627"), _react.default.createElement("option", {
+            value: "HK"
+          }, "\u0647\u0648\u0646\u062C \u0643\u0648\u0646\u062C \u0627\u0644\u0635\u064A\u0646\u064A\u0629"))), _react.default.createElement("li", {
+            className: "list-group-item"
+          }, _react.default.createElement("h3", null, " \u0639\u0646\u0648\u0627\u0646 \u0627\u0644\u0633\u0643\u0646 \u0641\u064A \u0627\u0644\u0639\u0631\u0627\u0642  "), " ", _react.default.createElement(_evergreenUi.TextInput, {
+            placeholder: "\u0639\u0646\u0648\u0627\u0646 \u0627\u0644\u0633\u0643\u0646 \u0641\u064A \u0627\u0644\u0639\u0631\u0627\u0642",
+            width: 400,
+            height: 40
+          })))), _react.default.createElement("span", null))
+        );
       });
     }
   }]);
@@ -61975,6 +62849,3280 @@ function (_React$Component) {
 }(_react.default.Component);
 
 var _default = Content;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","evergreen-ui":"node_modules/evergreen-ui/esm/index.js","../context":"context.js"}],"component/add.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireWildcard(require("react"));
+
+var _evergreenUi = require("evergreen-ui");
+
+var _context = _interopRequireDefault(require("../context"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+var Add =
+/*#__PURE__*/
+function (_React$Component) {
+  _inherits(Add, _React$Component);
+
+  function Add() {
+    var _this;
+
+    _classCallCheck(this, Add);
+
+    _this = _possibleConstructorReturn(this, _getPrototypeOf(Add).call(this));
+    _this.state = {};
+    return _this;
+  }
+
+  _createClass(Add, [{
+    key: "render",
+    value: function render() {
+      var _this2 = this;
+
+      return _react.default.createElement(_context.default.Consumer, null, function (ctx) {
+        var _this2$state = _this2.state,
+            name = _this2$state.name,
+            country = _this2$state.country,
+            phone = _this2$state.phone,
+            isShown = _this2$state.isShown,
+            email = _this2$state.email,
+            onClick = _this2$state.onClick;
+        return _react.default.createElement("div", null, _react.default.createElement("div", null, _react.default.createElement("div", {
+          className: "add-employ"
+        }, _react.default.createElement("h2", null, "\u0623\u0636\u0627\u0641\u0629 \u0645\u0646\u062A\u0633\u0628\u064A \u0627\u0644\u0645\u0646\u0638\u0645\u0629")), _react.default.createElement("form", {
+          className: "add"
+        }, _react.default.createElement("div", {
+          className: "form-group row"
+        }, _react.default.createElement("div", {
+          class: "col-xs-2"
+        }, _react.default.createElement("label", {
+          for: "ex1"
+        }, "\u0627\u0644\u0627\u0633\u0645 \u0627\u0644\u0631\u0628\u0627\u0639\u064A"), _react.default.createElement("input", {
+          className: "custom-select",
+          id: "ex1",
+          type: "text"
+        })), _react.default.createElement("div", {
+          className: "col-xs-2"
+        }, _react.default.createElement("label", {
+          for: "ex3"
+        }, "\u0627\u0644\u062C\u0646\u0633\u064A\u0629"), _react.default.createElement("select", {
+          className: "custom-select"
+        }, _react.default.createElement("option", {
+          value: "AW"
+        }, "\u0622\u0648\u0631\u0628\u0627"), _react.default.createElement("option", {
+          value: "AZ"
+        }, "\u0623\u0630\u0631\u0628\u064A\u062C\u0627\u0646"), _react.default.createElement("option", {
+          value: "AM"
+        }, "\u0623\u0631\u0645\u064A\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "ES"
+        }, "\u0623\u0633\u0628\u0627\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "AU"
+        }, "\u0623\u0633\u062A\u0631\u0627\u0644\u064A\u0627"), _react.default.createElement("option", {
+          value: "AF"
+        }, "\u0623\u0641\u063A\u0627\u0646\u0633\u062A\u0627\u0646"), _react.default.createElement("option", {
+          value: "AL"
+        }, "\u0623\u0644\u0628\u0627\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "DE"
+        }, "\u0623\u0644\u0645\u0627\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "AG"
+        }, "\u0623\u0646\u062A\u064A\u062C\u0648\u0627 \u0648\u0628\u0631\u0628\u0648\u062F\u0627"), _react.default.createElement("option", {
+          value: "AO"
+        }, "\u0623\u0646\u062C\u0648\u0644\u0627"), _react.default.createElement("option", {
+          value: "AI"
+        }, "\u0623\u0646\u062C\u0648\u064A\u0644\u0627"), _react.default.createElement("option", {
+          value: "AD"
+        }, "\u0623\u0646\u062F\u0648\u0631\u0627"), _react.default.createElement("option", {
+          value: "UY"
+        }, "\u0623\u0648\u0631\u062C\u0648\u0627\u064A"), _react.default.createElement("option", {
+          value: "UZ"
+        }, "\u0623\u0648\u0632\u0628\u0643\u0633\u062A\u0627\u0646"), _react.default.createElement("option", {
+          value: "UG"
+        }, "\u0623\u0648\u063A\u0646\u062F\u0627"), _react.default.createElement("option", {
+          value: "UA"
+        }, "\u0623\u0648\u0643\u0631\u0627\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "IE"
+        }, "\u0623\u064A\u0631\u0644\u0646\u062F\u0627"), _react.default.createElement("option", {
+          value: "IS"
+        }, "\u0623\u064A\u0633\u0644\u0646\u062F\u0627"), _react.default.createElement("option", {
+          value: "ET"
+        }, "\u0627\u062B\u064A\u0648\u0628\u064A\u0627"), _react.default.createElement("option", {
+          value: "ER"
+        }, "\u0627\u0631\u064A\u062A\u0631\u064A\u0627"), _react.default.createElement("option", {
+          value: "EE"
+        }, "\u0627\u0633\u062A\u0648\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "IL"
+        }, "\u0627\u0633\u0631\u0627\u0626\u064A\u0644"), _react.default.createElement("option", {
+          value: "AR"
+        }, "\u0627\u0644\u0623\u0631\u062C\u0646\u062A\u064A\u0646"), _react.default.createElement("option", {
+          value: "JO"
+        }, "\u0627\u0644\u0623\u0631\u062F\u0646"), _react.default.createElement("option", {
+          value: "EC"
+        }, "\u0627\u0644\u0627\u0643\u0648\u0627\u062F\u0648\u0631"), _react.default.createElement("option", {
+          value: "AE"
+        }, "\u0627\u0644\u0627\u0645\u0627\u0631\u0627\u062A \u0627\u0644\u0639\u0631\u0628\u064A\u0629 \u0627\u0644\u0645\u062A\u062D\u062F\u0629"), _react.default.createElement("option", {
+          value: "BS"
+        }, "\u0627\u0644\u0628\u0627\u0647\u0627\u0645\u0627"), _react.default.createElement("option", {
+          value: "BH"
+        }, "\u0627\u0644\u0628\u062D\u0631\u064A\u0646"), _react.default.createElement("option", {
+          value: "BR"
+        }, "\u0627\u0644\u0628\u0631\u0627\u0632\u064A\u0644"), _react.default.createElement("option", {
+          value: "PT"
+        }, "\u0627\u0644\u0628\u0631\u062A\u063A\u0627\u0644"), _react.default.createElement("option", {
+          value: "BA"
+        }, "\u0627\u0644\u0628\u0648\u0633\u0646\u0629 \u0648\u0627\u0644\u0647\u0631\u0633\u0643"), _react.default.createElement("option", {
+          value: "GA"
+        }, "\u0627\u0644\u062C\u0627\u0628\u0648\u0646"), _react.default.createElement("option", {
+          value: "ME"
+        }, "\u0627\u0644\u062C\u0628\u0644 \u0627\u0644\u0623\u0633\u0648\u062F"), _react.default.createElement("option", {
+          value: "DZ"
+        }, "\u0627\u0644\u062C\u0632\u0627\u0626\u0631"), _react.default.createElement("option", {
+          value: "DK"
+        }, "\u0627\u0644\u062F\u0627\u0646\u0645\u0631\u0643"), _react.default.createElement("option", {
+          value: "CV"
+        }, "\u0627\u0644\u0631\u0623\u0633 \u0627\u0644\u0623\u062E\u0636\u0631"), _react.default.createElement("option", {
+          value: "SV"
+        }, "\u0627\u0644\u0633\u0644\u0641\u0627\u062F\u0648\u0631"), _react.default.createElement("option", {
+          value: "SN"
+        }, "\u0627\u0644\u0633\u0646\u063A\u0627\u0644"), _react.default.createElement("option", {
+          value: "SD"
+        }, "\u0627\u0644\u0633\u0648\u062F\u0627\u0646"), _react.default.createElement("option", {
+          value: "SE"
+        }, "\u0627\u0644\u0633\u0648\u064A\u062F"), _react.default.createElement("option", {
+          value: "EH"
+        }, "\u0627\u0644\u0635\u062D\u0631\u0627\u0621 \u0627\u0644\u063A\u0631\u0628\u064A\u0629"), _react.default.createElement("option", {
+          value: "SO"
+        }, "\u0627\u0644\u0635\u0648\u0645\u0627\u0644"), _react.default.createElement("option", {
+          value: "CN"
+        }, "\u0627\u0644\u0635\u064A\u0646"), _react.default.createElement("option", {
+          value: "IQ"
+        }, "\u0627\u0644\u0639\u0631\u0627\u0642"), _react.default.createElement("option", {
+          value: "VA"
+        }, "\u0627\u0644\u0641\u0627\u062A\u064A\u0643\u0627\u0646"), _react.default.createElement("option", {
+          value: "PH"
+        }, "\u0627\u0644\u0641\u064A\u0644\u0628\u064A\u0646"), _react.default.createElement("option", {
+          value: "AQ"
+        }, "\u0627\u0644\u0642\u0637\u0628 \u0627\u0644\u062C\u0646\u0648\u0628\u064A"), _react.default.createElement("option", {
+          value: "CM"
+        }, "\u0627\u0644\u0643\u0627\u0645\u064A\u0631\u0648\u0646"), _react.default.createElement("option", {
+          value: "CG"
+        }, "\u0627\u0644\u0643\u0648\u0646\u063A\u0648 - \u0628\u0631\u0627\u0632\u0627\u0641\u064A\u0644"), _react.default.createElement("option", {
+          value: "KW"
+        }, "\u0627\u0644\u0643\u0648\u064A\u062A"), _react.default.createElement("option", {
+          value: "HU"
+        }, "\u0627\u0644\u0645\u062C\u0631"), _react.default.createElement("option", {
+          value: "IO"
+        }, "\u0627\u0644\u0645\u062D\u064A\u0637 \u0627\u0644\u0647\u0646\u062F\u064A \u0627\u0644\u0628\u0631\u064A\u0637\u0627\u0646\u064A"), _react.default.createElement("option", {
+          value: "MA"
+        }, "\u0627\u0644\u0645\u063A\u0631\u0628"), _react.default.createElement("option", {
+          value: "TF"
+        }, "\u0627\u0644\u0645\u0642\u0627\u0637\u0639\u0627\u062A \u0627\u0644\u062C\u0646\u0648\u0628\u064A\u0629 \u0627\u0644\u0641\u0631\u0646\u0633\u064A\u0629"), _react.default.createElement("option", {
+          value: "MX"
+        }, "\u0627\u0644\u0645\u0643\u0633\u064A\u0643"), _react.default.createElement("option", {
+          value: "SA"
+        }, "\u0627\u0644\u0645\u0645\u0644\u0643\u0629 \u0627\u0644\u0639\u0631\u0628\u064A\u0629 \u0627\u0644\u0633\u0639\u0648\u062F\u064A\u0629"), _react.default.createElement("option", {
+          value: "GB"
+        }, "\u0627\u0644\u0645\u0645\u0644\u0643\u0629 \u0627\u0644\u0645\u062A\u062D\u062F\u0629"), _react.default.createElement("option", {
+          value: "NO"
+        }, "\u0627\u0644\u0646\u0631\u0648\u064A\u062C"), _react.default.createElement("option", {
+          value: "AT"
+        }, "\u0627\u0644\u0646\u0645\u0633\u0627"), _react.default.createElement("option", {
+          value: "NE"
+        }, "\u0627\u0644\u0646\u064A\u062C\u0631"), _react.default.createElement("option", {
+          value: "IN"
+        }, "\u0627\u0644\u0647\u0646\u062F"), _react.default.createElement("option", {
+          value: "US"
+        }, "\u0627\u0644\u0648\u0644\u0627\u064A\u0627\u062A \u0627\u0644\u0645\u062A\u062D\u062F\u0629 \u0627\u0644\u0623\u0645\u0631\u064A\u0643\u064A\u0629"), _react.default.createElement("option", {
+          value: "JP"
+        }, "\u0627\u0644\u064A\u0627\u0628\u0627\u0646"), _react.default.createElement("option", {
+          value: "YE"
+        }, "\u0627\u0644\u064A\u0645\u0646"), _react.default.createElement("option", {
+          value: "GR"
+        }, "\u0627\u0644\u064A\u0648\u0646\u0627\u0646"), _react.default.createElement("option", {
+          value: "ID"
+        }, "\u0627\u0646\u062F\u0648\u0646\u064A\u0633\u064A\u0627"), _react.default.createElement("option", {
+          value: "IR"
+        }, "\u0627\u064A\u0631\u0627\u0646"), _react.default.createElement("option", {
+          value: "IT"
+        }, "\u0627\u064A\u0637\u0627\u0644\u064A\u0627"), _react.default.createElement("option", {
+          value: "PG"
+        }, "\u0628\u0627\u0628\u0648\u0627 \u063A\u064A\u0646\u064A\u0627 \u0627\u0644\u062C\u062F\u064A\u062F\u0629"), _react.default.createElement("option", {
+          value: "PY"
+        }, "\u0628\u0627\u0631\u0627\u062C\u0648\u0627\u064A"), _react.default.createElement("option", {
+          value: "PK"
+        }, "\u0628\u0627\u0643\u0633\u062A\u0627\u0646"), _react.default.createElement("option", {
+          value: "PW"
+        }, "\u0628\u0627\u0644\u0627\u0648"), _react.default.createElement("option", {
+          value: "BW"
+        }, "\u0628\u062A\u0633\u0648\u0627\u0646\u0627"), _react.default.createElement("option", {
+          value: "PN"
+        }, "\u0628\u062A\u0643\u0627\u064A\u0631\u0646"), _react.default.createElement("option", {
+          value: "BB"
+        }, "\u0628\u0631\u0628\u0627\u062F\u0648\u0633"), _react.default.createElement("option", {
+          value: "BM"
+        }, "\u0628\u0631\u0645\u0648\u062F\u0627"), _react.default.createElement("option", {
+          value: "BN"
+        }, "\u0628\u0631\u0648\u0646\u0627\u064A"), _react.default.createElement("option", {
+          value: "BE"
+        }, "\u0628\u0644\u062C\u064A\u0643\u0627"), _react.default.createElement("option", {
+          value: "BG"
+        }, "\u0628\u0644\u063A\u0627\u0631\u064A\u0627"), _react.default.createElement("option", {
+          value: "BZ"
+        }, "\u0628\u0644\u064A\u0632"), _react.default.createElement("option", {
+          value: "BD"
+        }, "\u0628\u0646\u062C\u0644\u0627\u062F\u064A\u0634"), _react.default.createElement("option", {
+          value: "PA"
+        }, "\u0628\u0646\u0645\u0627"), _react.default.createElement("option", {
+          value: "BJ"
+        }, "\u0628\u0646\u064A\u0646"), _react.default.createElement("option", {
+          value: "BT"
+        }, "\u0628\u0648\u062A\u0627\u0646"), _react.default.createElement("option", {
+          value: "PR"
+        }, "\u0628\u0648\u0631\u062A\u0648\u0631\u064A\u0643\u0648"), _react.default.createElement("option", {
+          value: "BF"
+        }, "\u0628\u0648\u0631\u0643\u064A\u0646\u0627 \u0641\u0627\u0633\u0648"), _react.default.createElement("option", {
+          value: "BI"
+        }, "\u0628\u0648\u0631\u0648\u0646\u062F\u064A"), _react.default.createElement("option", {
+          value: "PL"
+        }, "\u0628\u0648\u0644\u0646\u062F\u0627"), _react.default.createElement("option", {
+          value: "BO"
+        }, "\u0628\u0648\u0644\u064A\u0641\u064A\u0627"), _react.default.createElement("option", {
+          value: "PF"
+        }, "\u0628\u0648\u0644\u064A\u0646\u064A\u0632\u064A\u0627 \u0627\u0644\u0641\u0631\u0646\u0633\u064A\u0629"), _react.default.createElement("option", {
+          value: "PE"
+        }, "\u0628\u064A\u0631\u0648"), _react.default.createElement("option", {
+          value: "TZ"
+        }, "\u062A\u0627\u0646\u0632\u0627\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "TH"
+        }, "\u062A\u0627\u064A\u0644\u0646\u062F"), _react.default.createElement("option", {
+          value: "TW"
+        }, "\u062A\u0627\u064A\u0648\u0627\u0646"), _react.default.createElement("option", {
+          value: "TM"
+        }, "\u062A\u0631\u0643\u0645\u0627\u0646\u0633\u062A\u0627\u0646"), _react.default.createElement("option", {
+          value: "TR"
+        }, "\u062A\u0631\u0643\u064A\u0627"), _react.default.createElement("option", {
+          value: "TT"
+        }, "\u062A\u0631\u064A\u0646\u064A\u062F\u0627\u062F \u0648\u062A\u0648\u0628\u0627\u063A\u0648"), _react.default.createElement("option", {
+          value: "TD"
+        }, "\u062A\u0634\u0627\u062F"), _react.default.createElement("option", {
+          value: "TG"
+        }, "\u062A\u0648\u062C\u0648"), _react.default.createElement("option", {
+          value: "TV"
+        }, "\u062A\u0648\u0641\u0627\u0644\u0648"), _react.default.createElement("option", {
+          value: "TK"
+        }, "\u062A\u0648\u0643\u064A\u0644\u0648"), _react.default.createElement("option", {
+          value: "TO"
+        }, "\u062A\u0648\u0646\u062C\u0627"), _react.default.createElement("option", {
+          value: "TN"
+        }, "\u062A\u0648\u0646\u0633"), _react.default.createElement("option", {
+          value: "TL"
+        }, "\u062A\u064A\u0645\u0648\u0631 \u0627\u0644\u0634\u0631\u0642\u064A\u0629"), _react.default.createElement("option", {
+          value: "JM"
+        }, "\u062C\u0627\u0645\u0627\u064A\u0643\u0627"), _react.default.createElement("option", {
+          value: "GI"
+        }, "\u062C\u0628\u0644 \u0637\u0627\u0631\u0642"), _react.default.createElement("option", {
+          value: "GD"
+        }, "\u062C\u0631\u064A\u0646\u0627\u062F\u0627"), _react.default.createElement("option", {
+          value: "GL"
+        }, "\u062C\u0631\u064A\u0646\u0644\u0627\u0646\u062F"), _react.default.createElement("option", {
+          value: "AX"
+        }, "\u062C\u0632\u0631 \u0623\u0648\u0644\u0627\u0646"), _react.default.createElement("option", {
+          value: "AN"
+        }, "\u062C\u0632\u0631 \u0627\u0644\u0623\u0646\u062A\u064A\u0644 \u0627\u0644\u0647\u0648\u0644\u0646\u062F\u064A\u0629"), _react.default.createElement("option", {
+          value: "TC"
+        }, "\u062C\u0632\u0631 \u0627\u0644\u062A\u0631\u0643 \u0648\u062C\u0627\u064A\u0643\u0648\u0633"), _react.default.createElement("option", {
+          value: "KM"
+        }, "\u062C\u0632\u0631 \u0627\u0644\u0642\u0645\u0631"), _react.default.createElement("option", {
+          value: "KY"
+        }, "\u062C\u0632\u0631 \u0627\u0644\u0643\u0627\u064A\u0645\u0646"), _react.default.createElement("option", {
+          value: "MH"
+        }, "\u062C\u0632\u0631 \u0627\u0644\u0645\u0627\u0631\u0634\u0627\u0644"), _react.default.createElement("option", {
+          value: "MV"
+        }, "\u062C\u0632\u0631 \u0627\u0644\u0645\u0644\u062F\u064A\u0641"), _react.default.createElement("option", {
+          value: "UM"
+        }, "\u062C\u0632\u0631 \u0627\u0644\u0648\u0644\u0627\u064A\u0627\u062A \u0627\u0644\u0645\u062A\u062D\u062F\u0629 \u0627\u0644\u0628\u0639\u064A\u062F\u0629 \u0627\u0644\u0635\u063A\u064A\u0631\u0629"), _react.default.createElement("option", {
+          value: "SB"
+        }, "\u062C\u0632\u0631 \u0633\u0644\u064A\u0645\u0627\u0646"), _react.default.createElement("option", {
+          value: "FO"
+        }, "\u062C\u0632\u0631 \u0641\u0627\u0631\u0648"), _react.default.createElement("option", {
+          value: "VI"
+        }, "\u062C\u0632\u0631 \u0641\u0631\u062C\u064A\u0646 \u0627\u0644\u0623\u0645\u0631\u064A\u0643\u064A\u0629"), _react.default.createElement("option", {
+          value: "VG"
+        }, "\u062C\u0632\u0631 \u0641\u0631\u062C\u064A\u0646 \u0627\u0644\u0628\u0631\u064A\u0637\u0627\u0646\u064A\u0629"), _react.default.createElement("option", {
+          value: "FK"
+        }, "\u062C\u0632\u0631 \u0641\u0648\u0643\u0644\u0627\u0646\u062F"), _react.default.createElement("option", {
+          value: "CK"
+        }, "\u062C\u0632\u0631 \u0643\u0648\u0643"), _react.default.createElement("option", {
+          value: "CC"
+        }, "\u062C\u0632\u0631 \u0643\u0648\u0643\u0648\u0633"), _react.default.createElement("option", {
+          value: "MP"
+        }, "\u062C\u0632\u0631 \u0645\u0627\u0631\u064A\u0627\u0646\u0627 \u0627\u0644\u0634\u0645\u0627\u0644\u064A\u0629"), _react.default.createElement("option", {
+          value: "WF"
+        }, "\u062C\u0632\u0631 \u0648\u0627\u0644\u0633 \u0648\u0641\u0648\u062A\u0648\u0646\u0627"), _react.default.createElement("option", {
+          value: "CX"
+        }, "\u062C\u0632\u064A\u0631\u0629 \u0627\u0644\u0643\u0631\u064A\u0633\u0645\u0627\u0633"), _react.default.createElement("option", {
+          value: "BV"
+        }, "\u062C\u0632\u064A\u0631\u0629 \u0628\u0648\u0641\u064A\u0647"), _react.default.createElement("option", {
+          value: "IM"
+        }, "\u062C\u0632\u064A\u0631\u0629 \u0645\u0627\u0646"), _react.default.createElement("option", {
+          value: "NF"
+        }, "\u062C\u0632\u064A\u0631\u0629 \u0646\u0648\u0631\u0641\u0648\u0643"), _react.default.createElement("option", {
+          value: "HM"
+        }, "\u062C\u0632\u064A\u0631\u0629 \u0647\u064A\u0631\u062F \u0648\u0645\u0627\u0643\u062F\u0648\u0646\u0627\u0644\u062F"), _react.default.createElement("option", {
+          value: "CF"
+        }, "\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u0627\u0641\u0631\u064A\u0642\u064A\u0627 \u0627\u0644\u0648\u0633\u0637\u0649"), _react.default.createElement("option", {
+          value: "CZ"
+        }, "\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u0627\u0644\u062A\u0634\u064A\u0643"), _react.default.createElement("option", {
+          value: "DO"
+        }, "\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u0627\u0644\u062F\u0648\u0645\u064A\u0646\u064A\u0643"), _react.default.createElement("option", {
+          value: "CD"
+        }, "\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u0627\u0644\u0643\u0648\u0646\u063A\u0648 \u0627\u0644\u062F\u064A\u0645\u0642\u0631\u0627\u0637\u064A\u0629"), _react.default.createElement("option", {
+          value: "ZA"
+        }, "\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u062C\u0646\u0648\u0628 \u0627\u0641\u0631\u064A\u0642\u064A\u0627"), _react.default.createElement("option", {
+          value: "GT"
+        }, "\u062C\u0648\u0627\u062A\u064A\u0645\u0627\u0644\u0627"), _react.default.createElement("option", {
+          value: "GP"
+        }, "\u062C\u0648\u0627\u062F\u0644\u0648\u0628"), _react.default.createElement("option", {
+          value: "GU"
+        }, "\u062C\u0648\u0627\u0645"), _react.default.createElement("option", {
+          value: "GE"
+        }, "\u062C\u0648\u0631\u062C\u064A\u0627"), _react.default.createElement("option", {
+          value: "GS"
+        }, "\u062C\u0648\u0631\u062C\u064A\u0627 \u0627\u0644\u062C\u0646\u0648\u0628\u064A\u0629 \u0648\u062C\u0632\u0631 \u0633\u0627\u0646\u062F\u0648\u064A\u062A\u0634 \u0627\u0644\u062C\u0646\u0648\u0628\u064A\u0629"), _react.default.createElement("option", {
+          value: "DJ"
+        }, "\u062C\u064A\u0628\u0648\u062A\u064A"), _react.default.createElement("option", {
+          value: "JE"
+        }, "\u062C\u064A\u0631\u0633\u064A"), _react.default.createElement("option", {
+          value: "DM"
+        }, "\u062F\u0648\u0645\u064A\u0646\u064A\u0643\u0627"), _react.default.createElement("option", {
+          value: "RW"
+        }, "\u0631\u0648\u0627\u0646\u062F\u0627"), _react.default.createElement("option", {
+          value: "RU"
+        }, "\u0631\u0648\u0633\u064A\u0627"), _react.default.createElement("option", {
+          value: "BY"
+        }, "\u0631\u0648\u0633\u064A\u0627 \u0627\u0644\u0628\u064A\u0636\u0627\u0621"), _react.default.createElement("option", {
+          value: "RO"
+        }, "\u0631\u0648\u0645\u0627\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "RE"
+        }, "\u0631\u0648\u064A\u0646\u064A\u0648\u0646"), _react.default.createElement("option", {
+          value: "ZM"
+        }, "\u0632\u0627\u0645\u0628\u064A\u0627"), _react.default.createElement("option", {
+          value: "ZW"
+        }, "\u0632\u064A\u0645\u0628\u0627\u0628\u0648\u064A"), _react.default.createElement("option", {
+          value: "CI"
+        }, "\u0633\u0627\u062D\u0644 \u0627\u0644\u0639\u0627\u062C"), _react.default.createElement("option", {
+          value: "WS"
+        }, "\u0633\u0627\u0645\u0648\u0627"), _react.default.createElement("option", {
+          value: "AS"
+        }, "\u0633\u0627\u0645\u0648\u0627 \u0627\u0644\u0623\u0645\u0631\u064A\u0643\u064A\u0629"), _react.default.createElement("option", {
+          value: "SM"
+        }, "\u0633\u0627\u0646 \u0645\u0627\u0631\u064A\u0646\u0648"), _react.default.createElement("option", {
+          value: "PM"
+        }, "\u0633\u0627\u0646\u062A \u0628\u064A\u064A\u0631 \u0648\u0645\u064A\u0643\u0648\u0644\u0648\u0646"), _react.default.createElement("option", {
+          value: "VC"
+        }, "\u0633\u0627\u0646\u062A \u0641\u0646\u0633\u0646\u062A \u0648\u063A\u0631\u0646\u0627\u062F\u064A\u0646"), _react.default.createElement("option", {
+          value: "KN"
+        }, "\u0633\u0627\u0646\u062A \u0643\u064A\u062A\u0633 \u0648\u0646\u064A\u0641\u064A\u0633"), _react.default.createElement("option", {
+          value: "LC"
+        }, "\u0633\u0627\u0646\u062A \u0644\u0648\u0633\u064A\u0627"), _react.default.createElement("option", {
+          value: "MF"
+        }, "\u0633\u0627\u0646\u062A \u0645\u0627\u0631\u062A\u064A\u0646"), _react.default.createElement("option", {
+          value: "SH"
+        }, "\u0633\u0627\u0646\u062A \u0647\u064A\u0644\u0646\u0627"), _react.default.createElement("option", {
+          value: "ST"
+        }, "\u0633\u0627\u0648 \u062A\u0648\u0645\u064A \u0648\u0628\u0631\u064A\u0646\u0633\u064A\u0628\u064A"), _react.default.createElement("option", {
+          value: "LK"
+        }, "\u0633\u0631\u064A\u0644\u0627\u0646\u0643\u0627"), _react.default.createElement("option", {
+          value: "SJ"
+        }, "\u0633\u0641\u0627\u0644\u0628\u0627\u0631\u062F \u0648\u062C\u0627\u0646 \u0645\u0627\u064A\u0627\u0646"), _react.default.createElement("option", {
+          value: "SK"
+        }, "\u0633\u0644\u0648\u0641\u0627\u0643\u064A\u0627"), _react.default.createElement("option", {
+          value: "SI"
+        }, "\u0633\u0644\u0648\u0641\u064A\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "SG"
+        }, "\u0633\u0646\u063A\u0627\u0641\u0648\u0631\u0629"), _react.default.createElement("option", {
+          value: "SZ"
+        }, "\u0633\u0648\u0627\u0632\u064A\u0644\u0627\u0646\u062F"), _react.default.createElement("option", {
+          value: "SY"
+        }, "\u0633\u0648\u0631\u064A\u0627"), _react.default.createElement("option", {
+          value: "SR"
+        }, "\u0633\u0648\u0631\u064A\u0646\u0627\u0645"), _react.default.createElement("option", {
+          value: "CH"
+        }, "\u0633\u0648\u064A\u0633\u0631\u0627"), _react.default.createElement("option", {
+          value: "SL"
+        }, "\u0633\u064A\u0631\u0627\u0644\u064A\u0648\u0646"), _react.default.createElement("option", {
+          value: "SC"
+        }, "\u0633\u064A\u0634\u0644"), _react.default.createElement("option", {
+          value: "CL"
+        }, "\u0634\u064A\u0644\u064A"), _react.default.createElement("option", {
+          value: "RS"
+        }, "\u0635\u0631\u0628\u064A\u0627"), _react.default.createElement("option", {
+          value: "CS"
+        }, "\u0635\u0631\u0628\u064A\u0627 \u0648\u0627\u0644\u062C\u0628\u0644 \u0627\u0644\u0623\u0633\u0648\u062F"), _react.default.createElement("option", {
+          value: "TJ"
+        }, "\u0637\u0627\u062C\u0643\u0633\u062A\u0627\u0646"), _react.default.createElement("option", {
+          value: "OM"
+        }, "\u0639\u0645\u0627\u0646"), _react.default.createElement("option", {
+          value: "GM"
+        }, "\u063A\u0627\u0645\u0628\u064A\u0627"), _react.default.createElement("option", {
+          value: "GH"
+        }, "\u063A\u0627\u0646\u0627"), _react.default.createElement("option", {
+          value: "GF"
+        }, "\u063A\u0648\u064A\u0627\u0646\u0627"), _react.default.createElement("option", {
+          value: "GY"
+        }, "\u063A\u064A\u0627\u0646\u0627"), _react.default.createElement("option", {
+          value: "GN"
+        }, "\u063A\u064A\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "GQ"
+        }, "\u063A\u064A\u0646\u064A\u0627 \u0627\u0644\u0627\u0633\u062A\u0648\u0627\u0626\u064A\u0629"), _react.default.createElement("option", {
+          value: "GW"
+        }, "\u063A\u064A\u0646\u064A\u0627 \u0628\u064A\u0633\u0627\u0648"), _react.default.createElement("option", {
+          value: "VU"
+        }, "\u0641\u0627\u0646\u0648\u0627\u062A\u0648"), _react.default.createElement("option", {
+          value: "FR"
+        }, "\u0641\u0631\u0646\u0633\u0627"), _react.default.createElement("option", {
+          value: "PS"
+        }, "\u0641\u0644\u0633\u0637\u064A\u0646"), _react.default.createElement("option", {
+          value: "VE"
+        }, "\u0641\u0646\u0632\u0648\u064A\u0644\u0627"), _react.default.createElement("option", {
+          value: "FI"
+        }, "\u0641\u0646\u0644\u0646\u062F\u0627"), _react.default.createElement("option", {
+          value: "VN"
+        }, "\u0641\u064A\u062A\u0646\u0627\u0645"), _react.default.createElement("option", {
+          value: "FJ"
+        }, "\u0641\u064A\u062C\u064A"), _react.default.createElement("option", {
+          value: "CY"
+        }, "\u0642\u0628\u0631\u0635"), _react.default.createElement("option", {
+          value: "KG"
+        }, "\u0642\u0631\u063A\u064A\u0632\u0633\u062A\u0627\u0646"), _react.default.createElement("option", {
+          value: "QA"
+        }, "\u0642\u0637\u0631"), _react.default.createElement("option", {
+          value: "KZ"
+        }, "\u0643\u0627\u0632\u0627\u062E\u0633\u062A\u0627\u0646"), _react.default.createElement("option", {
+          value: "NC"
+        }, "\u0643\u0627\u0644\u064A\u062F\u0648\u0646\u064A\u0627 \u0627\u0644\u062C\u062F\u064A\u062F\u0629"), _react.default.createElement("option", {
+          value: "HR"
+        }, "\u0643\u0631\u0648\u0627\u062A\u064A\u0627"), _react.default.createElement("option", {
+          value: "KH"
+        }, "\u0643\u0645\u0628\u0648\u062F\u064A\u0627"), _react.default.createElement("option", {
+          value: "CA"
+        }, "\u0643\u0646\u062F\u0627"), _react.default.createElement("option", {
+          value: "CU"
+        }, "\u0643\u0648\u0628\u0627"), _react.default.createElement("option", {
+          value: "KR"
+        }, "\u0643\u0648\u0631\u064A\u0627 \u0627\u0644\u062C\u0646\u0648\u0628\u064A\u0629"), _react.default.createElement("option", {
+          value: "KP"
+        }, "\u0643\u0648\u0631\u064A\u0627 \u0627\u0644\u0634\u0645\u0627\u0644\u064A\u0629"), _react.default.createElement("option", {
+          value: "CR"
+        }, "\u0643\u0648\u0633\u062A\u0627\u0631\u064A\u0643\u0627"), _react.default.createElement("option", {
+          value: "CO"
+        }, "\u0643\u0648\u0644\u0648\u0645\u0628\u064A\u0627"), _react.default.createElement("option", {
+          value: "KI"
+        }, "\u0643\u064A\u0631\u064A\u0628\u0627\u062A\u064A"), _react.default.createElement("option", {
+          value: "KE"
+        }, "\u0643\u064A\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "LV"
+        }, "\u0644\u0627\u062A\u0641\u064A\u0627"), _react.default.createElement("option", {
+          value: "LA"
+        }, "\u0644\u0627\u0648\u0633"), _react.default.createElement("option", {
+          value: "LB"
+        }, "\u0644\u0628\u0646\u0627\u0646"), _react.default.createElement("option", {
+          value: "LU"
+        }, "\u0644\u0648\u0643\u0633\u0645\u0628\u0648\u0631\u062C"), _react.default.createElement("option", {
+          value: "LY"
+        }, "\u0644\u064A\u0628\u064A\u0627"), _react.default.createElement("option", {
+          value: "LR"
+        }, "\u0644\u064A\u0628\u064A\u0631\u064A\u0627"), _react.default.createElement("option", {
+          value: "LT"
+        }, "\u0644\u064A\u062A\u0648\u0627\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "LI"
+        }, "\u0644\u064A\u062E\u062A\u0646\u0634\u062A\u0627\u064A\u0646"), _react.default.createElement("option", {
+          value: "LS"
+        }, "\u0644\u064A\u0633\u0648\u062A\u0648"), _react.default.createElement("option", {
+          value: "MQ"
+        }, "\u0645\u0627\u0631\u062A\u064A\u0646\u064A\u0643"), _react.default.createElement("option", {
+          value: "MO"
+        }, "\u0645\u0627\u0643\u0627\u0648 \u0627\u0644\u0635\u064A\u0646\u064A\u0629"), _react.default.createElement("option", {
+          value: "MT"
+        }, "\u0645\u0627\u0644\u0637\u0627"), _react.default.createElement("option", {
+          value: "ML"
+        }, "\u0645\u0627\u0644\u064A"), _react.default.createElement("option", {
+          value: "MY"
+        }, "\u0645\u0627\u0644\u064A\u0632\u064A\u0627"), _react.default.createElement("option", {
+          value: "YT"
+        }, "\u0645\u0627\u064A\u0648\u062A"), _react.default.createElement("option", {
+          value: "MG"
+        }, "\u0645\u062F\u063A\u0634\u0642\u0631"), _react.default.createElement("option", {
+          value: "EG"
+        }, "\u0645\u0635\u0631"), _react.default.createElement("option", {
+          value: "MK"
+        }, "\u0645\u0642\u062F\u0648\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "MW"
+        }, "\u0645\u0644\u0627\u0648\u064A"), _react.default.createElement("option", {
+          value: "ZZ"
+        }, "\u0645\u0646\u0637\u0642\u0629 \u063A\u064A\u0631 \u0645\u0639\u0631\u0641\u0629"), _react.default.createElement("option", {
+          value: "MN"
+        }, "\u0645\u0646\u063A\u0648\u0644\u064A\u0627"), _react.default.createElement("option", {
+          value: "MR"
+        }, "\u0645\u0648\u0631\u064A\u062A\u0627\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "MU"
+        }, "\u0645\u0648\u0631\u064A\u0634\u064A\u0648\u0633"), _react.default.createElement("option", {
+          value: "MZ"
+        }, "\u0645\u0648\u0632\u0645\u0628\u064A\u0642"), _react.default.createElement("option", {
+          value: "MD"
+        }, "\u0645\u0648\u0644\u062F\u0627\u0641\u064A\u0627"), _react.default.createElement("option", {
+          value: "MC"
+        }, "\u0645\u0648\u0646\u0627\u0643\u0648"), _react.default.createElement("option", {
+          value: "MS"
+        }, "\u0645\u0648\u0646\u062A\u0633\u0631\u0627\u062A"), _react.default.createElement("option", {
+          value: "MM"
+        }, "\u0645\u064A\u0627\u0646\u0645\u0627\u0631"), _react.default.createElement("option", {
+          value: "FM"
+        }, "\u0645\u064A\u0643\u0631\u0648\u0646\u064A\u0632\u064A\u0627"), _react.default.createElement("option", {
+          value: "NA"
+        }, "\u0646\u0627\u0645\u064A\u0628\u064A\u0627"), _react.default.createElement("option", {
+          value: "NR"
+        }, "\u0646\u0648\u0631\u0648"), _react.default.createElement("option", {
+          value: "NP"
+        }, "\u0646\u064A\u0628\u0627\u0644"), _react.default.createElement("option", {
+          value: "NG"
+        }, "\u0646\u064A\u062C\u064A\u0631\u064A\u0627"), _react.default.createElement("option", {
+          value: "NI"
+        }, "\u0646\u064A\u0643\u0627\u0631\u0627\u062C\u0648\u0627"), _react.default.createElement("option", {
+          value: "NZ"
+        }, "\u0646\u064A\u0648\u0632\u064A\u0644\u0627\u0646\u062F\u0627"), _react.default.createElement("option", {
+          value: "NU"
+        }, "\u0646\u064A\u0648\u064A"), _react.default.createElement("option", {
+          value: "HT"
+        }, "\u0647\u0627\u064A\u062A\u064A"), _react.default.createElement("option", {
+          value: "HN"
+        }, "\u0647\u0646\u062F\u0648\u0631\u0627\u0633"), _react.default.createElement("option", {
+          value: "NL"
+        }, "\u0647\u0648\u0644\u0646\u062F\u0627"), _react.default.createElement("option", {
+          value: "HK"
+        }, "\u0647\u0648\u0646\u062C \u0643\u0648\u0646\u062C \u0627\u0644\u0635\u064A\u0646\u064A\u0629"))), _react.default.createElement("div", {
+          className: "col-xs-2"
+        }, _react.default.createElement("label", {
+          for: "ex1"
+        }, "\u0627\u0644\u0628\u0631\u064A\u062F \u0627\u0644\u0627\u0644\u0643\u062A\u0631\u0648\u0646\u064A"), _react.default.createElement("input", {
+          className: "custom-select",
+          id: "ex3",
+          type: "text"
+        })), _react.default.createElement("div", {
+          className: "col-xs-2"
+        }, _react.default.createElement("label", {
+          for: "ex1"
+        }, "\u0627\u0644\u0647\u0627\u062A\u0641"), _react.default.createElement("input", {
+          className: "custom-select",
+          id: "ex3",
+          type: "text"
+        }))), _react.default.createElement("div", {
+          className: "form-group row"
+        }, _react.default.createElement("div", {
+          class: "col-xs-2"
+        }, _react.default.createElement("label", {
+          for: "ex1"
+        }, "\u0627\u0644\u0627\u0633\u0645 \u0627\u0644\u0631\u0628\u0627\u0639\u064A"), _react.default.createElement("input", {
+          className: "custom-select",
+          id: "ex1",
+          type: "text"
+        })), _react.default.createElement("div", {
+          className: "col-xs-2"
+        }, _react.default.createElement("label", {
+          for: "ex3"
+        }, "\u0627\u0644\u062C\u0646\u0633\u064A\u0629"), _react.default.createElement("select", {
+          className: "custom-select"
+        }, _react.default.createElement("option", {
+          value: "AW"
+        }, "\u0622\u0648\u0631\u0628\u0627"), _react.default.createElement("option", {
+          value: "AZ"
+        }, "\u0623\u0630\u0631\u0628\u064A\u062C\u0627\u0646"), _react.default.createElement("option", {
+          value: "AM"
+        }, "\u0623\u0631\u0645\u064A\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "ES"
+        }, "\u0623\u0633\u0628\u0627\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "AU"
+        }, "\u0623\u0633\u062A\u0631\u0627\u0644\u064A\u0627"), _react.default.createElement("option", {
+          value: "AF"
+        }, "\u0623\u0641\u063A\u0627\u0646\u0633\u062A\u0627\u0646"), _react.default.createElement("option", {
+          value: "AL"
+        }, "\u0623\u0644\u0628\u0627\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "DE"
+        }, "\u0623\u0644\u0645\u0627\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "AG"
+        }, "\u0623\u0646\u062A\u064A\u062C\u0648\u0627 \u0648\u0628\u0631\u0628\u0648\u062F\u0627"), _react.default.createElement("option", {
+          value: "AO"
+        }, "\u0623\u0646\u062C\u0648\u0644\u0627"), _react.default.createElement("option", {
+          value: "AI"
+        }, "\u0623\u0646\u062C\u0648\u064A\u0644\u0627"), _react.default.createElement("option", {
+          value: "AD"
+        }, "\u0623\u0646\u062F\u0648\u0631\u0627"), _react.default.createElement("option", {
+          value: "UY"
+        }, "\u0623\u0648\u0631\u062C\u0648\u0627\u064A"), _react.default.createElement("option", {
+          value: "UZ"
+        }, "\u0623\u0648\u0632\u0628\u0643\u0633\u062A\u0627\u0646"), _react.default.createElement("option", {
+          value: "UG"
+        }, "\u0623\u0648\u063A\u0646\u062F\u0627"), _react.default.createElement("option", {
+          value: "UA"
+        }, "\u0623\u0648\u0643\u0631\u0627\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "IE"
+        }, "\u0623\u064A\u0631\u0644\u0646\u062F\u0627"), _react.default.createElement("option", {
+          value: "IS"
+        }, "\u0623\u064A\u0633\u0644\u0646\u062F\u0627"), _react.default.createElement("option", {
+          value: "ET"
+        }, "\u0627\u062B\u064A\u0648\u0628\u064A\u0627"), _react.default.createElement("option", {
+          value: "ER"
+        }, "\u0627\u0631\u064A\u062A\u0631\u064A\u0627"), _react.default.createElement("option", {
+          value: "EE"
+        }, "\u0627\u0633\u062A\u0648\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "IL"
+        }, "\u0627\u0633\u0631\u0627\u0626\u064A\u0644"), _react.default.createElement("option", {
+          value: "AR"
+        }, "\u0627\u0644\u0623\u0631\u062C\u0646\u062A\u064A\u0646"), _react.default.createElement("option", {
+          value: "JO"
+        }, "\u0627\u0644\u0623\u0631\u062F\u0646"), _react.default.createElement("option", {
+          value: "EC"
+        }, "\u0627\u0644\u0627\u0643\u0648\u0627\u062F\u0648\u0631"), _react.default.createElement("option", {
+          value: "AE"
+        }, "\u0627\u0644\u0627\u0645\u0627\u0631\u0627\u062A \u0627\u0644\u0639\u0631\u0628\u064A\u0629 \u0627\u0644\u0645\u062A\u062D\u062F\u0629"), _react.default.createElement("option", {
+          value: "BS"
+        }, "\u0627\u0644\u0628\u0627\u0647\u0627\u0645\u0627"), _react.default.createElement("option", {
+          value: "BH"
+        }, "\u0627\u0644\u0628\u062D\u0631\u064A\u0646"), _react.default.createElement("option", {
+          value: "BR"
+        }, "\u0627\u0644\u0628\u0631\u0627\u0632\u064A\u0644"), _react.default.createElement("option", {
+          value: "PT"
+        }, "\u0627\u0644\u0628\u0631\u062A\u063A\u0627\u0644"), _react.default.createElement("option", {
+          value: "BA"
+        }, "\u0627\u0644\u0628\u0648\u0633\u0646\u0629 \u0648\u0627\u0644\u0647\u0631\u0633\u0643"), _react.default.createElement("option", {
+          value: "GA"
+        }, "\u0627\u0644\u062C\u0627\u0628\u0648\u0646"), _react.default.createElement("option", {
+          value: "ME"
+        }, "\u0627\u0644\u062C\u0628\u0644 \u0627\u0644\u0623\u0633\u0648\u062F"), _react.default.createElement("option", {
+          value: "DZ"
+        }, "\u0627\u0644\u062C\u0632\u0627\u0626\u0631"), _react.default.createElement("option", {
+          value: "DK"
+        }, "\u0627\u0644\u062F\u0627\u0646\u0645\u0631\u0643"), _react.default.createElement("option", {
+          value: "CV"
+        }, "\u0627\u0644\u0631\u0623\u0633 \u0627\u0644\u0623\u062E\u0636\u0631"), _react.default.createElement("option", {
+          value: "SV"
+        }, "\u0627\u0644\u0633\u0644\u0641\u0627\u062F\u0648\u0631"), _react.default.createElement("option", {
+          value: "SN"
+        }, "\u0627\u0644\u0633\u0646\u063A\u0627\u0644"), _react.default.createElement("option", {
+          value: "SD"
+        }, "\u0627\u0644\u0633\u0648\u062F\u0627\u0646"), _react.default.createElement("option", {
+          value: "SE"
+        }, "\u0627\u0644\u0633\u0648\u064A\u062F"), _react.default.createElement("option", {
+          value: "EH"
+        }, "\u0627\u0644\u0635\u062D\u0631\u0627\u0621 \u0627\u0644\u063A\u0631\u0628\u064A\u0629"), _react.default.createElement("option", {
+          value: "SO"
+        }, "\u0627\u0644\u0635\u0648\u0645\u0627\u0644"), _react.default.createElement("option", {
+          value: "CN"
+        }, "\u0627\u0644\u0635\u064A\u0646"), _react.default.createElement("option", {
+          value: "IQ"
+        }, "\u0627\u0644\u0639\u0631\u0627\u0642"), _react.default.createElement("option", {
+          value: "VA"
+        }, "\u0627\u0644\u0641\u0627\u062A\u064A\u0643\u0627\u0646"), _react.default.createElement("option", {
+          value: "PH"
+        }, "\u0627\u0644\u0641\u064A\u0644\u0628\u064A\u0646"), _react.default.createElement("option", {
+          value: "AQ"
+        }, "\u0627\u0644\u0642\u0637\u0628 \u0627\u0644\u062C\u0646\u0648\u0628\u064A"), _react.default.createElement("option", {
+          value: "CM"
+        }, "\u0627\u0644\u0643\u0627\u0645\u064A\u0631\u0648\u0646"), _react.default.createElement("option", {
+          value: "CG"
+        }, "\u0627\u0644\u0643\u0648\u0646\u063A\u0648 - \u0628\u0631\u0627\u0632\u0627\u0641\u064A\u0644"), _react.default.createElement("option", {
+          value: "KW"
+        }, "\u0627\u0644\u0643\u0648\u064A\u062A"), _react.default.createElement("option", {
+          value: "HU"
+        }, "\u0627\u0644\u0645\u062C\u0631"), _react.default.createElement("option", {
+          value: "IO"
+        }, "\u0627\u0644\u0645\u062D\u064A\u0637 \u0627\u0644\u0647\u0646\u062F\u064A \u0627\u0644\u0628\u0631\u064A\u0637\u0627\u0646\u064A"), _react.default.createElement("option", {
+          value: "MA"
+        }, "\u0627\u0644\u0645\u063A\u0631\u0628"), _react.default.createElement("option", {
+          value: "TF"
+        }, "\u0627\u0644\u0645\u0642\u0627\u0637\u0639\u0627\u062A \u0627\u0644\u062C\u0646\u0648\u0628\u064A\u0629 \u0627\u0644\u0641\u0631\u0646\u0633\u064A\u0629"), _react.default.createElement("option", {
+          value: "MX"
+        }, "\u0627\u0644\u0645\u0643\u0633\u064A\u0643"), _react.default.createElement("option", {
+          value: "SA"
+        }, "\u0627\u0644\u0645\u0645\u0644\u0643\u0629 \u0627\u0644\u0639\u0631\u0628\u064A\u0629 \u0627\u0644\u0633\u0639\u0648\u062F\u064A\u0629"), _react.default.createElement("option", {
+          value: "GB"
+        }, "\u0627\u0644\u0645\u0645\u0644\u0643\u0629 \u0627\u0644\u0645\u062A\u062D\u062F\u0629"), _react.default.createElement("option", {
+          value: "NO"
+        }, "\u0627\u0644\u0646\u0631\u0648\u064A\u062C"), _react.default.createElement("option", {
+          value: "AT"
+        }, "\u0627\u0644\u0646\u0645\u0633\u0627"), _react.default.createElement("option", {
+          value: "NE"
+        }, "\u0627\u0644\u0646\u064A\u062C\u0631"), _react.default.createElement("option", {
+          value: "IN"
+        }, "\u0627\u0644\u0647\u0646\u062F"), _react.default.createElement("option", {
+          value: "US"
+        }, "\u0627\u0644\u0648\u0644\u0627\u064A\u0627\u062A \u0627\u0644\u0645\u062A\u062D\u062F\u0629 \u0627\u0644\u0623\u0645\u0631\u064A\u0643\u064A\u0629"), _react.default.createElement("option", {
+          value: "JP"
+        }, "\u0627\u0644\u064A\u0627\u0628\u0627\u0646"), _react.default.createElement("option", {
+          value: "YE"
+        }, "\u0627\u0644\u064A\u0645\u0646"), _react.default.createElement("option", {
+          value: "GR"
+        }, "\u0627\u0644\u064A\u0648\u0646\u0627\u0646"), _react.default.createElement("option", {
+          value: "ID"
+        }, "\u0627\u0646\u062F\u0648\u0646\u064A\u0633\u064A\u0627"), _react.default.createElement("option", {
+          value: "IR"
+        }, "\u0627\u064A\u0631\u0627\u0646"), _react.default.createElement("option", {
+          value: "IT"
+        }, "\u0627\u064A\u0637\u0627\u0644\u064A\u0627"), _react.default.createElement("option", {
+          value: "PG"
+        }, "\u0628\u0627\u0628\u0648\u0627 \u063A\u064A\u0646\u064A\u0627 \u0627\u0644\u062C\u062F\u064A\u062F\u0629"), _react.default.createElement("option", {
+          value: "PY"
+        }, "\u0628\u0627\u0631\u0627\u062C\u0648\u0627\u064A"), _react.default.createElement("option", {
+          value: "PK"
+        }, "\u0628\u0627\u0643\u0633\u062A\u0627\u0646"), _react.default.createElement("option", {
+          value: "PW"
+        }, "\u0628\u0627\u0644\u0627\u0648"), _react.default.createElement("option", {
+          value: "BW"
+        }, "\u0628\u062A\u0633\u0648\u0627\u0646\u0627"), _react.default.createElement("option", {
+          value: "PN"
+        }, "\u0628\u062A\u0643\u0627\u064A\u0631\u0646"), _react.default.createElement("option", {
+          value: "BB"
+        }, "\u0628\u0631\u0628\u0627\u062F\u0648\u0633"), _react.default.createElement("option", {
+          value: "BM"
+        }, "\u0628\u0631\u0645\u0648\u062F\u0627"), _react.default.createElement("option", {
+          value: "BN"
+        }, "\u0628\u0631\u0648\u0646\u0627\u064A"), _react.default.createElement("option", {
+          value: "BE"
+        }, "\u0628\u0644\u062C\u064A\u0643\u0627"), _react.default.createElement("option", {
+          value: "BG"
+        }, "\u0628\u0644\u063A\u0627\u0631\u064A\u0627"), _react.default.createElement("option", {
+          value: "BZ"
+        }, "\u0628\u0644\u064A\u0632"), _react.default.createElement("option", {
+          value: "BD"
+        }, "\u0628\u0646\u062C\u0644\u0627\u062F\u064A\u0634"), _react.default.createElement("option", {
+          value: "PA"
+        }, "\u0628\u0646\u0645\u0627"), _react.default.createElement("option", {
+          value: "BJ"
+        }, "\u0628\u0646\u064A\u0646"), _react.default.createElement("option", {
+          value: "BT"
+        }, "\u0628\u0648\u062A\u0627\u0646"), _react.default.createElement("option", {
+          value: "PR"
+        }, "\u0628\u0648\u0631\u062A\u0648\u0631\u064A\u0643\u0648"), _react.default.createElement("option", {
+          value: "BF"
+        }, "\u0628\u0648\u0631\u0643\u064A\u0646\u0627 \u0641\u0627\u0633\u0648"), _react.default.createElement("option", {
+          value: "BI"
+        }, "\u0628\u0648\u0631\u0648\u0646\u062F\u064A"), _react.default.createElement("option", {
+          value: "PL"
+        }, "\u0628\u0648\u0644\u0646\u062F\u0627"), _react.default.createElement("option", {
+          value: "BO"
+        }, "\u0628\u0648\u0644\u064A\u0641\u064A\u0627"), _react.default.createElement("option", {
+          value: "PF"
+        }, "\u0628\u0648\u0644\u064A\u0646\u064A\u0632\u064A\u0627 \u0627\u0644\u0641\u0631\u0646\u0633\u064A\u0629"), _react.default.createElement("option", {
+          value: "PE"
+        }, "\u0628\u064A\u0631\u0648"), _react.default.createElement("option", {
+          value: "TZ"
+        }, "\u062A\u0627\u0646\u0632\u0627\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "TH"
+        }, "\u062A\u0627\u064A\u0644\u0646\u062F"), _react.default.createElement("option", {
+          value: "TW"
+        }, "\u062A\u0627\u064A\u0648\u0627\u0646"), _react.default.createElement("option", {
+          value: "TM"
+        }, "\u062A\u0631\u0643\u0645\u0627\u0646\u0633\u062A\u0627\u0646"), _react.default.createElement("option", {
+          value: "TR"
+        }, "\u062A\u0631\u0643\u064A\u0627"), _react.default.createElement("option", {
+          value: "TT"
+        }, "\u062A\u0631\u064A\u0646\u064A\u062F\u0627\u062F \u0648\u062A\u0648\u0628\u0627\u063A\u0648"), _react.default.createElement("option", {
+          value: "TD"
+        }, "\u062A\u0634\u0627\u062F"), _react.default.createElement("option", {
+          value: "TG"
+        }, "\u062A\u0648\u062C\u0648"), _react.default.createElement("option", {
+          value: "TV"
+        }, "\u062A\u0648\u0641\u0627\u0644\u0648"), _react.default.createElement("option", {
+          value: "TK"
+        }, "\u062A\u0648\u0643\u064A\u0644\u0648"), _react.default.createElement("option", {
+          value: "TO"
+        }, "\u062A\u0648\u0646\u062C\u0627"), _react.default.createElement("option", {
+          value: "TN"
+        }, "\u062A\u0648\u0646\u0633"), _react.default.createElement("option", {
+          value: "TL"
+        }, "\u062A\u064A\u0645\u0648\u0631 \u0627\u0644\u0634\u0631\u0642\u064A\u0629"), _react.default.createElement("option", {
+          value: "JM"
+        }, "\u062C\u0627\u0645\u0627\u064A\u0643\u0627"), _react.default.createElement("option", {
+          value: "GI"
+        }, "\u062C\u0628\u0644 \u0637\u0627\u0631\u0642"), _react.default.createElement("option", {
+          value: "GD"
+        }, "\u062C\u0631\u064A\u0646\u0627\u062F\u0627"), _react.default.createElement("option", {
+          value: "GL"
+        }, "\u062C\u0631\u064A\u0646\u0644\u0627\u0646\u062F"), _react.default.createElement("option", {
+          value: "AX"
+        }, "\u062C\u0632\u0631 \u0623\u0648\u0644\u0627\u0646"), _react.default.createElement("option", {
+          value: "AN"
+        }, "\u062C\u0632\u0631 \u0627\u0644\u0623\u0646\u062A\u064A\u0644 \u0627\u0644\u0647\u0648\u0644\u0646\u062F\u064A\u0629"), _react.default.createElement("option", {
+          value: "TC"
+        }, "\u062C\u0632\u0631 \u0627\u0644\u062A\u0631\u0643 \u0648\u062C\u0627\u064A\u0643\u0648\u0633"), _react.default.createElement("option", {
+          value: "KM"
+        }, "\u062C\u0632\u0631 \u0627\u0644\u0642\u0645\u0631"), _react.default.createElement("option", {
+          value: "KY"
+        }, "\u062C\u0632\u0631 \u0627\u0644\u0643\u0627\u064A\u0645\u0646"), _react.default.createElement("option", {
+          value: "MH"
+        }, "\u062C\u0632\u0631 \u0627\u0644\u0645\u0627\u0631\u0634\u0627\u0644"), _react.default.createElement("option", {
+          value: "MV"
+        }, "\u062C\u0632\u0631 \u0627\u0644\u0645\u0644\u062F\u064A\u0641"), _react.default.createElement("option", {
+          value: "UM"
+        }, "\u062C\u0632\u0631 \u0627\u0644\u0648\u0644\u0627\u064A\u0627\u062A \u0627\u0644\u0645\u062A\u062D\u062F\u0629 \u0627\u0644\u0628\u0639\u064A\u062F\u0629 \u0627\u0644\u0635\u063A\u064A\u0631\u0629"), _react.default.createElement("option", {
+          value: "SB"
+        }, "\u062C\u0632\u0631 \u0633\u0644\u064A\u0645\u0627\u0646"), _react.default.createElement("option", {
+          value: "FO"
+        }, "\u062C\u0632\u0631 \u0641\u0627\u0631\u0648"), _react.default.createElement("option", {
+          value: "VI"
+        }, "\u062C\u0632\u0631 \u0641\u0631\u062C\u064A\u0646 \u0627\u0644\u0623\u0645\u0631\u064A\u0643\u064A\u0629"), _react.default.createElement("option", {
+          value: "VG"
+        }, "\u062C\u0632\u0631 \u0641\u0631\u062C\u064A\u0646 \u0627\u0644\u0628\u0631\u064A\u0637\u0627\u0646\u064A\u0629"), _react.default.createElement("option", {
+          value: "FK"
+        }, "\u062C\u0632\u0631 \u0641\u0648\u0643\u0644\u0627\u0646\u062F"), _react.default.createElement("option", {
+          value: "CK"
+        }, "\u062C\u0632\u0631 \u0643\u0648\u0643"), _react.default.createElement("option", {
+          value: "CC"
+        }, "\u062C\u0632\u0631 \u0643\u0648\u0643\u0648\u0633"), _react.default.createElement("option", {
+          value: "MP"
+        }, "\u062C\u0632\u0631 \u0645\u0627\u0631\u064A\u0627\u0646\u0627 \u0627\u0644\u0634\u0645\u0627\u0644\u064A\u0629"), _react.default.createElement("option", {
+          value: "WF"
+        }, "\u062C\u0632\u0631 \u0648\u0627\u0644\u0633 \u0648\u0641\u0648\u062A\u0648\u0646\u0627"), _react.default.createElement("option", {
+          value: "CX"
+        }, "\u062C\u0632\u064A\u0631\u0629 \u0627\u0644\u0643\u0631\u064A\u0633\u0645\u0627\u0633"), _react.default.createElement("option", {
+          value: "BV"
+        }, "\u062C\u0632\u064A\u0631\u0629 \u0628\u0648\u0641\u064A\u0647"), _react.default.createElement("option", {
+          value: "IM"
+        }, "\u062C\u0632\u064A\u0631\u0629 \u0645\u0627\u0646"), _react.default.createElement("option", {
+          value: "NF"
+        }, "\u062C\u0632\u064A\u0631\u0629 \u0646\u0648\u0631\u0641\u0648\u0643"), _react.default.createElement("option", {
+          value: "HM"
+        }, "\u062C\u0632\u064A\u0631\u0629 \u0647\u064A\u0631\u062F \u0648\u0645\u0627\u0643\u062F\u0648\u0646\u0627\u0644\u062F"), _react.default.createElement("option", {
+          value: "CF"
+        }, "\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u0627\u0641\u0631\u064A\u0642\u064A\u0627 \u0627\u0644\u0648\u0633\u0637\u0649"), _react.default.createElement("option", {
+          value: "CZ"
+        }, "\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u0627\u0644\u062A\u0634\u064A\u0643"), _react.default.createElement("option", {
+          value: "DO"
+        }, "\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u0627\u0644\u062F\u0648\u0645\u064A\u0646\u064A\u0643"), _react.default.createElement("option", {
+          value: "CD"
+        }, "\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u0627\u0644\u0643\u0648\u0646\u063A\u0648 \u0627\u0644\u062F\u064A\u0645\u0642\u0631\u0627\u0637\u064A\u0629"), _react.default.createElement("option", {
+          value: "ZA"
+        }, "\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u062C\u0646\u0648\u0628 \u0627\u0641\u0631\u064A\u0642\u064A\u0627"), _react.default.createElement("option", {
+          value: "GT"
+        }, "\u062C\u0648\u0627\u062A\u064A\u0645\u0627\u0644\u0627"), _react.default.createElement("option", {
+          value: "GP"
+        }, "\u062C\u0648\u0627\u062F\u0644\u0648\u0628"), _react.default.createElement("option", {
+          value: "GU"
+        }, "\u062C\u0648\u0627\u0645"), _react.default.createElement("option", {
+          value: "GE"
+        }, "\u062C\u0648\u0631\u062C\u064A\u0627"), _react.default.createElement("option", {
+          value: "GS"
+        }, "\u062C\u0648\u0631\u062C\u064A\u0627 \u0627\u0644\u062C\u0646\u0648\u0628\u064A\u0629 \u0648\u062C\u0632\u0631 \u0633\u0627\u0646\u062F\u0648\u064A\u062A\u0634 \u0627\u0644\u062C\u0646\u0648\u0628\u064A\u0629"), _react.default.createElement("option", {
+          value: "DJ"
+        }, "\u062C\u064A\u0628\u0648\u062A\u064A"), _react.default.createElement("option", {
+          value: "JE"
+        }, "\u062C\u064A\u0631\u0633\u064A"), _react.default.createElement("option", {
+          value: "DM"
+        }, "\u062F\u0648\u0645\u064A\u0646\u064A\u0643\u0627"), _react.default.createElement("option", {
+          value: "RW"
+        }, "\u0631\u0648\u0627\u0646\u062F\u0627"), _react.default.createElement("option", {
+          value: "RU"
+        }, "\u0631\u0648\u0633\u064A\u0627"), _react.default.createElement("option", {
+          value: "BY"
+        }, "\u0631\u0648\u0633\u064A\u0627 \u0627\u0644\u0628\u064A\u0636\u0627\u0621"), _react.default.createElement("option", {
+          value: "RO"
+        }, "\u0631\u0648\u0645\u0627\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "RE"
+        }, "\u0631\u0648\u064A\u0646\u064A\u0648\u0646"), _react.default.createElement("option", {
+          value: "ZM"
+        }, "\u0632\u0627\u0645\u0628\u064A\u0627"), _react.default.createElement("option", {
+          value: "ZW"
+        }, "\u0632\u064A\u0645\u0628\u0627\u0628\u0648\u064A"), _react.default.createElement("option", {
+          value: "CI"
+        }, "\u0633\u0627\u062D\u0644 \u0627\u0644\u0639\u0627\u062C"), _react.default.createElement("option", {
+          value: "WS"
+        }, "\u0633\u0627\u0645\u0648\u0627"), _react.default.createElement("option", {
+          value: "AS"
+        }, "\u0633\u0627\u0645\u0648\u0627 \u0627\u0644\u0623\u0645\u0631\u064A\u0643\u064A\u0629"), _react.default.createElement("option", {
+          value: "SM"
+        }, "\u0633\u0627\u0646 \u0645\u0627\u0631\u064A\u0646\u0648"), _react.default.createElement("option", {
+          value: "PM"
+        }, "\u0633\u0627\u0646\u062A \u0628\u064A\u064A\u0631 \u0648\u0645\u064A\u0643\u0648\u0644\u0648\u0646"), _react.default.createElement("option", {
+          value: "VC"
+        }, "\u0633\u0627\u0646\u062A \u0641\u0646\u0633\u0646\u062A \u0648\u063A\u0631\u0646\u0627\u062F\u064A\u0646"), _react.default.createElement("option", {
+          value: "KN"
+        }, "\u0633\u0627\u0646\u062A \u0643\u064A\u062A\u0633 \u0648\u0646\u064A\u0641\u064A\u0633"), _react.default.createElement("option", {
+          value: "LC"
+        }, "\u0633\u0627\u0646\u062A \u0644\u0648\u0633\u064A\u0627"), _react.default.createElement("option", {
+          value: "MF"
+        }, "\u0633\u0627\u0646\u062A \u0645\u0627\u0631\u062A\u064A\u0646"), _react.default.createElement("option", {
+          value: "SH"
+        }, "\u0633\u0627\u0646\u062A \u0647\u064A\u0644\u0646\u0627"), _react.default.createElement("option", {
+          value: "ST"
+        }, "\u0633\u0627\u0648 \u062A\u0648\u0645\u064A \u0648\u0628\u0631\u064A\u0646\u0633\u064A\u0628\u064A"), _react.default.createElement("option", {
+          value: "LK"
+        }, "\u0633\u0631\u064A\u0644\u0627\u0646\u0643\u0627"), _react.default.createElement("option", {
+          value: "SJ"
+        }, "\u0633\u0641\u0627\u0644\u0628\u0627\u0631\u062F \u0648\u062C\u0627\u0646 \u0645\u0627\u064A\u0627\u0646"), _react.default.createElement("option", {
+          value: "SK"
+        }, "\u0633\u0644\u0648\u0641\u0627\u0643\u064A\u0627"), _react.default.createElement("option", {
+          value: "SI"
+        }, "\u0633\u0644\u0648\u0641\u064A\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "SG"
+        }, "\u0633\u0646\u063A\u0627\u0641\u0648\u0631\u0629"), _react.default.createElement("option", {
+          value: "SZ"
+        }, "\u0633\u0648\u0627\u0632\u064A\u0644\u0627\u0646\u062F"), _react.default.createElement("option", {
+          value: "SY"
+        }, "\u0633\u0648\u0631\u064A\u0627"), _react.default.createElement("option", {
+          value: "SR"
+        }, "\u0633\u0648\u0631\u064A\u0646\u0627\u0645"), _react.default.createElement("option", {
+          value: "CH"
+        }, "\u0633\u0648\u064A\u0633\u0631\u0627"), _react.default.createElement("option", {
+          value: "SL"
+        }, "\u0633\u064A\u0631\u0627\u0644\u064A\u0648\u0646"), _react.default.createElement("option", {
+          value: "SC"
+        }, "\u0633\u064A\u0634\u0644"), _react.default.createElement("option", {
+          value: "CL"
+        }, "\u0634\u064A\u0644\u064A"), _react.default.createElement("option", {
+          value: "RS"
+        }, "\u0635\u0631\u0628\u064A\u0627"), _react.default.createElement("option", {
+          value: "CS"
+        }, "\u0635\u0631\u0628\u064A\u0627 \u0648\u0627\u0644\u062C\u0628\u0644 \u0627\u0644\u0623\u0633\u0648\u062F"), _react.default.createElement("option", {
+          value: "TJ"
+        }, "\u0637\u0627\u062C\u0643\u0633\u062A\u0627\u0646"), _react.default.createElement("option", {
+          value: "OM"
+        }, "\u0639\u0645\u0627\u0646"), _react.default.createElement("option", {
+          value: "GM"
+        }, "\u063A\u0627\u0645\u0628\u064A\u0627"), _react.default.createElement("option", {
+          value: "GH"
+        }, "\u063A\u0627\u0646\u0627"), _react.default.createElement("option", {
+          value: "GF"
+        }, "\u063A\u0648\u064A\u0627\u0646\u0627"), _react.default.createElement("option", {
+          value: "GY"
+        }, "\u063A\u064A\u0627\u0646\u0627"), _react.default.createElement("option", {
+          value: "GN"
+        }, "\u063A\u064A\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "GQ"
+        }, "\u063A\u064A\u0646\u064A\u0627 \u0627\u0644\u0627\u0633\u062A\u0648\u0627\u0626\u064A\u0629"), _react.default.createElement("option", {
+          value: "GW"
+        }, "\u063A\u064A\u0646\u064A\u0627 \u0628\u064A\u0633\u0627\u0648"), _react.default.createElement("option", {
+          value: "VU"
+        }, "\u0641\u0627\u0646\u0648\u0627\u062A\u0648"), _react.default.createElement("option", {
+          value: "FR"
+        }, "\u0641\u0631\u0646\u0633\u0627"), _react.default.createElement("option", {
+          value: "PS"
+        }, "\u0641\u0644\u0633\u0637\u064A\u0646"), _react.default.createElement("option", {
+          value: "VE"
+        }, "\u0641\u0646\u0632\u0648\u064A\u0644\u0627"), _react.default.createElement("option", {
+          value: "FI"
+        }, "\u0641\u0646\u0644\u0646\u062F\u0627"), _react.default.createElement("option", {
+          value: "VN"
+        }, "\u0641\u064A\u062A\u0646\u0627\u0645"), _react.default.createElement("option", {
+          value: "FJ"
+        }, "\u0641\u064A\u062C\u064A"), _react.default.createElement("option", {
+          value: "CY"
+        }, "\u0642\u0628\u0631\u0635"), _react.default.createElement("option", {
+          value: "KG"
+        }, "\u0642\u0631\u063A\u064A\u0632\u0633\u062A\u0627\u0646"), _react.default.createElement("option", {
+          value: "QA"
+        }, "\u0642\u0637\u0631"), _react.default.createElement("option", {
+          value: "KZ"
+        }, "\u0643\u0627\u0632\u0627\u062E\u0633\u062A\u0627\u0646"), _react.default.createElement("option", {
+          value: "NC"
+        }, "\u0643\u0627\u0644\u064A\u062F\u0648\u0646\u064A\u0627 \u0627\u0644\u062C\u062F\u064A\u062F\u0629"), _react.default.createElement("option", {
+          value: "HR"
+        }, "\u0643\u0631\u0648\u0627\u062A\u064A\u0627"), _react.default.createElement("option", {
+          value: "KH"
+        }, "\u0643\u0645\u0628\u0648\u062F\u064A\u0627"), _react.default.createElement("option", {
+          value: "CA"
+        }, "\u0643\u0646\u062F\u0627"), _react.default.createElement("option", {
+          value: "CU"
+        }, "\u0643\u0648\u0628\u0627"), _react.default.createElement("option", {
+          value: "KR"
+        }, "\u0643\u0648\u0631\u064A\u0627 \u0627\u0644\u062C\u0646\u0648\u0628\u064A\u0629"), _react.default.createElement("option", {
+          value: "KP"
+        }, "\u0643\u0648\u0631\u064A\u0627 \u0627\u0644\u0634\u0645\u0627\u0644\u064A\u0629"), _react.default.createElement("option", {
+          value: "CR"
+        }, "\u0643\u0648\u0633\u062A\u0627\u0631\u064A\u0643\u0627"), _react.default.createElement("option", {
+          value: "CO"
+        }, "\u0643\u0648\u0644\u0648\u0645\u0628\u064A\u0627"), _react.default.createElement("option", {
+          value: "KI"
+        }, "\u0643\u064A\u0631\u064A\u0628\u0627\u062A\u064A"), _react.default.createElement("option", {
+          value: "KE"
+        }, "\u0643\u064A\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "LV"
+        }, "\u0644\u0627\u062A\u0641\u064A\u0627"), _react.default.createElement("option", {
+          value: "LA"
+        }, "\u0644\u0627\u0648\u0633"), _react.default.createElement("option", {
+          value: "LB"
+        }, "\u0644\u0628\u0646\u0627\u0646"), _react.default.createElement("option", {
+          value: "LU"
+        }, "\u0644\u0648\u0643\u0633\u0645\u0628\u0648\u0631\u062C"), _react.default.createElement("option", {
+          value: "LY"
+        }, "\u0644\u064A\u0628\u064A\u0627"), _react.default.createElement("option", {
+          value: "LR"
+        }, "\u0644\u064A\u0628\u064A\u0631\u064A\u0627"), _react.default.createElement("option", {
+          value: "LT"
+        }, "\u0644\u064A\u062A\u0648\u0627\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "LI"
+        }, "\u0644\u064A\u062E\u062A\u0646\u0634\u062A\u0627\u064A\u0646"), _react.default.createElement("option", {
+          value: "LS"
+        }, "\u0644\u064A\u0633\u0648\u062A\u0648"), _react.default.createElement("option", {
+          value: "MQ"
+        }, "\u0645\u0627\u0631\u062A\u064A\u0646\u064A\u0643"), _react.default.createElement("option", {
+          value: "MO"
+        }, "\u0645\u0627\u0643\u0627\u0648 \u0627\u0644\u0635\u064A\u0646\u064A\u0629"), _react.default.createElement("option", {
+          value: "MT"
+        }, "\u0645\u0627\u0644\u0637\u0627"), _react.default.createElement("option", {
+          value: "ML"
+        }, "\u0645\u0627\u0644\u064A"), _react.default.createElement("option", {
+          value: "MY"
+        }, "\u0645\u0627\u0644\u064A\u0632\u064A\u0627"), _react.default.createElement("option", {
+          value: "YT"
+        }, "\u0645\u0627\u064A\u0648\u062A"), _react.default.createElement("option", {
+          value: "MG"
+        }, "\u0645\u062F\u063A\u0634\u0642\u0631"), _react.default.createElement("option", {
+          value: "EG"
+        }, "\u0645\u0635\u0631"), _react.default.createElement("option", {
+          value: "MK"
+        }, "\u0645\u0642\u062F\u0648\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "MW"
+        }, "\u0645\u0644\u0627\u0648\u064A"), _react.default.createElement("option", {
+          value: "ZZ"
+        }, "\u0645\u0646\u0637\u0642\u0629 \u063A\u064A\u0631 \u0645\u0639\u0631\u0641\u0629"), _react.default.createElement("option", {
+          value: "MN"
+        }, "\u0645\u0646\u063A\u0648\u0644\u064A\u0627"), _react.default.createElement("option", {
+          value: "MR"
+        }, "\u0645\u0648\u0631\u064A\u062A\u0627\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "MU"
+        }, "\u0645\u0648\u0631\u064A\u0634\u064A\u0648\u0633"), _react.default.createElement("option", {
+          value: "MZ"
+        }, "\u0645\u0648\u0632\u0645\u0628\u064A\u0642"), _react.default.createElement("option", {
+          value: "MD"
+        }, "\u0645\u0648\u0644\u062F\u0627\u0641\u064A\u0627"), _react.default.createElement("option", {
+          value: "MC"
+        }, "\u0645\u0648\u0646\u0627\u0643\u0648"), _react.default.createElement("option", {
+          value: "MS"
+        }, "\u0645\u0648\u0646\u062A\u0633\u0631\u0627\u062A"), _react.default.createElement("option", {
+          value: "MM"
+        }, "\u0645\u064A\u0627\u0646\u0645\u0627\u0631"), _react.default.createElement("option", {
+          value: "FM"
+        }, "\u0645\u064A\u0643\u0631\u0648\u0646\u064A\u0632\u064A\u0627"), _react.default.createElement("option", {
+          value: "NA"
+        }, "\u0646\u0627\u0645\u064A\u0628\u064A\u0627"), _react.default.createElement("option", {
+          value: "NR"
+        }, "\u0646\u0648\u0631\u0648"), _react.default.createElement("option", {
+          value: "NP"
+        }, "\u0646\u064A\u0628\u0627\u0644"), _react.default.createElement("option", {
+          value: "NG"
+        }, "\u0646\u064A\u062C\u064A\u0631\u064A\u0627"), _react.default.createElement("option", {
+          value: "NI"
+        }, "\u0646\u064A\u0643\u0627\u0631\u0627\u062C\u0648\u0627"), _react.default.createElement("option", {
+          value: "NZ"
+        }, "\u0646\u064A\u0648\u0632\u064A\u0644\u0627\u0646\u062F\u0627"), _react.default.createElement("option", {
+          value: "NU"
+        }, "\u0646\u064A\u0648\u064A"), _react.default.createElement("option", {
+          value: "HT"
+        }, "\u0647\u0627\u064A\u062A\u064A"), _react.default.createElement("option", {
+          value: "HN"
+        }, "\u0647\u0646\u062F\u0648\u0631\u0627\u0633"), _react.default.createElement("option", {
+          value: "NL"
+        }, "\u0647\u0648\u0644\u0646\u062F\u0627"), _react.default.createElement("option", {
+          value: "HK"
+        }, "\u0647\u0648\u0646\u062C \u0643\u0648\u0646\u062C \u0627\u0644\u0635\u064A\u0646\u064A\u0629"))), _react.default.createElement("div", {
+          className: "col-xs-2"
+        }, _react.default.createElement("label", {
+          for: "ex2"
+        }, "\u0627\u0644\u0628\u0631\u064A\u062F \u0627\u0644\u0627\u0644\u0643\u062A\u0631\u0648\u0646\u064A"), _react.default.createElement("input", {
+          class: "custom-select",
+          id: "ex2",
+          type: "text"
+        })), _react.default.createElement("div", {
+          className: "col-xs-2"
+        }, _react.default.createElement("label", {
+          for: "ex3"
+        }, "\u0627\u0644\u0647\u0627\u062A\u0641"), _react.default.createElement("input", {
+          className: "custom-select",
+          id: "ex3",
+          type: "text"
+        }))), _react.default.createElement("div", {
+          className: "form-group row"
+        }, _react.default.createElement("div", {
+          class: "col-xs-2"
+        }, _react.default.createElement("label", {
+          for: "ex1"
+        }, "\u0627\u0644\u0627\u0633\u0645 \u0627\u0644\u0631\u0628\u0627\u0639\u064A"), _react.default.createElement("input", {
+          className: "custom-select",
+          id: "ex1",
+          type: "text"
+        })), _react.default.createElement("div", {
+          className: "col-xs-2"
+        }, _react.default.createElement("label", {
+          for: "ex3"
+        }, "\u0627\u0644\u062C\u0646\u0633\u064A\u0629"), _react.default.createElement("select", {
+          className: "custom-select"
+        }, _react.default.createElement("option", {
+          value: "AW"
+        }, "\u0622\u0648\u0631\u0628\u0627"), _react.default.createElement("option", {
+          value: "AZ"
+        }, "\u0623\u0630\u0631\u0628\u064A\u062C\u0627\u0646"), _react.default.createElement("option", {
+          value: "AM"
+        }, "\u0623\u0631\u0645\u064A\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "ES"
+        }, "\u0623\u0633\u0628\u0627\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "AU"
+        }, "\u0623\u0633\u062A\u0631\u0627\u0644\u064A\u0627"), _react.default.createElement("option", {
+          value: "AF"
+        }, "\u0623\u0641\u063A\u0627\u0646\u0633\u062A\u0627\u0646"), _react.default.createElement("option", {
+          value: "AL"
+        }, "\u0623\u0644\u0628\u0627\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "DE"
+        }, "\u0623\u0644\u0645\u0627\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "AG"
+        }, "\u0623\u0646\u062A\u064A\u062C\u0648\u0627 \u0648\u0628\u0631\u0628\u0648\u062F\u0627"), _react.default.createElement("option", {
+          value: "AO"
+        }, "\u0623\u0646\u062C\u0648\u0644\u0627"), _react.default.createElement("option", {
+          value: "AI"
+        }, "\u0623\u0646\u062C\u0648\u064A\u0644\u0627"), _react.default.createElement("option", {
+          value: "AD"
+        }, "\u0623\u0646\u062F\u0648\u0631\u0627"), _react.default.createElement("option", {
+          value: "UY"
+        }, "\u0623\u0648\u0631\u062C\u0648\u0627\u064A"), _react.default.createElement("option", {
+          value: "UZ"
+        }, "\u0623\u0648\u0632\u0628\u0643\u0633\u062A\u0627\u0646"), _react.default.createElement("option", {
+          value: "UG"
+        }, "\u0623\u0648\u063A\u0646\u062F\u0627"), _react.default.createElement("option", {
+          value: "UA"
+        }, "\u0623\u0648\u0643\u0631\u0627\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "IE"
+        }, "\u0623\u064A\u0631\u0644\u0646\u062F\u0627"), _react.default.createElement("option", {
+          value: "IS"
+        }, "\u0623\u064A\u0633\u0644\u0646\u062F\u0627"), _react.default.createElement("option", {
+          value: "ET"
+        }, "\u0627\u062B\u064A\u0648\u0628\u064A\u0627"), _react.default.createElement("option", {
+          value: "ER"
+        }, "\u0627\u0631\u064A\u062A\u0631\u064A\u0627"), _react.default.createElement("option", {
+          value: "EE"
+        }, "\u0627\u0633\u062A\u0648\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "IL"
+        }, "\u0627\u0633\u0631\u0627\u0626\u064A\u0644"), _react.default.createElement("option", {
+          value: "AR"
+        }, "\u0627\u0644\u0623\u0631\u062C\u0646\u062A\u064A\u0646"), _react.default.createElement("option", {
+          value: "JO"
+        }, "\u0627\u0644\u0623\u0631\u062F\u0646"), _react.default.createElement("option", {
+          value: "EC"
+        }, "\u0627\u0644\u0627\u0643\u0648\u0627\u062F\u0648\u0631"), _react.default.createElement("option", {
+          value: "AE"
+        }, "\u0627\u0644\u0627\u0645\u0627\u0631\u0627\u062A \u0627\u0644\u0639\u0631\u0628\u064A\u0629 \u0627\u0644\u0645\u062A\u062D\u062F\u0629"), _react.default.createElement("option", {
+          value: "BS"
+        }, "\u0627\u0644\u0628\u0627\u0647\u0627\u0645\u0627"), _react.default.createElement("option", {
+          value: "BH"
+        }, "\u0627\u0644\u0628\u062D\u0631\u064A\u0646"), _react.default.createElement("option", {
+          value: "BR"
+        }, "\u0627\u0644\u0628\u0631\u0627\u0632\u064A\u0644"), _react.default.createElement("option", {
+          value: "PT"
+        }, "\u0627\u0644\u0628\u0631\u062A\u063A\u0627\u0644"), _react.default.createElement("option", {
+          value: "BA"
+        }, "\u0627\u0644\u0628\u0648\u0633\u0646\u0629 \u0648\u0627\u0644\u0647\u0631\u0633\u0643"), _react.default.createElement("option", {
+          value: "GA"
+        }, "\u0627\u0644\u062C\u0627\u0628\u0648\u0646"), _react.default.createElement("option", {
+          value: "ME"
+        }, "\u0627\u0644\u062C\u0628\u0644 \u0627\u0644\u0623\u0633\u0648\u062F"), _react.default.createElement("option", {
+          value: "DZ"
+        }, "\u0627\u0644\u062C\u0632\u0627\u0626\u0631"), _react.default.createElement("option", {
+          value: "DK"
+        }, "\u0627\u0644\u062F\u0627\u0646\u0645\u0631\u0643"), _react.default.createElement("option", {
+          value: "CV"
+        }, "\u0627\u0644\u0631\u0623\u0633 \u0627\u0644\u0623\u062E\u0636\u0631"), _react.default.createElement("option", {
+          value: "SV"
+        }, "\u0627\u0644\u0633\u0644\u0641\u0627\u062F\u0648\u0631"), _react.default.createElement("option", {
+          value: "SN"
+        }, "\u0627\u0644\u0633\u0646\u063A\u0627\u0644"), _react.default.createElement("option", {
+          value: "SD"
+        }, "\u0627\u0644\u0633\u0648\u062F\u0627\u0646"), _react.default.createElement("option", {
+          value: "SE"
+        }, "\u0627\u0644\u0633\u0648\u064A\u062F"), _react.default.createElement("option", {
+          value: "EH"
+        }, "\u0627\u0644\u0635\u062D\u0631\u0627\u0621 \u0627\u0644\u063A\u0631\u0628\u064A\u0629"), _react.default.createElement("option", {
+          value: "SO"
+        }, "\u0627\u0644\u0635\u0648\u0645\u0627\u0644"), _react.default.createElement("option", {
+          value: "CN"
+        }, "\u0627\u0644\u0635\u064A\u0646"), _react.default.createElement("option", {
+          value: "IQ"
+        }, "\u0627\u0644\u0639\u0631\u0627\u0642"), _react.default.createElement("option", {
+          value: "VA"
+        }, "\u0627\u0644\u0641\u0627\u062A\u064A\u0643\u0627\u0646"), _react.default.createElement("option", {
+          value: "PH"
+        }, "\u0627\u0644\u0641\u064A\u0644\u0628\u064A\u0646"), _react.default.createElement("option", {
+          value: "AQ"
+        }, "\u0627\u0644\u0642\u0637\u0628 \u0627\u0644\u062C\u0646\u0648\u0628\u064A"), _react.default.createElement("option", {
+          value: "CM"
+        }, "\u0627\u0644\u0643\u0627\u0645\u064A\u0631\u0648\u0646"), _react.default.createElement("option", {
+          value: "CG"
+        }, "\u0627\u0644\u0643\u0648\u0646\u063A\u0648 - \u0628\u0631\u0627\u0632\u0627\u0641\u064A\u0644"), _react.default.createElement("option", {
+          value: "KW"
+        }, "\u0627\u0644\u0643\u0648\u064A\u062A"), _react.default.createElement("option", {
+          value: "HU"
+        }, "\u0627\u0644\u0645\u062C\u0631"), _react.default.createElement("option", {
+          value: "IO"
+        }, "\u0627\u0644\u0645\u062D\u064A\u0637 \u0627\u0644\u0647\u0646\u062F\u064A \u0627\u0644\u0628\u0631\u064A\u0637\u0627\u0646\u064A"), _react.default.createElement("option", {
+          value: "MA"
+        }, "\u0627\u0644\u0645\u063A\u0631\u0628"), _react.default.createElement("option", {
+          value: "TF"
+        }, "\u0627\u0644\u0645\u0642\u0627\u0637\u0639\u0627\u062A \u0627\u0644\u062C\u0646\u0648\u0628\u064A\u0629 \u0627\u0644\u0641\u0631\u0646\u0633\u064A\u0629"), _react.default.createElement("option", {
+          value: "MX"
+        }, "\u0627\u0644\u0645\u0643\u0633\u064A\u0643"), _react.default.createElement("option", {
+          value: "SA"
+        }, "\u0627\u0644\u0645\u0645\u0644\u0643\u0629 \u0627\u0644\u0639\u0631\u0628\u064A\u0629 \u0627\u0644\u0633\u0639\u0648\u062F\u064A\u0629"), _react.default.createElement("option", {
+          value: "GB"
+        }, "\u0627\u0644\u0645\u0645\u0644\u0643\u0629 \u0627\u0644\u0645\u062A\u062D\u062F\u0629"), _react.default.createElement("option", {
+          value: "NO"
+        }, "\u0627\u0644\u0646\u0631\u0648\u064A\u062C"), _react.default.createElement("option", {
+          value: "AT"
+        }, "\u0627\u0644\u0646\u0645\u0633\u0627"), _react.default.createElement("option", {
+          value: "NE"
+        }, "\u0627\u0644\u0646\u064A\u062C\u0631"), _react.default.createElement("option", {
+          value: "IN"
+        }, "\u0627\u0644\u0647\u0646\u062F"), _react.default.createElement("option", {
+          value: "US"
+        }, "\u0627\u0644\u0648\u0644\u0627\u064A\u0627\u062A \u0627\u0644\u0645\u062A\u062D\u062F\u0629 \u0627\u0644\u0623\u0645\u0631\u064A\u0643\u064A\u0629"), _react.default.createElement("option", {
+          value: "JP"
+        }, "\u0627\u0644\u064A\u0627\u0628\u0627\u0646"), _react.default.createElement("option", {
+          value: "YE"
+        }, "\u0627\u0644\u064A\u0645\u0646"), _react.default.createElement("option", {
+          value: "GR"
+        }, "\u0627\u0644\u064A\u0648\u0646\u0627\u0646"), _react.default.createElement("option", {
+          value: "ID"
+        }, "\u0627\u0646\u062F\u0648\u0646\u064A\u0633\u064A\u0627"), _react.default.createElement("option", {
+          value: "IR"
+        }, "\u0627\u064A\u0631\u0627\u0646"), _react.default.createElement("option", {
+          value: "IT"
+        }, "\u0627\u064A\u0637\u0627\u0644\u064A\u0627"), _react.default.createElement("option", {
+          value: "PG"
+        }, "\u0628\u0627\u0628\u0648\u0627 \u063A\u064A\u0646\u064A\u0627 \u0627\u0644\u062C\u062F\u064A\u062F\u0629"), _react.default.createElement("option", {
+          value: "PY"
+        }, "\u0628\u0627\u0631\u0627\u062C\u0648\u0627\u064A"), _react.default.createElement("option", {
+          value: "PK"
+        }, "\u0628\u0627\u0643\u0633\u062A\u0627\u0646"), _react.default.createElement("option", {
+          value: "PW"
+        }, "\u0628\u0627\u0644\u0627\u0648"), _react.default.createElement("option", {
+          value: "BW"
+        }, "\u0628\u062A\u0633\u0648\u0627\u0646\u0627"), _react.default.createElement("option", {
+          value: "PN"
+        }, "\u0628\u062A\u0643\u0627\u064A\u0631\u0646"), _react.default.createElement("option", {
+          value: "BB"
+        }, "\u0628\u0631\u0628\u0627\u062F\u0648\u0633"), _react.default.createElement("option", {
+          value: "BM"
+        }, "\u0628\u0631\u0645\u0648\u062F\u0627"), _react.default.createElement("option", {
+          value: "BN"
+        }, "\u0628\u0631\u0648\u0646\u0627\u064A"), _react.default.createElement("option", {
+          value: "BE"
+        }, "\u0628\u0644\u062C\u064A\u0643\u0627"), _react.default.createElement("option", {
+          value: "BG"
+        }, "\u0628\u0644\u063A\u0627\u0631\u064A\u0627"), _react.default.createElement("option", {
+          value: "BZ"
+        }, "\u0628\u0644\u064A\u0632"), _react.default.createElement("option", {
+          value: "BD"
+        }, "\u0628\u0646\u062C\u0644\u0627\u062F\u064A\u0634"), _react.default.createElement("option", {
+          value: "PA"
+        }, "\u0628\u0646\u0645\u0627"), _react.default.createElement("option", {
+          value: "BJ"
+        }, "\u0628\u0646\u064A\u0646"), _react.default.createElement("option", {
+          value: "BT"
+        }, "\u0628\u0648\u062A\u0627\u0646"), _react.default.createElement("option", {
+          value: "PR"
+        }, "\u0628\u0648\u0631\u062A\u0648\u0631\u064A\u0643\u0648"), _react.default.createElement("option", {
+          value: "BF"
+        }, "\u0628\u0648\u0631\u0643\u064A\u0646\u0627 \u0641\u0627\u0633\u0648"), _react.default.createElement("option", {
+          value: "BI"
+        }, "\u0628\u0648\u0631\u0648\u0646\u062F\u064A"), _react.default.createElement("option", {
+          value: "PL"
+        }, "\u0628\u0648\u0644\u0646\u062F\u0627"), _react.default.createElement("option", {
+          value: "BO"
+        }, "\u0628\u0648\u0644\u064A\u0641\u064A\u0627"), _react.default.createElement("option", {
+          value: "PF"
+        }, "\u0628\u0648\u0644\u064A\u0646\u064A\u0632\u064A\u0627 \u0627\u0644\u0641\u0631\u0646\u0633\u064A\u0629"), _react.default.createElement("option", {
+          value: "PE"
+        }, "\u0628\u064A\u0631\u0648"), _react.default.createElement("option", {
+          value: "TZ"
+        }, "\u062A\u0627\u0646\u0632\u0627\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "TH"
+        }, "\u062A\u0627\u064A\u0644\u0646\u062F"), _react.default.createElement("option", {
+          value: "TW"
+        }, "\u062A\u0627\u064A\u0648\u0627\u0646"), _react.default.createElement("option", {
+          value: "TM"
+        }, "\u062A\u0631\u0643\u0645\u0627\u0646\u0633\u062A\u0627\u0646"), _react.default.createElement("option", {
+          value: "TR"
+        }, "\u062A\u0631\u0643\u064A\u0627"), _react.default.createElement("option", {
+          value: "TT"
+        }, "\u062A\u0631\u064A\u0646\u064A\u062F\u0627\u062F \u0648\u062A\u0648\u0628\u0627\u063A\u0648"), _react.default.createElement("option", {
+          value: "TD"
+        }, "\u062A\u0634\u0627\u062F"), _react.default.createElement("option", {
+          value: "TG"
+        }, "\u062A\u0648\u062C\u0648"), _react.default.createElement("option", {
+          value: "TV"
+        }, "\u062A\u0648\u0641\u0627\u0644\u0648"), _react.default.createElement("option", {
+          value: "TK"
+        }, "\u062A\u0648\u0643\u064A\u0644\u0648"), _react.default.createElement("option", {
+          value: "TO"
+        }, "\u062A\u0648\u0646\u062C\u0627"), _react.default.createElement("option", {
+          value: "TN"
+        }, "\u062A\u0648\u0646\u0633"), _react.default.createElement("option", {
+          value: "TL"
+        }, "\u062A\u064A\u0645\u0648\u0631 \u0627\u0644\u0634\u0631\u0642\u064A\u0629"), _react.default.createElement("option", {
+          value: "JM"
+        }, "\u062C\u0627\u0645\u0627\u064A\u0643\u0627"), _react.default.createElement("option", {
+          value: "GI"
+        }, "\u062C\u0628\u0644 \u0637\u0627\u0631\u0642"), _react.default.createElement("option", {
+          value: "GD"
+        }, "\u062C\u0631\u064A\u0646\u0627\u062F\u0627"), _react.default.createElement("option", {
+          value: "GL"
+        }, "\u062C\u0631\u064A\u0646\u0644\u0627\u0646\u062F"), _react.default.createElement("option", {
+          value: "AX"
+        }, "\u062C\u0632\u0631 \u0623\u0648\u0644\u0627\u0646"), _react.default.createElement("option", {
+          value: "AN"
+        }, "\u062C\u0632\u0631 \u0627\u0644\u0623\u0646\u062A\u064A\u0644 \u0627\u0644\u0647\u0648\u0644\u0646\u062F\u064A\u0629"), _react.default.createElement("option", {
+          value: "TC"
+        }, "\u062C\u0632\u0631 \u0627\u0644\u062A\u0631\u0643 \u0648\u062C\u0627\u064A\u0643\u0648\u0633"), _react.default.createElement("option", {
+          value: "KM"
+        }, "\u062C\u0632\u0631 \u0627\u0644\u0642\u0645\u0631"), _react.default.createElement("option", {
+          value: "KY"
+        }, "\u062C\u0632\u0631 \u0627\u0644\u0643\u0627\u064A\u0645\u0646"), _react.default.createElement("option", {
+          value: "MH"
+        }, "\u062C\u0632\u0631 \u0627\u0644\u0645\u0627\u0631\u0634\u0627\u0644"), _react.default.createElement("option", {
+          value: "MV"
+        }, "\u062C\u0632\u0631 \u0627\u0644\u0645\u0644\u062F\u064A\u0641"), _react.default.createElement("option", {
+          value: "UM"
+        }, "\u062C\u0632\u0631 \u0627\u0644\u0648\u0644\u0627\u064A\u0627\u062A \u0627\u0644\u0645\u062A\u062D\u062F\u0629 \u0627\u0644\u0628\u0639\u064A\u062F\u0629 \u0627\u0644\u0635\u063A\u064A\u0631\u0629"), _react.default.createElement("option", {
+          value: "SB"
+        }, "\u062C\u0632\u0631 \u0633\u0644\u064A\u0645\u0627\u0646"), _react.default.createElement("option", {
+          value: "FO"
+        }, "\u062C\u0632\u0631 \u0641\u0627\u0631\u0648"), _react.default.createElement("option", {
+          value: "VI"
+        }, "\u062C\u0632\u0631 \u0641\u0631\u062C\u064A\u0646 \u0627\u0644\u0623\u0645\u0631\u064A\u0643\u064A\u0629"), _react.default.createElement("option", {
+          value: "VG"
+        }, "\u062C\u0632\u0631 \u0641\u0631\u062C\u064A\u0646 \u0627\u0644\u0628\u0631\u064A\u0637\u0627\u0646\u064A\u0629"), _react.default.createElement("option", {
+          value: "FK"
+        }, "\u062C\u0632\u0631 \u0641\u0648\u0643\u0644\u0627\u0646\u062F"), _react.default.createElement("option", {
+          value: "CK"
+        }, "\u062C\u0632\u0631 \u0643\u0648\u0643"), _react.default.createElement("option", {
+          value: "CC"
+        }, "\u062C\u0632\u0631 \u0643\u0648\u0643\u0648\u0633"), _react.default.createElement("option", {
+          value: "MP"
+        }, "\u062C\u0632\u0631 \u0645\u0627\u0631\u064A\u0627\u0646\u0627 \u0627\u0644\u0634\u0645\u0627\u0644\u064A\u0629"), _react.default.createElement("option", {
+          value: "WF"
+        }, "\u062C\u0632\u0631 \u0648\u0627\u0644\u0633 \u0648\u0641\u0648\u062A\u0648\u0646\u0627"), _react.default.createElement("option", {
+          value: "CX"
+        }, "\u062C\u0632\u064A\u0631\u0629 \u0627\u0644\u0643\u0631\u064A\u0633\u0645\u0627\u0633"), _react.default.createElement("option", {
+          value: "BV"
+        }, "\u062C\u0632\u064A\u0631\u0629 \u0628\u0648\u0641\u064A\u0647"), _react.default.createElement("option", {
+          value: "IM"
+        }, "\u062C\u0632\u064A\u0631\u0629 \u0645\u0627\u0646"), _react.default.createElement("option", {
+          value: "NF"
+        }, "\u062C\u0632\u064A\u0631\u0629 \u0646\u0648\u0631\u0641\u0648\u0643"), _react.default.createElement("option", {
+          value: "HM"
+        }, "\u062C\u0632\u064A\u0631\u0629 \u0647\u064A\u0631\u062F \u0648\u0645\u0627\u0643\u062F\u0648\u0646\u0627\u0644\u062F"), _react.default.createElement("option", {
+          value: "CF"
+        }, "\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u0627\u0641\u0631\u064A\u0642\u064A\u0627 \u0627\u0644\u0648\u0633\u0637\u0649"), _react.default.createElement("option", {
+          value: "CZ"
+        }, "\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u0627\u0644\u062A\u0634\u064A\u0643"), _react.default.createElement("option", {
+          value: "DO"
+        }, "\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u0627\u0644\u062F\u0648\u0645\u064A\u0646\u064A\u0643"), _react.default.createElement("option", {
+          value: "CD"
+        }, "\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u0627\u0644\u0643\u0648\u0646\u063A\u0648 \u0627\u0644\u062F\u064A\u0645\u0642\u0631\u0627\u0637\u064A\u0629"), _react.default.createElement("option", {
+          value: "ZA"
+        }, "\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u062C\u0646\u0648\u0628 \u0627\u0641\u0631\u064A\u0642\u064A\u0627"), _react.default.createElement("option", {
+          value: "GT"
+        }, "\u062C\u0648\u0627\u062A\u064A\u0645\u0627\u0644\u0627"), _react.default.createElement("option", {
+          value: "GP"
+        }, "\u062C\u0648\u0627\u062F\u0644\u0648\u0628"), _react.default.createElement("option", {
+          value: "GU"
+        }, "\u062C\u0648\u0627\u0645"), _react.default.createElement("option", {
+          value: "GE"
+        }, "\u062C\u0648\u0631\u062C\u064A\u0627"), _react.default.createElement("option", {
+          value: "GS"
+        }, "\u062C\u0648\u0631\u062C\u064A\u0627 \u0627\u0644\u062C\u0646\u0648\u0628\u064A\u0629 \u0648\u062C\u0632\u0631 \u0633\u0627\u0646\u062F\u0648\u064A\u062A\u0634 \u0627\u0644\u062C\u0646\u0648\u0628\u064A\u0629"), _react.default.createElement("option", {
+          value: "DJ"
+        }, "\u062C\u064A\u0628\u0648\u062A\u064A"), _react.default.createElement("option", {
+          value: "JE"
+        }, "\u062C\u064A\u0631\u0633\u064A"), _react.default.createElement("option", {
+          value: "DM"
+        }, "\u062F\u0648\u0645\u064A\u0646\u064A\u0643\u0627"), _react.default.createElement("option", {
+          value: "RW"
+        }, "\u0631\u0648\u0627\u0646\u062F\u0627"), _react.default.createElement("option", {
+          value: "RU"
+        }, "\u0631\u0648\u0633\u064A\u0627"), _react.default.createElement("option", {
+          value: "BY"
+        }, "\u0631\u0648\u0633\u064A\u0627 \u0627\u0644\u0628\u064A\u0636\u0627\u0621"), _react.default.createElement("option", {
+          value: "RO"
+        }, "\u0631\u0648\u0645\u0627\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "RE"
+        }, "\u0631\u0648\u064A\u0646\u064A\u0648\u0646"), _react.default.createElement("option", {
+          value: "ZM"
+        }, "\u0632\u0627\u0645\u0628\u064A\u0627"), _react.default.createElement("option", {
+          value: "ZW"
+        }, "\u0632\u064A\u0645\u0628\u0627\u0628\u0648\u064A"), _react.default.createElement("option", {
+          value: "CI"
+        }, "\u0633\u0627\u062D\u0644 \u0627\u0644\u0639\u0627\u062C"), _react.default.createElement("option", {
+          value: "WS"
+        }, "\u0633\u0627\u0645\u0648\u0627"), _react.default.createElement("option", {
+          value: "AS"
+        }, "\u0633\u0627\u0645\u0648\u0627 \u0627\u0644\u0623\u0645\u0631\u064A\u0643\u064A\u0629"), _react.default.createElement("option", {
+          value: "SM"
+        }, "\u0633\u0627\u0646 \u0645\u0627\u0631\u064A\u0646\u0648"), _react.default.createElement("option", {
+          value: "PM"
+        }, "\u0633\u0627\u0646\u062A \u0628\u064A\u064A\u0631 \u0648\u0645\u064A\u0643\u0648\u0644\u0648\u0646"), _react.default.createElement("option", {
+          value: "VC"
+        }, "\u0633\u0627\u0646\u062A \u0641\u0646\u0633\u0646\u062A \u0648\u063A\u0631\u0646\u0627\u062F\u064A\u0646"), _react.default.createElement("option", {
+          value: "KN"
+        }, "\u0633\u0627\u0646\u062A \u0643\u064A\u062A\u0633 \u0648\u0646\u064A\u0641\u064A\u0633"), _react.default.createElement("option", {
+          value: "LC"
+        }, "\u0633\u0627\u0646\u062A \u0644\u0648\u0633\u064A\u0627"), _react.default.createElement("option", {
+          value: "MF"
+        }, "\u0633\u0627\u0646\u062A \u0645\u0627\u0631\u062A\u064A\u0646"), _react.default.createElement("option", {
+          value: "SH"
+        }, "\u0633\u0627\u0646\u062A \u0647\u064A\u0644\u0646\u0627"), _react.default.createElement("option", {
+          value: "ST"
+        }, "\u0633\u0627\u0648 \u062A\u0648\u0645\u064A \u0648\u0628\u0631\u064A\u0646\u0633\u064A\u0628\u064A"), _react.default.createElement("option", {
+          value: "LK"
+        }, "\u0633\u0631\u064A\u0644\u0627\u0646\u0643\u0627"), _react.default.createElement("option", {
+          value: "SJ"
+        }, "\u0633\u0641\u0627\u0644\u0628\u0627\u0631\u062F \u0648\u062C\u0627\u0646 \u0645\u0627\u064A\u0627\u0646"), _react.default.createElement("option", {
+          value: "SK"
+        }, "\u0633\u0644\u0648\u0641\u0627\u0643\u064A\u0627"), _react.default.createElement("option", {
+          value: "SI"
+        }, "\u0633\u0644\u0648\u0641\u064A\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "SG"
+        }, "\u0633\u0646\u063A\u0627\u0641\u0648\u0631\u0629"), _react.default.createElement("option", {
+          value: "SZ"
+        }, "\u0633\u0648\u0627\u0632\u064A\u0644\u0627\u0646\u062F"), _react.default.createElement("option", {
+          value: "SY"
+        }, "\u0633\u0648\u0631\u064A\u0627"), _react.default.createElement("option", {
+          value: "SR"
+        }, "\u0633\u0648\u0631\u064A\u0646\u0627\u0645"), _react.default.createElement("option", {
+          value: "CH"
+        }, "\u0633\u0648\u064A\u0633\u0631\u0627"), _react.default.createElement("option", {
+          value: "SL"
+        }, "\u0633\u064A\u0631\u0627\u0644\u064A\u0648\u0646"), _react.default.createElement("option", {
+          value: "SC"
+        }, "\u0633\u064A\u0634\u0644"), _react.default.createElement("option", {
+          value: "CL"
+        }, "\u0634\u064A\u0644\u064A"), _react.default.createElement("option", {
+          value: "RS"
+        }, "\u0635\u0631\u0628\u064A\u0627"), _react.default.createElement("option", {
+          value: "CS"
+        }, "\u0635\u0631\u0628\u064A\u0627 \u0648\u0627\u0644\u062C\u0628\u0644 \u0627\u0644\u0623\u0633\u0648\u062F"), _react.default.createElement("option", {
+          value: "TJ"
+        }, "\u0637\u0627\u062C\u0643\u0633\u062A\u0627\u0646"), _react.default.createElement("option", {
+          value: "OM"
+        }, "\u0639\u0645\u0627\u0646"), _react.default.createElement("option", {
+          value: "GM"
+        }, "\u063A\u0627\u0645\u0628\u064A\u0627"), _react.default.createElement("option", {
+          value: "GH"
+        }, "\u063A\u0627\u0646\u0627"), _react.default.createElement("option", {
+          value: "GF"
+        }, "\u063A\u0648\u064A\u0627\u0646\u0627"), _react.default.createElement("option", {
+          value: "GY"
+        }, "\u063A\u064A\u0627\u0646\u0627"), _react.default.createElement("option", {
+          value: "GN"
+        }, "\u063A\u064A\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "GQ"
+        }, "\u063A\u064A\u0646\u064A\u0627 \u0627\u0644\u0627\u0633\u062A\u0648\u0627\u0626\u064A\u0629"), _react.default.createElement("option", {
+          value: "GW"
+        }, "\u063A\u064A\u0646\u064A\u0627 \u0628\u064A\u0633\u0627\u0648"), _react.default.createElement("option", {
+          value: "VU"
+        }, "\u0641\u0627\u0646\u0648\u0627\u062A\u0648"), _react.default.createElement("option", {
+          value: "FR"
+        }, "\u0641\u0631\u0646\u0633\u0627"), _react.default.createElement("option", {
+          value: "PS"
+        }, "\u0641\u0644\u0633\u0637\u064A\u0646"), _react.default.createElement("option", {
+          value: "VE"
+        }, "\u0641\u0646\u0632\u0648\u064A\u0644\u0627"), _react.default.createElement("option", {
+          value: "FI"
+        }, "\u0641\u0646\u0644\u0646\u062F\u0627"), _react.default.createElement("option", {
+          value: "VN"
+        }, "\u0641\u064A\u062A\u0646\u0627\u0645"), _react.default.createElement("option", {
+          value: "FJ"
+        }, "\u0641\u064A\u062C\u064A"), _react.default.createElement("option", {
+          value: "CY"
+        }, "\u0642\u0628\u0631\u0635"), _react.default.createElement("option", {
+          value: "KG"
+        }, "\u0642\u0631\u063A\u064A\u0632\u0633\u062A\u0627\u0646"), _react.default.createElement("option", {
+          value: "QA"
+        }, "\u0642\u0637\u0631"), _react.default.createElement("option", {
+          value: "KZ"
+        }, "\u0643\u0627\u0632\u0627\u062E\u0633\u062A\u0627\u0646"), _react.default.createElement("option", {
+          value: "NC"
+        }, "\u0643\u0627\u0644\u064A\u062F\u0648\u0646\u064A\u0627 \u0627\u0644\u062C\u062F\u064A\u062F\u0629"), _react.default.createElement("option", {
+          value: "HR"
+        }, "\u0643\u0631\u0648\u0627\u062A\u064A\u0627"), _react.default.createElement("option", {
+          value: "KH"
+        }, "\u0643\u0645\u0628\u0648\u062F\u064A\u0627"), _react.default.createElement("option", {
+          value: "CA"
+        }, "\u0643\u0646\u062F\u0627"), _react.default.createElement("option", {
+          value: "CU"
+        }, "\u0643\u0648\u0628\u0627"), _react.default.createElement("option", {
+          value: "KR"
+        }, "\u0643\u0648\u0631\u064A\u0627 \u0627\u0644\u062C\u0646\u0648\u0628\u064A\u0629"), _react.default.createElement("option", {
+          value: "KP"
+        }, "\u0643\u0648\u0631\u064A\u0627 \u0627\u0644\u0634\u0645\u0627\u0644\u064A\u0629"), _react.default.createElement("option", {
+          value: "CR"
+        }, "\u0643\u0648\u0633\u062A\u0627\u0631\u064A\u0643\u0627"), _react.default.createElement("option", {
+          value: "CO"
+        }, "\u0643\u0648\u0644\u0648\u0645\u0628\u064A\u0627"), _react.default.createElement("option", {
+          value: "KI"
+        }, "\u0643\u064A\u0631\u064A\u0628\u0627\u062A\u064A"), _react.default.createElement("option", {
+          value: "KE"
+        }, "\u0643\u064A\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "LV"
+        }, "\u0644\u0627\u062A\u0641\u064A\u0627"), _react.default.createElement("option", {
+          value: "LA"
+        }, "\u0644\u0627\u0648\u0633"), _react.default.createElement("option", {
+          value: "LB"
+        }, "\u0644\u0628\u0646\u0627\u0646"), _react.default.createElement("option", {
+          value: "LU"
+        }, "\u0644\u0648\u0643\u0633\u0645\u0628\u0648\u0631\u062C"), _react.default.createElement("option", {
+          value: "LY"
+        }, "\u0644\u064A\u0628\u064A\u0627"), _react.default.createElement("option", {
+          value: "LR"
+        }, "\u0644\u064A\u0628\u064A\u0631\u064A\u0627"), _react.default.createElement("option", {
+          value: "LT"
+        }, "\u0644\u064A\u062A\u0648\u0627\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "LI"
+        }, "\u0644\u064A\u062E\u062A\u0646\u0634\u062A\u0627\u064A\u0646"), _react.default.createElement("option", {
+          value: "LS"
+        }, "\u0644\u064A\u0633\u0648\u062A\u0648"), _react.default.createElement("option", {
+          value: "MQ"
+        }, "\u0645\u0627\u0631\u062A\u064A\u0646\u064A\u0643"), _react.default.createElement("option", {
+          value: "MO"
+        }, "\u0645\u0627\u0643\u0627\u0648 \u0627\u0644\u0635\u064A\u0646\u064A\u0629"), _react.default.createElement("option", {
+          value: "MT"
+        }, "\u0645\u0627\u0644\u0637\u0627"), _react.default.createElement("option", {
+          value: "ML"
+        }, "\u0645\u0627\u0644\u064A"), _react.default.createElement("option", {
+          value: "MY"
+        }, "\u0645\u0627\u0644\u064A\u0632\u064A\u0627"), _react.default.createElement("option", {
+          value: "YT"
+        }, "\u0645\u0627\u064A\u0648\u062A"), _react.default.createElement("option", {
+          value: "MG"
+        }, "\u0645\u062F\u063A\u0634\u0642\u0631"), _react.default.createElement("option", {
+          value: "EG"
+        }, "\u0645\u0635\u0631"), _react.default.createElement("option", {
+          value: "MK"
+        }, "\u0645\u0642\u062F\u0648\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "MW"
+        }, "\u0645\u0644\u0627\u0648\u064A"), _react.default.createElement("option", {
+          value: "ZZ"
+        }, "\u0645\u0646\u0637\u0642\u0629 \u063A\u064A\u0631 \u0645\u0639\u0631\u0641\u0629"), _react.default.createElement("option", {
+          value: "MN"
+        }, "\u0645\u0646\u063A\u0648\u0644\u064A\u0627"), _react.default.createElement("option", {
+          value: "MR"
+        }, "\u0645\u0648\u0631\u064A\u062A\u0627\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "MU"
+        }, "\u0645\u0648\u0631\u064A\u0634\u064A\u0648\u0633"), _react.default.createElement("option", {
+          value: "MZ"
+        }, "\u0645\u0648\u0632\u0645\u0628\u064A\u0642"), _react.default.createElement("option", {
+          value: "MD"
+        }, "\u0645\u0648\u0644\u062F\u0627\u0641\u064A\u0627"), _react.default.createElement("option", {
+          value: "MC"
+        }, "\u0645\u0648\u0646\u0627\u0643\u0648"), _react.default.createElement("option", {
+          value: "MS"
+        }, "\u0645\u0648\u0646\u062A\u0633\u0631\u0627\u062A"), _react.default.createElement("option", {
+          value: "MM"
+        }, "\u0645\u064A\u0627\u0646\u0645\u0627\u0631"), _react.default.createElement("option", {
+          value: "FM"
+        }, "\u0645\u064A\u0643\u0631\u0648\u0646\u064A\u0632\u064A\u0627"), _react.default.createElement("option", {
+          value: "NA"
+        }, "\u0646\u0627\u0645\u064A\u0628\u064A\u0627"), _react.default.createElement("option", {
+          value: "NR"
+        }, "\u0646\u0648\u0631\u0648"), _react.default.createElement("option", {
+          value: "NP"
+        }, "\u0646\u064A\u0628\u0627\u0644"), _react.default.createElement("option", {
+          value: "NG"
+        }, "\u0646\u064A\u062C\u064A\u0631\u064A\u0627"), _react.default.createElement("option", {
+          value: "NI"
+        }, "\u0646\u064A\u0643\u0627\u0631\u0627\u062C\u0648\u0627"), _react.default.createElement("option", {
+          value: "NZ"
+        }, "\u0646\u064A\u0648\u0632\u064A\u0644\u0627\u0646\u062F\u0627"), _react.default.createElement("option", {
+          value: "NU"
+        }, "\u0646\u064A\u0648\u064A"), _react.default.createElement("option", {
+          value: "HT"
+        }, "\u0647\u0627\u064A\u062A\u064A"), _react.default.createElement("option", {
+          value: "HN"
+        }, "\u0647\u0646\u062F\u0648\u0631\u0627\u0633"), _react.default.createElement("option", {
+          value: "NL"
+        }, "\u0647\u0648\u0644\u0646\u062F\u0627"), _react.default.createElement("option", {
+          value: "HK"
+        }, "\u0647\u0648\u0646\u062C \u0643\u0648\u0646\u062C \u0627\u0644\u0635\u064A\u0646\u064A\u0629"))), _react.default.createElement("div", {
+          className: "col-xs-2"
+        }, _react.default.createElement("label", {
+          for: "ex2"
+        }, "\u0627\u0644\u0628\u0631\u064A\u062F \u0627\u0644\u0627\u0644\u0643\u062A\u0631\u0648\u0646\u064A"), _react.default.createElement("input", {
+          class: "custom-select",
+          id: "ex2",
+          type: "text"
+        })), _react.default.createElement("div", {
+          className: "col-xs-2"
+        }, _react.default.createElement("label", {
+          for: "ex3"
+        }, "\u0627\u0644\u0647\u0627\u062A\u0641"), _react.default.createElement("input", {
+          className: "custom-select",
+          id: "ex3",
+          type: "text"
+        }))), _react.default.createElement("div", {
+          className: "form-group row"
+        }, _react.default.createElement("div", {
+          class: "col-xs-2"
+        }, _react.default.createElement("label", {
+          for: "ex1"
+        }, "\u0627\u0644\u0627\u0633\u0645 \u0627\u0644\u0631\u0628\u0627\u0639\u064A"), _react.default.createElement("input", {
+          className: "custom-select",
+          id: "ex1",
+          type: "text"
+        })), _react.default.createElement("div", {
+          className: "col-xs-2"
+        }, _react.default.createElement("label", {
+          for: "ex3"
+        }, "\u0627\u0644\u062C\u0646\u0633\u064A\u0629"), _react.default.createElement("select", {
+          className: "custom-select"
+        }, _react.default.createElement("option", {
+          value: "AW"
+        }, "\u0622\u0648\u0631\u0628\u0627"), _react.default.createElement("option", {
+          value: "AZ"
+        }, "\u0623\u0630\u0631\u0628\u064A\u062C\u0627\u0646"), _react.default.createElement("option", {
+          value: "AM"
+        }, "\u0623\u0631\u0645\u064A\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "ES"
+        }, "\u0623\u0633\u0628\u0627\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "AU"
+        }, "\u0623\u0633\u062A\u0631\u0627\u0644\u064A\u0627"), _react.default.createElement("option", {
+          value: "AF"
+        }, "\u0623\u0641\u063A\u0627\u0646\u0633\u062A\u0627\u0646"), _react.default.createElement("option", {
+          value: "AL"
+        }, "\u0623\u0644\u0628\u0627\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "DE"
+        }, "\u0623\u0644\u0645\u0627\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "AG"
+        }, "\u0623\u0646\u062A\u064A\u062C\u0648\u0627 \u0648\u0628\u0631\u0628\u0648\u062F\u0627"), _react.default.createElement("option", {
+          value: "AO"
+        }, "\u0623\u0646\u062C\u0648\u0644\u0627"), _react.default.createElement("option", {
+          value: "AI"
+        }, "\u0623\u0646\u062C\u0648\u064A\u0644\u0627"), _react.default.createElement("option", {
+          value: "AD"
+        }, "\u0623\u0646\u062F\u0648\u0631\u0627"), _react.default.createElement("option", {
+          value: "UY"
+        }, "\u0623\u0648\u0631\u062C\u0648\u0627\u064A"), _react.default.createElement("option", {
+          value: "UZ"
+        }, "\u0623\u0648\u0632\u0628\u0643\u0633\u062A\u0627\u0646"), _react.default.createElement("option", {
+          value: "UG"
+        }, "\u0623\u0648\u063A\u0646\u062F\u0627"), _react.default.createElement("option", {
+          value: "UA"
+        }, "\u0623\u0648\u0643\u0631\u0627\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "IE"
+        }, "\u0623\u064A\u0631\u0644\u0646\u062F\u0627"), _react.default.createElement("option", {
+          value: "IS"
+        }, "\u0623\u064A\u0633\u0644\u0646\u062F\u0627"), _react.default.createElement("option", {
+          value: "ET"
+        }, "\u0627\u062B\u064A\u0648\u0628\u064A\u0627"), _react.default.createElement("option", {
+          value: "ER"
+        }, "\u0627\u0631\u064A\u062A\u0631\u064A\u0627"), _react.default.createElement("option", {
+          value: "EE"
+        }, "\u0627\u0633\u062A\u0648\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "IL"
+        }, "\u0627\u0633\u0631\u0627\u0626\u064A\u0644"), _react.default.createElement("option", {
+          value: "AR"
+        }, "\u0627\u0644\u0623\u0631\u062C\u0646\u062A\u064A\u0646"), _react.default.createElement("option", {
+          value: "JO"
+        }, "\u0627\u0644\u0623\u0631\u062F\u0646"), _react.default.createElement("option", {
+          value: "EC"
+        }, "\u0627\u0644\u0627\u0643\u0648\u0627\u062F\u0648\u0631"), _react.default.createElement("option", {
+          value: "AE"
+        }, "\u0627\u0644\u0627\u0645\u0627\u0631\u0627\u062A \u0627\u0644\u0639\u0631\u0628\u064A\u0629 \u0627\u0644\u0645\u062A\u062D\u062F\u0629"), _react.default.createElement("option", {
+          value: "BS"
+        }, "\u0627\u0644\u0628\u0627\u0647\u0627\u0645\u0627"), _react.default.createElement("option", {
+          value: "BH"
+        }, "\u0627\u0644\u0628\u062D\u0631\u064A\u0646"), _react.default.createElement("option", {
+          value: "BR"
+        }, "\u0627\u0644\u0628\u0631\u0627\u0632\u064A\u0644"), _react.default.createElement("option", {
+          value: "PT"
+        }, "\u0627\u0644\u0628\u0631\u062A\u063A\u0627\u0644"), _react.default.createElement("option", {
+          value: "BA"
+        }, "\u0627\u0644\u0628\u0648\u0633\u0646\u0629 \u0648\u0627\u0644\u0647\u0631\u0633\u0643"), _react.default.createElement("option", {
+          value: "GA"
+        }, "\u0627\u0644\u062C\u0627\u0628\u0648\u0646"), _react.default.createElement("option", {
+          value: "ME"
+        }, "\u0627\u0644\u062C\u0628\u0644 \u0627\u0644\u0623\u0633\u0648\u062F"), _react.default.createElement("option", {
+          value: "DZ"
+        }, "\u0627\u0644\u062C\u0632\u0627\u0626\u0631"), _react.default.createElement("option", {
+          value: "DK"
+        }, "\u0627\u0644\u062F\u0627\u0646\u0645\u0631\u0643"), _react.default.createElement("option", {
+          value: "CV"
+        }, "\u0627\u0644\u0631\u0623\u0633 \u0627\u0644\u0623\u062E\u0636\u0631"), _react.default.createElement("option", {
+          value: "SV"
+        }, "\u0627\u0644\u0633\u0644\u0641\u0627\u062F\u0648\u0631"), _react.default.createElement("option", {
+          value: "SN"
+        }, "\u0627\u0644\u0633\u0646\u063A\u0627\u0644"), _react.default.createElement("option", {
+          value: "SD"
+        }, "\u0627\u0644\u0633\u0648\u062F\u0627\u0646"), _react.default.createElement("option", {
+          value: "SE"
+        }, "\u0627\u0644\u0633\u0648\u064A\u062F"), _react.default.createElement("option", {
+          value: "EH"
+        }, "\u0627\u0644\u0635\u062D\u0631\u0627\u0621 \u0627\u0644\u063A\u0631\u0628\u064A\u0629"), _react.default.createElement("option", {
+          value: "SO"
+        }, "\u0627\u0644\u0635\u0648\u0645\u0627\u0644"), _react.default.createElement("option", {
+          value: "CN"
+        }, "\u0627\u0644\u0635\u064A\u0646"), _react.default.createElement("option", {
+          value: "IQ"
+        }, "\u0627\u0644\u0639\u0631\u0627\u0642"), _react.default.createElement("option", {
+          value: "VA"
+        }, "\u0627\u0644\u0641\u0627\u062A\u064A\u0643\u0627\u0646"), _react.default.createElement("option", {
+          value: "PH"
+        }, "\u0627\u0644\u0641\u064A\u0644\u0628\u064A\u0646"), _react.default.createElement("option", {
+          value: "AQ"
+        }, "\u0627\u0644\u0642\u0637\u0628 \u0627\u0644\u062C\u0646\u0648\u0628\u064A"), _react.default.createElement("option", {
+          value: "CM"
+        }, "\u0627\u0644\u0643\u0627\u0645\u064A\u0631\u0648\u0646"), _react.default.createElement("option", {
+          value: "CG"
+        }, "\u0627\u0644\u0643\u0648\u0646\u063A\u0648 - \u0628\u0631\u0627\u0632\u0627\u0641\u064A\u0644"), _react.default.createElement("option", {
+          value: "KW"
+        }, "\u0627\u0644\u0643\u0648\u064A\u062A"), _react.default.createElement("option", {
+          value: "HU"
+        }, "\u0627\u0644\u0645\u062C\u0631"), _react.default.createElement("option", {
+          value: "IO"
+        }, "\u0627\u0644\u0645\u062D\u064A\u0637 \u0627\u0644\u0647\u0646\u062F\u064A \u0627\u0644\u0628\u0631\u064A\u0637\u0627\u0646\u064A"), _react.default.createElement("option", {
+          value: "MA"
+        }, "\u0627\u0644\u0645\u063A\u0631\u0628"), _react.default.createElement("option", {
+          value: "TF"
+        }, "\u0627\u0644\u0645\u0642\u0627\u0637\u0639\u0627\u062A \u0627\u0644\u062C\u0646\u0648\u0628\u064A\u0629 \u0627\u0644\u0641\u0631\u0646\u0633\u064A\u0629"), _react.default.createElement("option", {
+          value: "MX"
+        }, "\u0627\u0644\u0645\u0643\u0633\u064A\u0643"), _react.default.createElement("option", {
+          value: "SA"
+        }, "\u0627\u0644\u0645\u0645\u0644\u0643\u0629 \u0627\u0644\u0639\u0631\u0628\u064A\u0629 \u0627\u0644\u0633\u0639\u0648\u062F\u064A\u0629"), _react.default.createElement("option", {
+          value: "GB"
+        }, "\u0627\u0644\u0645\u0645\u0644\u0643\u0629 \u0627\u0644\u0645\u062A\u062D\u062F\u0629"), _react.default.createElement("option", {
+          value: "NO"
+        }, "\u0627\u0644\u0646\u0631\u0648\u064A\u062C"), _react.default.createElement("option", {
+          value: "AT"
+        }, "\u0627\u0644\u0646\u0645\u0633\u0627"), _react.default.createElement("option", {
+          value: "NE"
+        }, "\u0627\u0644\u0646\u064A\u062C\u0631"), _react.default.createElement("option", {
+          value: "IN"
+        }, "\u0627\u0644\u0647\u0646\u062F"), _react.default.createElement("option", {
+          value: "US"
+        }, "\u0627\u0644\u0648\u0644\u0627\u064A\u0627\u062A \u0627\u0644\u0645\u062A\u062D\u062F\u0629 \u0627\u0644\u0623\u0645\u0631\u064A\u0643\u064A\u0629"), _react.default.createElement("option", {
+          value: "JP"
+        }, "\u0627\u0644\u064A\u0627\u0628\u0627\u0646"), _react.default.createElement("option", {
+          value: "YE"
+        }, "\u0627\u0644\u064A\u0645\u0646"), _react.default.createElement("option", {
+          value: "GR"
+        }, "\u0627\u0644\u064A\u0648\u0646\u0627\u0646"), _react.default.createElement("option", {
+          value: "ID"
+        }, "\u0627\u0646\u062F\u0648\u0646\u064A\u0633\u064A\u0627"), _react.default.createElement("option", {
+          value: "IR"
+        }, "\u0627\u064A\u0631\u0627\u0646"), _react.default.createElement("option", {
+          value: "IT"
+        }, "\u0627\u064A\u0637\u0627\u0644\u064A\u0627"), _react.default.createElement("option", {
+          value: "PG"
+        }, "\u0628\u0627\u0628\u0648\u0627 \u063A\u064A\u0646\u064A\u0627 \u0627\u0644\u062C\u062F\u064A\u062F\u0629"), _react.default.createElement("option", {
+          value: "PY"
+        }, "\u0628\u0627\u0631\u0627\u062C\u0648\u0627\u064A"), _react.default.createElement("option", {
+          value: "PK"
+        }, "\u0628\u0627\u0643\u0633\u062A\u0627\u0646"), _react.default.createElement("option", {
+          value: "PW"
+        }, "\u0628\u0627\u0644\u0627\u0648"), _react.default.createElement("option", {
+          value: "BW"
+        }, "\u0628\u062A\u0633\u0648\u0627\u0646\u0627"), _react.default.createElement("option", {
+          value: "PN"
+        }, "\u0628\u062A\u0643\u0627\u064A\u0631\u0646"), _react.default.createElement("option", {
+          value: "BB"
+        }, "\u0628\u0631\u0628\u0627\u062F\u0648\u0633"), _react.default.createElement("option", {
+          value: "BM"
+        }, "\u0628\u0631\u0645\u0648\u062F\u0627"), _react.default.createElement("option", {
+          value: "BN"
+        }, "\u0628\u0631\u0648\u0646\u0627\u064A"), _react.default.createElement("option", {
+          value: "BE"
+        }, "\u0628\u0644\u062C\u064A\u0643\u0627"), _react.default.createElement("option", {
+          value: "BG"
+        }, "\u0628\u0644\u063A\u0627\u0631\u064A\u0627"), _react.default.createElement("option", {
+          value: "BZ"
+        }, "\u0628\u0644\u064A\u0632"), _react.default.createElement("option", {
+          value: "BD"
+        }, "\u0628\u0646\u062C\u0644\u0627\u062F\u064A\u0634"), _react.default.createElement("option", {
+          value: "PA"
+        }, "\u0628\u0646\u0645\u0627"), _react.default.createElement("option", {
+          value: "BJ"
+        }, "\u0628\u0646\u064A\u0646"), _react.default.createElement("option", {
+          value: "BT"
+        }, "\u0628\u0648\u062A\u0627\u0646"), _react.default.createElement("option", {
+          value: "PR"
+        }, "\u0628\u0648\u0631\u062A\u0648\u0631\u064A\u0643\u0648"), _react.default.createElement("option", {
+          value: "BF"
+        }, "\u0628\u0648\u0631\u0643\u064A\u0646\u0627 \u0641\u0627\u0633\u0648"), _react.default.createElement("option", {
+          value: "BI"
+        }, "\u0628\u0648\u0631\u0648\u0646\u062F\u064A"), _react.default.createElement("option", {
+          value: "PL"
+        }, "\u0628\u0648\u0644\u0646\u062F\u0627"), _react.default.createElement("option", {
+          value: "BO"
+        }, "\u0628\u0648\u0644\u064A\u0641\u064A\u0627"), _react.default.createElement("option", {
+          value: "PF"
+        }, "\u0628\u0648\u0644\u064A\u0646\u064A\u0632\u064A\u0627 \u0627\u0644\u0641\u0631\u0646\u0633\u064A\u0629"), _react.default.createElement("option", {
+          value: "PE"
+        }, "\u0628\u064A\u0631\u0648"), _react.default.createElement("option", {
+          value: "TZ"
+        }, "\u062A\u0627\u0646\u0632\u0627\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "TH"
+        }, "\u062A\u0627\u064A\u0644\u0646\u062F"), _react.default.createElement("option", {
+          value: "TW"
+        }, "\u062A\u0627\u064A\u0648\u0627\u0646"), _react.default.createElement("option", {
+          value: "TM"
+        }, "\u062A\u0631\u0643\u0645\u0627\u0646\u0633\u062A\u0627\u0646"), _react.default.createElement("option", {
+          value: "TR"
+        }, "\u062A\u0631\u0643\u064A\u0627"), _react.default.createElement("option", {
+          value: "TT"
+        }, "\u062A\u0631\u064A\u0646\u064A\u062F\u0627\u062F \u0648\u062A\u0648\u0628\u0627\u063A\u0648"), _react.default.createElement("option", {
+          value: "TD"
+        }, "\u062A\u0634\u0627\u062F"), _react.default.createElement("option", {
+          value: "TG"
+        }, "\u062A\u0648\u062C\u0648"), _react.default.createElement("option", {
+          value: "TV"
+        }, "\u062A\u0648\u0641\u0627\u0644\u0648"), _react.default.createElement("option", {
+          value: "TK"
+        }, "\u062A\u0648\u0643\u064A\u0644\u0648"), _react.default.createElement("option", {
+          value: "TO"
+        }, "\u062A\u0648\u0646\u062C\u0627"), _react.default.createElement("option", {
+          value: "TN"
+        }, "\u062A\u0648\u0646\u0633"), _react.default.createElement("option", {
+          value: "TL"
+        }, "\u062A\u064A\u0645\u0648\u0631 \u0627\u0644\u0634\u0631\u0642\u064A\u0629"), _react.default.createElement("option", {
+          value: "JM"
+        }, "\u062C\u0627\u0645\u0627\u064A\u0643\u0627"), _react.default.createElement("option", {
+          value: "GI"
+        }, "\u062C\u0628\u0644 \u0637\u0627\u0631\u0642"), _react.default.createElement("option", {
+          value: "GD"
+        }, "\u062C\u0631\u064A\u0646\u0627\u062F\u0627"), _react.default.createElement("option", {
+          value: "GL"
+        }, "\u062C\u0631\u064A\u0646\u0644\u0627\u0646\u062F"), _react.default.createElement("option", {
+          value: "AX"
+        }, "\u062C\u0632\u0631 \u0623\u0648\u0644\u0627\u0646"), _react.default.createElement("option", {
+          value: "AN"
+        }, "\u062C\u0632\u0631 \u0627\u0644\u0623\u0646\u062A\u064A\u0644 \u0627\u0644\u0647\u0648\u0644\u0646\u062F\u064A\u0629"), _react.default.createElement("option", {
+          value: "TC"
+        }, "\u062C\u0632\u0631 \u0627\u0644\u062A\u0631\u0643 \u0648\u062C\u0627\u064A\u0643\u0648\u0633"), _react.default.createElement("option", {
+          value: "KM"
+        }, "\u062C\u0632\u0631 \u0627\u0644\u0642\u0645\u0631"), _react.default.createElement("option", {
+          value: "KY"
+        }, "\u062C\u0632\u0631 \u0627\u0644\u0643\u0627\u064A\u0645\u0646"), _react.default.createElement("option", {
+          value: "MH"
+        }, "\u062C\u0632\u0631 \u0627\u0644\u0645\u0627\u0631\u0634\u0627\u0644"), _react.default.createElement("option", {
+          value: "MV"
+        }, "\u062C\u0632\u0631 \u0627\u0644\u0645\u0644\u062F\u064A\u0641"), _react.default.createElement("option", {
+          value: "UM"
+        }, "\u062C\u0632\u0631 \u0627\u0644\u0648\u0644\u0627\u064A\u0627\u062A \u0627\u0644\u0645\u062A\u062D\u062F\u0629 \u0627\u0644\u0628\u0639\u064A\u062F\u0629 \u0627\u0644\u0635\u063A\u064A\u0631\u0629"), _react.default.createElement("option", {
+          value: "SB"
+        }, "\u062C\u0632\u0631 \u0633\u0644\u064A\u0645\u0627\u0646"), _react.default.createElement("option", {
+          value: "FO"
+        }, "\u062C\u0632\u0631 \u0641\u0627\u0631\u0648"), _react.default.createElement("option", {
+          value: "VI"
+        }, "\u062C\u0632\u0631 \u0641\u0631\u062C\u064A\u0646 \u0627\u0644\u0623\u0645\u0631\u064A\u0643\u064A\u0629"), _react.default.createElement("option", {
+          value: "VG"
+        }, "\u062C\u0632\u0631 \u0641\u0631\u062C\u064A\u0646 \u0627\u0644\u0628\u0631\u064A\u0637\u0627\u0646\u064A\u0629"), _react.default.createElement("option", {
+          value: "FK"
+        }, "\u062C\u0632\u0631 \u0641\u0648\u0643\u0644\u0627\u0646\u062F"), _react.default.createElement("option", {
+          value: "CK"
+        }, "\u062C\u0632\u0631 \u0643\u0648\u0643"), _react.default.createElement("option", {
+          value: "CC"
+        }, "\u062C\u0632\u0631 \u0643\u0648\u0643\u0648\u0633"), _react.default.createElement("option", {
+          value: "MP"
+        }, "\u062C\u0632\u0631 \u0645\u0627\u0631\u064A\u0627\u0646\u0627 \u0627\u0644\u0634\u0645\u0627\u0644\u064A\u0629"), _react.default.createElement("option", {
+          value: "WF"
+        }, "\u062C\u0632\u0631 \u0648\u0627\u0644\u0633 \u0648\u0641\u0648\u062A\u0648\u0646\u0627"), _react.default.createElement("option", {
+          value: "CX"
+        }, "\u062C\u0632\u064A\u0631\u0629 \u0627\u0644\u0643\u0631\u064A\u0633\u0645\u0627\u0633"), _react.default.createElement("option", {
+          value: "BV"
+        }, "\u062C\u0632\u064A\u0631\u0629 \u0628\u0648\u0641\u064A\u0647"), _react.default.createElement("option", {
+          value: "IM"
+        }, "\u062C\u0632\u064A\u0631\u0629 \u0645\u0627\u0646"), _react.default.createElement("option", {
+          value: "NF"
+        }, "\u062C\u0632\u064A\u0631\u0629 \u0646\u0648\u0631\u0641\u0648\u0643"), _react.default.createElement("option", {
+          value: "HM"
+        }, "\u062C\u0632\u064A\u0631\u0629 \u0647\u064A\u0631\u062F \u0648\u0645\u0627\u0643\u062F\u0648\u0646\u0627\u0644\u062F"), _react.default.createElement("option", {
+          value: "CF"
+        }, "\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u0627\u0641\u0631\u064A\u0642\u064A\u0627 \u0627\u0644\u0648\u0633\u0637\u0649"), _react.default.createElement("option", {
+          value: "CZ"
+        }, "\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u0627\u0644\u062A\u0634\u064A\u0643"), _react.default.createElement("option", {
+          value: "DO"
+        }, "\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u0627\u0644\u062F\u0648\u0645\u064A\u0646\u064A\u0643"), _react.default.createElement("option", {
+          value: "CD"
+        }, "\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u0627\u0644\u0643\u0648\u0646\u063A\u0648 \u0627\u0644\u062F\u064A\u0645\u0642\u0631\u0627\u0637\u064A\u0629"), _react.default.createElement("option", {
+          value: "ZA"
+        }, "\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u062C\u0646\u0648\u0628 \u0627\u0641\u0631\u064A\u0642\u064A\u0627"), _react.default.createElement("option", {
+          value: "GT"
+        }, "\u062C\u0648\u0627\u062A\u064A\u0645\u0627\u0644\u0627"), _react.default.createElement("option", {
+          value: "GP"
+        }, "\u062C\u0648\u0627\u062F\u0644\u0648\u0628"), _react.default.createElement("option", {
+          value: "GU"
+        }, "\u062C\u0648\u0627\u0645"), _react.default.createElement("option", {
+          value: "GE"
+        }, "\u062C\u0648\u0631\u062C\u064A\u0627"), _react.default.createElement("option", {
+          value: "GS"
+        }, "\u062C\u0648\u0631\u062C\u064A\u0627 \u0627\u0644\u062C\u0646\u0648\u0628\u064A\u0629 \u0648\u062C\u0632\u0631 \u0633\u0627\u0646\u062F\u0648\u064A\u062A\u0634 \u0627\u0644\u062C\u0646\u0648\u0628\u064A\u0629"), _react.default.createElement("option", {
+          value: "DJ"
+        }, "\u062C\u064A\u0628\u0648\u062A\u064A"), _react.default.createElement("option", {
+          value: "JE"
+        }, "\u062C\u064A\u0631\u0633\u064A"), _react.default.createElement("option", {
+          value: "DM"
+        }, "\u062F\u0648\u0645\u064A\u0646\u064A\u0643\u0627"), _react.default.createElement("option", {
+          value: "RW"
+        }, "\u0631\u0648\u0627\u0646\u062F\u0627"), _react.default.createElement("option", {
+          value: "RU"
+        }, "\u0631\u0648\u0633\u064A\u0627"), _react.default.createElement("option", {
+          value: "BY"
+        }, "\u0631\u0648\u0633\u064A\u0627 \u0627\u0644\u0628\u064A\u0636\u0627\u0621"), _react.default.createElement("option", {
+          value: "RO"
+        }, "\u0631\u0648\u0645\u0627\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "RE"
+        }, "\u0631\u0648\u064A\u0646\u064A\u0648\u0646"), _react.default.createElement("option", {
+          value: "ZM"
+        }, "\u0632\u0627\u0645\u0628\u064A\u0627"), _react.default.createElement("option", {
+          value: "ZW"
+        }, "\u0632\u064A\u0645\u0628\u0627\u0628\u0648\u064A"), _react.default.createElement("option", {
+          value: "CI"
+        }, "\u0633\u0627\u062D\u0644 \u0627\u0644\u0639\u0627\u062C"), _react.default.createElement("option", {
+          value: "WS"
+        }, "\u0633\u0627\u0645\u0648\u0627"), _react.default.createElement("option", {
+          value: "AS"
+        }, "\u0633\u0627\u0645\u0648\u0627 \u0627\u0644\u0623\u0645\u0631\u064A\u0643\u064A\u0629"), _react.default.createElement("option", {
+          value: "SM"
+        }, "\u0633\u0627\u0646 \u0645\u0627\u0631\u064A\u0646\u0648"), _react.default.createElement("option", {
+          value: "PM"
+        }, "\u0633\u0627\u0646\u062A \u0628\u064A\u064A\u0631 \u0648\u0645\u064A\u0643\u0648\u0644\u0648\u0646"), _react.default.createElement("option", {
+          value: "VC"
+        }, "\u0633\u0627\u0646\u062A \u0641\u0646\u0633\u0646\u062A \u0648\u063A\u0631\u0646\u0627\u062F\u064A\u0646"), _react.default.createElement("option", {
+          value: "KN"
+        }, "\u0633\u0627\u0646\u062A \u0643\u064A\u062A\u0633 \u0648\u0646\u064A\u0641\u064A\u0633"), _react.default.createElement("option", {
+          value: "LC"
+        }, "\u0633\u0627\u0646\u062A \u0644\u0648\u0633\u064A\u0627"), _react.default.createElement("option", {
+          value: "MF"
+        }, "\u0633\u0627\u0646\u062A \u0645\u0627\u0631\u062A\u064A\u0646"), _react.default.createElement("option", {
+          value: "SH"
+        }, "\u0633\u0627\u0646\u062A \u0647\u064A\u0644\u0646\u0627"), _react.default.createElement("option", {
+          value: "ST"
+        }, "\u0633\u0627\u0648 \u062A\u0648\u0645\u064A \u0648\u0628\u0631\u064A\u0646\u0633\u064A\u0628\u064A"), _react.default.createElement("option", {
+          value: "LK"
+        }, "\u0633\u0631\u064A\u0644\u0627\u0646\u0643\u0627"), _react.default.createElement("option", {
+          value: "SJ"
+        }, "\u0633\u0641\u0627\u0644\u0628\u0627\u0631\u062F \u0648\u062C\u0627\u0646 \u0645\u0627\u064A\u0627\u0646"), _react.default.createElement("option", {
+          value: "SK"
+        }, "\u0633\u0644\u0648\u0641\u0627\u0643\u064A\u0627"), _react.default.createElement("option", {
+          value: "SI"
+        }, "\u0633\u0644\u0648\u0641\u064A\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "SG"
+        }, "\u0633\u0646\u063A\u0627\u0641\u0648\u0631\u0629"), _react.default.createElement("option", {
+          value: "SZ"
+        }, "\u0633\u0648\u0627\u0632\u064A\u0644\u0627\u0646\u062F"), _react.default.createElement("option", {
+          value: "SY"
+        }, "\u0633\u0648\u0631\u064A\u0627"), _react.default.createElement("option", {
+          value: "SR"
+        }, "\u0633\u0648\u0631\u064A\u0646\u0627\u0645"), _react.default.createElement("option", {
+          value: "CH"
+        }, "\u0633\u0648\u064A\u0633\u0631\u0627"), _react.default.createElement("option", {
+          value: "SL"
+        }, "\u0633\u064A\u0631\u0627\u0644\u064A\u0648\u0646"), _react.default.createElement("option", {
+          value: "SC"
+        }, "\u0633\u064A\u0634\u0644"), _react.default.createElement("option", {
+          value: "CL"
+        }, "\u0634\u064A\u0644\u064A"), _react.default.createElement("option", {
+          value: "RS"
+        }, "\u0635\u0631\u0628\u064A\u0627"), _react.default.createElement("option", {
+          value: "CS"
+        }, "\u0635\u0631\u0628\u064A\u0627 \u0648\u0627\u0644\u062C\u0628\u0644 \u0627\u0644\u0623\u0633\u0648\u062F"), _react.default.createElement("option", {
+          value: "TJ"
+        }, "\u0637\u0627\u062C\u0643\u0633\u062A\u0627\u0646"), _react.default.createElement("option", {
+          value: "OM"
+        }, "\u0639\u0645\u0627\u0646"), _react.default.createElement("option", {
+          value: "GM"
+        }, "\u063A\u0627\u0645\u0628\u064A\u0627"), _react.default.createElement("option", {
+          value: "GH"
+        }, "\u063A\u0627\u0646\u0627"), _react.default.createElement("option", {
+          value: "GF"
+        }, "\u063A\u0648\u064A\u0627\u0646\u0627"), _react.default.createElement("option", {
+          value: "GY"
+        }, "\u063A\u064A\u0627\u0646\u0627"), _react.default.createElement("option", {
+          value: "GN"
+        }, "\u063A\u064A\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "GQ"
+        }, "\u063A\u064A\u0646\u064A\u0627 \u0627\u0644\u0627\u0633\u062A\u0648\u0627\u0626\u064A\u0629"), _react.default.createElement("option", {
+          value: "GW"
+        }, "\u063A\u064A\u0646\u064A\u0627 \u0628\u064A\u0633\u0627\u0648"), _react.default.createElement("option", {
+          value: "VU"
+        }, "\u0641\u0627\u0646\u0648\u0627\u062A\u0648"), _react.default.createElement("option", {
+          value: "FR"
+        }, "\u0641\u0631\u0646\u0633\u0627"), _react.default.createElement("option", {
+          value: "PS"
+        }, "\u0641\u0644\u0633\u0637\u064A\u0646"), _react.default.createElement("option", {
+          value: "VE"
+        }, "\u0641\u0646\u0632\u0648\u064A\u0644\u0627"), _react.default.createElement("option", {
+          value: "FI"
+        }, "\u0641\u0646\u0644\u0646\u062F\u0627"), _react.default.createElement("option", {
+          value: "VN"
+        }, "\u0641\u064A\u062A\u0646\u0627\u0645"), _react.default.createElement("option", {
+          value: "FJ"
+        }, "\u0641\u064A\u062C\u064A"), _react.default.createElement("option", {
+          value: "CY"
+        }, "\u0642\u0628\u0631\u0635"), _react.default.createElement("option", {
+          value: "KG"
+        }, "\u0642\u0631\u063A\u064A\u0632\u0633\u062A\u0627\u0646"), _react.default.createElement("option", {
+          value: "QA"
+        }, "\u0642\u0637\u0631"), _react.default.createElement("option", {
+          value: "KZ"
+        }, "\u0643\u0627\u0632\u0627\u062E\u0633\u062A\u0627\u0646"), _react.default.createElement("option", {
+          value: "NC"
+        }, "\u0643\u0627\u0644\u064A\u062F\u0648\u0646\u064A\u0627 \u0627\u0644\u062C\u062F\u064A\u062F\u0629"), _react.default.createElement("option", {
+          value: "HR"
+        }, "\u0643\u0631\u0648\u0627\u062A\u064A\u0627"), _react.default.createElement("option", {
+          value: "KH"
+        }, "\u0643\u0645\u0628\u0648\u062F\u064A\u0627"), _react.default.createElement("option", {
+          value: "CA"
+        }, "\u0643\u0646\u062F\u0627"), _react.default.createElement("option", {
+          value: "CU"
+        }, "\u0643\u0648\u0628\u0627"), _react.default.createElement("option", {
+          value: "KR"
+        }, "\u0643\u0648\u0631\u064A\u0627 \u0627\u0644\u062C\u0646\u0648\u0628\u064A\u0629"), _react.default.createElement("option", {
+          value: "KP"
+        }, "\u0643\u0648\u0631\u064A\u0627 \u0627\u0644\u0634\u0645\u0627\u0644\u064A\u0629"), _react.default.createElement("option", {
+          value: "CR"
+        }, "\u0643\u0648\u0633\u062A\u0627\u0631\u064A\u0643\u0627"), _react.default.createElement("option", {
+          value: "CO"
+        }, "\u0643\u0648\u0644\u0648\u0645\u0628\u064A\u0627"), _react.default.createElement("option", {
+          value: "KI"
+        }, "\u0643\u064A\u0631\u064A\u0628\u0627\u062A\u064A"), _react.default.createElement("option", {
+          value: "KE"
+        }, "\u0643\u064A\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "LV"
+        }, "\u0644\u0627\u062A\u0641\u064A\u0627"), _react.default.createElement("option", {
+          value: "LA"
+        }, "\u0644\u0627\u0648\u0633"), _react.default.createElement("option", {
+          value: "LB"
+        }, "\u0644\u0628\u0646\u0627\u0646"), _react.default.createElement("option", {
+          value: "LU"
+        }, "\u0644\u0648\u0643\u0633\u0645\u0628\u0648\u0631\u062C"), _react.default.createElement("option", {
+          value: "LY"
+        }, "\u0644\u064A\u0628\u064A\u0627"), _react.default.createElement("option", {
+          value: "LR"
+        }, "\u0644\u064A\u0628\u064A\u0631\u064A\u0627"), _react.default.createElement("option", {
+          value: "LT"
+        }, "\u0644\u064A\u062A\u0648\u0627\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "LI"
+        }, "\u0644\u064A\u062E\u062A\u0646\u0634\u062A\u0627\u064A\u0646"), _react.default.createElement("option", {
+          value: "LS"
+        }, "\u0644\u064A\u0633\u0648\u062A\u0648"), _react.default.createElement("option", {
+          value: "MQ"
+        }, "\u0645\u0627\u0631\u062A\u064A\u0646\u064A\u0643"), _react.default.createElement("option", {
+          value: "MO"
+        }, "\u0645\u0627\u0643\u0627\u0648 \u0627\u0644\u0635\u064A\u0646\u064A\u0629"), _react.default.createElement("option", {
+          value: "MT"
+        }, "\u0645\u0627\u0644\u0637\u0627"), _react.default.createElement("option", {
+          value: "ML"
+        }, "\u0645\u0627\u0644\u064A"), _react.default.createElement("option", {
+          value: "MY"
+        }, "\u0645\u0627\u0644\u064A\u0632\u064A\u0627"), _react.default.createElement("option", {
+          value: "YT"
+        }, "\u0645\u0627\u064A\u0648\u062A"), _react.default.createElement("option", {
+          value: "MG"
+        }, "\u0645\u062F\u063A\u0634\u0642\u0631"), _react.default.createElement("option", {
+          value: "EG"
+        }, "\u0645\u0635\u0631"), _react.default.createElement("option", {
+          value: "MK"
+        }, "\u0645\u0642\u062F\u0648\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "MW"
+        }, "\u0645\u0644\u0627\u0648\u064A"), _react.default.createElement("option", {
+          value: "ZZ"
+        }, "\u0645\u0646\u0637\u0642\u0629 \u063A\u064A\u0631 \u0645\u0639\u0631\u0641\u0629"), _react.default.createElement("option", {
+          value: "MN"
+        }, "\u0645\u0646\u063A\u0648\u0644\u064A\u0627"), _react.default.createElement("option", {
+          value: "MR"
+        }, "\u0645\u0648\u0631\u064A\u062A\u0627\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "MU"
+        }, "\u0645\u0648\u0631\u064A\u0634\u064A\u0648\u0633"), _react.default.createElement("option", {
+          value: "MZ"
+        }, "\u0645\u0648\u0632\u0645\u0628\u064A\u0642"), _react.default.createElement("option", {
+          value: "MD"
+        }, "\u0645\u0648\u0644\u062F\u0627\u0641\u064A\u0627"), _react.default.createElement("option", {
+          value: "MC"
+        }, "\u0645\u0648\u0646\u0627\u0643\u0648"), _react.default.createElement("option", {
+          value: "MS"
+        }, "\u0645\u0648\u0646\u062A\u0633\u0631\u0627\u062A"), _react.default.createElement("option", {
+          value: "MM"
+        }, "\u0645\u064A\u0627\u0646\u0645\u0627\u0631"), _react.default.createElement("option", {
+          value: "FM"
+        }, "\u0645\u064A\u0643\u0631\u0648\u0646\u064A\u0632\u064A\u0627"), _react.default.createElement("option", {
+          value: "NA"
+        }, "\u0646\u0627\u0645\u064A\u0628\u064A\u0627"), _react.default.createElement("option", {
+          value: "NR"
+        }, "\u0646\u0648\u0631\u0648"), _react.default.createElement("option", {
+          value: "NP"
+        }, "\u0646\u064A\u0628\u0627\u0644"), _react.default.createElement("option", {
+          value: "NG"
+        }, "\u0646\u064A\u062C\u064A\u0631\u064A\u0627"), _react.default.createElement("option", {
+          value: "NI"
+        }, "\u0646\u064A\u0643\u0627\u0631\u0627\u062C\u0648\u0627"), _react.default.createElement("option", {
+          value: "NZ"
+        }, "\u0646\u064A\u0648\u0632\u064A\u0644\u0627\u0646\u062F\u0627"), _react.default.createElement("option", {
+          value: "NU"
+        }, "\u0646\u064A\u0648\u064A"), _react.default.createElement("option", {
+          value: "HT"
+        }, "\u0647\u0627\u064A\u062A\u064A"), _react.default.createElement("option", {
+          value: "HN"
+        }, "\u0647\u0646\u062F\u0648\u0631\u0627\u0633"), _react.default.createElement("option", {
+          value: "NL"
+        }, "\u0647\u0648\u0644\u0646\u062F\u0627"), _react.default.createElement("option", {
+          value: "HK"
+        }, "\u0647\u0648\u0646\u062C \u0643\u0648\u0646\u062C \u0627\u0644\u0635\u064A\u0646\u064A\u0629"))), _react.default.createElement("div", {
+          className: "col-xs-2"
+        }, _react.default.createElement("label", {
+          for: "ex2"
+        }, "\u0627\u0644\u0628\u0631\u064A\u062F \u0627\u0644\u0627\u0644\u0643\u062A\u0631\u0648\u0646\u064A"), _react.default.createElement("input", {
+          class: "custom-select",
+          id: "ex2",
+          type: "text"
+        })), _react.default.createElement("div", {
+          className: "col-xs-2"
+        }, _react.default.createElement("label", {
+          for: "ex3"
+        }, "\u0627\u0644\u0647\u0627\u062A\u0641"), _react.default.createElement("input", {
+          className: "custom-select",
+          id: "ex3",
+          type: "text"
+        }))), _react.default.createElement("div", {
+          className: "form-group row"
+        }, _react.default.createElement("div", {
+          class: "col-xs-2"
+        }, _react.default.createElement("label", {
+          for: "ex1"
+        }, "\u0627\u0644\u0627\u0633\u0645 \u0627\u0644\u0631\u0628\u0627\u0639\u064A"), _react.default.createElement("input", {
+          className: "custom-select",
+          id: "ex1",
+          type: "text"
+        })), _react.default.createElement("div", {
+          className: "col-xs-2"
+        }, _react.default.createElement("label", {
+          for: "ex3"
+        }, "\u0627\u0644\u062C\u0646\u0633\u064A\u0629"), _react.default.createElement("select", {
+          className: "custom-select"
+        }, _react.default.createElement("option", {
+          value: "AW"
+        }, "\u0622\u0648\u0631\u0628\u0627"), _react.default.createElement("option", {
+          value: "AZ"
+        }, "\u0623\u0630\u0631\u0628\u064A\u062C\u0627\u0646"), _react.default.createElement("option", {
+          value: "AM"
+        }, "\u0623\u0631\u0645\u064A\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "ES"
+        }, "\u0623\u0633\u0628\u0627\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "AU"
+        }, "\u0623\u0633\u062A\u0631\u0627\u0644\u064A\u0627"), _react.default.createElement("option", {
+          value: "AF"
+        }, "\u0623\u0641\u063A\u0627\u0646\u0633\u062A\u0627\u0646"), _react.default.createElement("option", {
+          value: "AL"
+        }, "\u0623\u0644\u0628\u0627\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "DE"
+        }, "\u0623\u0644\u0645\u0627\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "AG"
+        }, "\u0623\u0646\u062A\u064A\u062C\u0648\u0627 \u0648\u0628\u0631\u0628\u0648\u062F\u0627"), _react.default.createElement("option", {
+          value: "AO"
+        }, "\u0623\u0646\u062C\u0648\u0644\u0627"), _react.default.createElement("option", {
+          value: "AI"
+        }, "\u0623\u0646\u062C\u0648\u064A\u0644\u0627"), _react.default.createElement("option", {
+          value: "AD"
+        }, "\u0623\u0646\u062F\u0648\u0631\u0627"), _react.default.createElement("option", {
+          value: "UY"
+        }, "\u0623\u0648\u0631\u062C\u0648\u0627\u064A"), _react.default.createElement("option", {
+          value: "UZ"
+        }, "\u0623\u0648\u0632\u0628\u0643\u0633\u062A\u0627\u0646"), _react.default.createElement("option", {
+          value: "UG"
+        }, "\u0623\u0648\u063A\u0646\u062F\u0627"), _react.default.createElement("option", {
+          value: "UA"
+        }, "\u0623\u0648\u0643\u0631\u0627\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "IE"
+        }, "\u0623\u064A\u0631\u0644\u0646\u062F\u0627"), _react.default.createElement("option", {
+          value: "IS"
+        }, "\u0623\u064A\u0633\u0644\u0646\u062F\u0627"), _react.default.createElement("option", {
+          value: "ET"
+        }, "\u0627\u062B\u064A\u0648\u0628\u064A\u0627"), _react.default.createElement("option", {
+          value: "ER"
+        }, "\u0627\u0631\u064A\u062A\u0631\u064A\u0627"), _react.default.createElement("option", {
+          value: "EE"
+        }, "\u0627\u0633\u062A\u0648\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "IL"
+        }, "\u0627\u0633\u0631\u0627\u0626\u064A\u0644"), _react.default.createElement("option", {
+          value: "AR"
+        }, "\u0627\u0644\u0623\u0631\u062C\u0646\u062A\u064A\u0646"), _react.default.createElement("option", {
+          value: "JO"
+        }, "\u0627\u0644\u0623\u0631\u062F\u0646"), _react.default.createElement("option", {
+          value: "EC"
+        }, "\u0627\u0644\u0627\u0643\u0648\u0627\u062F\u0648\u0631"), _react.default.createElement("option", {
+          value: "AE"
+        }, "\u0627\u0644\u0627\u0645\u0627\u0631\u0627\u062A \u0627\u0644\u0639\u0631\u0628\u064A\u0629 \u0627\u0644\u0645\u062A\u062D\u062F\u0629"), _react.default.createElement("option", {
+          value: "BS"
+        }, "\u0627\u0644\u0628\u0627\u0647\u0627\u0645\u0627"), _react.default.createElement("option", {
+          value: "BH"
+        }, "\u0627\u0644\u0628\u062D\u0631\u064A\u0646"), _react.default.createElement("option", {
+          value: "BR"
+        }, "\u0627\u0644\u0628\u0631\u0627\u0632\u064A\u0644"), _react.default.createElement("option", {
+          value: "PT"
+        }, "\u0627\u0644\u0628\u0631\u062A\u063A\u0627\u0644"), _react.default.createElement("option", {
+          value: "BA"
+        }, "\u0627\u0644\u0628\u0648\u0633\u0646\u0629 \u0648\u0627\u0644\u0647\u0631\u0633\u0643"), _react.default.createElement("option", {
+          value: "GA"
+        }, "\u0627\u0644\u062C\u0627\u0628\u0648\u0646"), _react.default.createElement("option", {
+          value: "ME"
+        }, "\u0627\u0644\u062C\u0628\u0644 \u0627\u0644\u0623\u0633\u0648\u062F"), _react.default.createElement("option", {
+          value: "DZ"
+        }, "\u0627\u0644\u062C\u0632\u0627\u0626\u0631"), _react.default.createElement("option", {
+          value: "DK"
+        }, "\u0627\u0644\u062F\u0627\u0646\u0645\u0631\u0643"), _react.default.createElement("option", {
+          value: "CV"
+        }, "\u0627\u0644\u0631\u0623\u0633 \u0627\u0644\u0623\u062E\u0636\u0631"), _react.default.createElement("option", {
+          value: "SV"
+        }, "\u0627\u0644\u0633\u0644\u0641\u0627\u062F\u0648\u0631"), _react.default.createElement("option", {
+          value: "SN"
+        }, "\u0627\u0644\u0633\u0646\u063A\u0627\u0644"), _react.default.createElement("option", {
+          value: "SD"
+        }, "\u0627\u0644\u0633\u0648\u062F\u0627\u0646"), _react.default.createElement("option", {
+          value: "SE"
+        }, "\u0627\u0644\u0633\u0648\u064A\u062F"), _react.default.createElement("option", {
+          value: "EH"
+        }, "\u0627\u0644\u0635\u062D\u0631\u0627\u0621 \u0627\u0644\u063A\u0631\u0628\u064A\u0629"), _react.default.createElement("option", {
+          value: "SO"
+        }, "\u0627\u0644\u0635\u0648\u0645\u0627\u0644"), _react.default.createElement("option", {
+          value: "CN"
+        }, "\u0627\u0644\u0635\u064A\u0646"), _react.default.createElement("option", {
+          value: "IQ"
+        }, "\u0627\u0644\u0639\u0631\u0627\u0642"), _react.default.createElement("option", {
+          value: "VA"
+        }, "\u0627\u0644\u0641\u0627\u062A\u064A\u0643\u0627\u0646"), _react.default.createElement("option", {
+          value: "PH"
+        }, "\u0627\u0644\u0641\u064A\u0644\u0628\u064A\u0646"), _react.default.createElement("option", {
+          value: "AQ"
+        }, "\u0627\u0644\u0642\u0637\u0628 \u0627\u0644\u062C\u0646\u0648\u0628\u064A"), _react.default.createElement("option", {
+          value: "CM"
+        }, "\u0627\u0644\u0643\u0627\u0645\u064A\u0631\u0648\u0646"), _react.default.createElement("option", {
+          value: "CG"
+        }, "\u0627\u0644\u0643\u0648\u0646\u063A\u0648 - \u0628\u0631\u0627\u0632\u0627\u0641\u064A\u0644"), _react.default.createElement("option", {
+          value: "KW"
+        }, "\u0627\u0644\u0643\u0648\u064A\u062A"), _react.default.createElement("option", {
+          value: "HU"
+        }, "\u0627\u0644\u0645\u062C\u0631"), _react.default.createElement("option", {
+          value: "IO"
+        }, "\u0627\u0644\u0645\u062D\u064A\u0637 \u0627\u0644\u0647\u0646\u062F\u064A \u0627\u0644\u0628\u0631\u064A\u0637\u0627\u0646\u064A"), _react.default.createElement("option", {
+          value: "MA"
+        }, "\u0627\u0644\u0645\u063A\u0631\u0628"), _react.default.createElement("option", {
+          value: "TF"
+        }, "\u0627\u0644\u0645\u0642\u0627\u0637\u0639\u0627\u062A \u0627\u0644\u062C\u0646\u0648\u0628\u064A\u0629 \u0627\u0644\u0641\u0631\u0646\u0633\u064A\u0629"), _react.default.createElement("option", {
+          value: "MX"
+        }, "\u0627\u0644\u0645\u0643\u0633\u064A\u0643"), _react.default.createElement("option", {
+          value: "SA"
+        }, "\u0627\u0644\u0645\u0645\u0644\u0643\u0629 \u0627\u0644\u0639\u0631\u0628\u064A\u0629 \u0627\u0644\u0633\u0639\u0648\u062F\u064A\u0629"), _react.default.createElement("option", {
+          value: "GB"
+        }, "\u0627\u0644\u0645\u0645\u0644\u0643\u0629 \u0627\u0644\u0645\u062A\u062D\u062F\u0629"), _react.default.createElement("option", {
+          value: "NO"
+        }, "\u0627\u0644\u0646\u0631\u0648\u064A\u062C"), _react.default.createElement("option", {
+          value: "AT"
+        }, "\u0627\u0644\u0646\u0645\u0633\u0627"), _react.default.createElement("option", {
+          value: "NE"
+        }, "\u0627\u0644\u0646\u064A\u062C\u0631"), _react.default.createElement("option", {
+          value: "IN"
+        }, "\u0627\u0644\u0647\u0646\u062F"), _react.default.createElement("option", {
+          value: "US"
+        }, "\u0627\u0644\u0648\u0644\u0627\u064A\u0627\u062A \u0627\u0644\u0645\u062A\u062D\u062F\u0629 \u0627\u0644\u0623\u0645\u0631\u064A\u0643\u064A\u0629"), _react.default.createElement("option", {
+          value: "JP"
+        }, "\u0627\u0644\u064A\u0627\u0628\u0627\u0646"), _react.default.createElement("option", {
+          value: "YE"
+        }, "\u0627\u0644\u064A\u0645\u0646"), _react.default.createElement("option", {
+          value: "GR"
+        }, "\u0627\u0644\u064A\u0648\u0646\u0627\u0646"), _react.default.createElement("option", {
+          value: "ID"
+        }, "\u0627\u0646\u062F\u0648\u0646\u064A\u0633\u064A\u0627"), _react.default.createElement("option", {
+          value: "IR"
+        }, "\u0627\u064A\u0631\u0627\u0646"), _react.default.createElement("option", {
+          value: "IT"
+        }, "\u0627\u064A\u0637\u0627\u0644\u064A\u0627"), _react.default.createElement("option", {
+          value: "PG"
+        }, "\u0628\u0627\u0628\u0648\u0627 \u063A\u064A\u0646\u064A\u0627 \u0627\u0644\u062C\u062F\u064A\u062F\u0629"), _react.default.createElement("option", {
+          value: "PY"
+        }, "\u0628\u0627\u0631\u0627\u062C\u0648\u0627\u064A"), _react.default.createElement("option", {
+          value: "PK"
+        }, "\u0628\u0627\u0643\u0633\u062A\u0627\u0646"), _react.default.createElement("option", {
+          value: "PW"
+        }, "\u0628\u0627\u0644\u0627\u0648"), _react.default.createElement("option", {
+          value: "BW"
+        }, "\u0628\u062A\u0633\u0648\u0627\u0646\u0627"), _react.default.createElement("option", {
+          value: "PN"
+        }, "\u0628\u062A\u0643\u0627\u064A\u0631\u0646"), _react.default.createElement("option", {
+          value: "BB"
+        }, "\u0628\u0631\u0628\u0627\u062F\u0648\u0633"), _react.default.createElement("option", {
+          value: "BM"
+        }, "\u0628\u0631\u0645\u0648\u062F\u0627"), _react.default.createElement("option", {
+          value: "BN"
+        }, "\u0628\u0631\u0648\u0646\u0627\u064A"), _react.default.createElement("option", {
+          value: "BE"
+        }, "\u0628\u0644\u062C\u064A\u0643\u0627"), _react.default.createElement("option", {
+          value: "BG"
+        }, "\u0628\u0644\u063A\u0627\u0631\u064A\u0627"), _react.default.createElement("option", {
+          value: "BZ"
+        }, "\u0628\u0644\u064A\u0632"), _react.default.createElement("option", {
+          value: "BD"
+        }, "\u0628\u0646\u062C\u0644\u0627\u062F\u064A\u0634"), _react.default.createElement("option", {
+          value: "PA"
+        }, "\u0628\u0646\u0645\u0627"), _react.default.createElement("option", {
+          value: "BJ"
+        }, "\u0628\u0646\u064A\u0646"), _react.default.createElement("option", {
+          value: "BT"
+        }, "\u0628\u0648\u062A\u0627\u0646"), _react.default.createElement("option", {
+          value: "PR"
+        }, "\u0628\u0648\u0631\u062A\u0648\u0631\u064A\u0643\u0648"), _react.default.createElement("option", {
+          value: "BF"
+        }, "\u0628\u0648\u0631\u0643\u064A\u0646\u0627 \u0641\u0627\u0633\u0648"), _react.default.createElement("option", {
+          value: "BI"
+        }, "\u0628\u0648\u0631\u0648\u0646\u062F\u064A"), _react.default.createElement("option", {
+          value: "PL"
+        }, "\u0628\u0648\u0644\u0646\u062F\u0627"), _react.default.createElement("option", {
+          value: "BO"
+        }, "\u0628\u0648\u0644\u064A\u0641\u064A\u0627"), _react.default.createElement("option", {
+          value: "PF"
+        }, "\u0628\u0648\u0644\u064A\u0646\u064A\u0632\u064A\u0627 \u0627\u0644\u0641\u0631\u0646\u0633\u064A\u0629"), _react.default.createElement("option", {
+          value: "PE"
+        }, "\u0628\u064A\u0631\u0648"), _react.default.createElement("option", {
+          value: "TZ"
+        }, "\u062A\u0627\u0646\u0632\u0627\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "TH"
+        }, "\u062A\u0627\u064A\u0644\u0646\u062F"), _react.default.createElement("option", {
+          value: "TW"
+        }, "\u062A\u0627\u064A\u0648\u0627\u0646"), _react.default.createElement("option", {
+          value: "TM"
+        }, "\u062A\u0631\u0643\u0645\u0627\u0646\u0633\u062A\u0627\u0646"), _react.default.createElement("option", {
+          value: "TR"
+        }, "\u062A\u0631\u0643\u064A\u0627"), _react.default.createElement("option", {
+          value: "TT"
+        }, "\u062A\u0631\u064A\u0646\u064A\u062F\u0627\u062F \u0648\u062A\u0648\u0628\u0627\u063A\u0648"), _react.default.createElement("option", {
+          value: "TD"
+        }, "\u062A\u0634\u0627\u062F"), _react.default.createElement("option", {
+          value: "TG"
+        }, "\u062A\u0648\u062C\u0648"), _react.default.createElement("option", {
+          value: "TV"
+        }, "\u062A\u0648\u0641\u0627\u0644\u0648"), _react.default.createElement("option", {
+          value: "TK"
+        }, "\u062A\u0648\u0643\u064A\u0644\u0648"), _react.default.createElement("option", {
+          value: "TO"
+        }, "\u062A\u0648\u0646\u062C\u0627"), _react.default.createElement("option", {
+          value: "TN"
+        }, "\u062A\u0648\u0646\u0633"), _react.default.createElement("option", {
+          value: "TL"
+        }, "\u062A\u064A\u0645\u0648\u0631 \u0627\u0644\u0634\u0631\u0642\u064A\u0629"), _react.default.createElement("option", {
+          value: "JM"
+        }, "\u062C\u0627\u0645\u0627\u064A\u0643\u0627"), _react.default.createElement("option", {
+          value: "GI"
+        }, "\u062C\u0628\u0644 \u0637\u0627\u0631\u0642"), _react.default.createElement("option", {
+          value: "GD"
+        }, "\u062C\u0631\u064A\u0646\u0627\u062F\u0627"), _react.default.createElement("option", {
+          value: "GL"
+        }, "\u062C\u0631\u064A\u0646\u0644\u0627\u0646\u062F"), _react.default.createElement("option", {
+          value: "AX"
+        }, "\u062C\u0632\u0631 \u0623\u0648\u0644\u0627\u0646"), _react.default.createElement("option", {
+          value: "AN"
+        }, "\u062C\u0632\u0631 \u0627\u0644\u0623\u0646\u062A\u064A\u0644 \u0627\u0644\u0647\u0648\u0644\u0646\u062F\u064A\u0629"), _react.default.createElement("option", {
+          value: "TC"
+        }, "\u062C\u0632\u0631 \u0627\u0644\u062A\u0631\u0643 \u0648\u062C\u0627\u064A\u0643\u0648\u0633"), _react.default.createElement("option", {
+          value: "KM"
+        }, "\u062C\u0632\u0631 \u0627\u0644\u0642\u0645\u0631"), _react.default.createElement("option", {
+          value: "KY"
+        }, "\u062C\u0632\u0631 \u0627\u0644\u0643\u0627\u064A\u0645\u0646"), _react.default.createElement("option", {
+          value: "MH"
+        }, "\u062C\u0632\u0631 \u0627\u0644\u0645\u0627\u0631\u0634\u0627\u0644"), _react.default.createElement("option", {
+          value: "MV"
+        }, "\u062C\u0632\u0631 \u0627\u0644\u0645\u0644\u062F\u064A\u0641"), _react.default.createElement("option", {
+          value: "UM"
+        }, "\u062C\u0632\u0631 \u0627\u0644\u0648\u0644\u0627\u064A\u0627\u062A \u0627\u0644\u0645\u062A\u062D\u062F\u0629 \u0627\u0644\u0628\u0639\u064A\u062F\u0629 \u0627\u0644\u0635\u063A\u064A\u0631\u0629"), _react.default.createElement("option", {
+          value: "SB"
+        }, "\u062C\u0632\u0631 \u0633\u0644\u064A\u0645\u0627\u0646"), _react.default.createElement("option", {
+          value: "FO"
+        }, "\u062C\u0632\u0631 \u0641\u0627\u0631\u0648"), _react.default.createElement("option", {
+          value: "VI"
+        }, "\u062C\u0632\u0631 \u0641\u0631\u062C\u064A\u0646 \u0627\u0644\u0623\u0645\u0631\u064A\u0643\u064A\u0629"), _react.default.createElement("option", {
+          value: "VG"
+        }, "\u062C\u0632\u0631 \u0641\u0631\u062C\u064A\u0646 \u0627\u0644\u0628\u0631\u064A\u0637\u0627\u0646\u064A\u0629"), _react.default.createElement("option", {
+          value: "FK"
+        }, "\u062C\u0632\u0631 \u0641\u0648\u0643\u0644\u0627\u0646\u062F"), _react.default.createElement("option", {
+          value: "CK"
+        }, "\u062C\u0632\u0631 \u0643\u0648\u0643"), _react.default.createElement("option", {
+          value: "CC"
+        }, "\u062C\u0632\u0631 \u0643\u0648\u0643\u0648\u0633"), _react.default.createElement("option", {
+          value: "MP"
+        }, "\u062C\u0632\u0631 \u0645\u0627\u0631\u064A\u0627\u0646\u0627 \u0627\u0644\u0634\u0645\u0627\u0644\u064A\u0629"), _react.default.createElement("option", {
+          value: "WF"
+        }, "\u062C\u0632\u0631 \u0648\u0627\u0644\u0633 \u0648\u0641\u0648\u062A\u0648\u0646\u0627"), _react.default.createElement("option", {
+          value: "CX"
+        }, "\u062C\u0632\u064A\u0631\u0629 \u0627\u0644\u0643\u0631\u064A\u0633\u0645\u0627\u0633"), _react.default.createElement("option", {
+          value: "BV"
+        }, "\u062C\u0632\u064A\u0631\u0629 \u0628\u0648\u0641\u064A\u0647"), _react.default.createElement("option", {
+          value: "IM"
+        }, "\u062C\u0632\u064A\u0631\u0629 \u0645\u0627\u0646"), _react.default.createElement("option", {
+          value: "NF"
+        }, "\u062C\u0632\u064A\u0631\u0629 \u0646\u0648\u0631\u0641\u0648\u0643"), _react.default.createElement("option", {
+          value: "HM"
+        }, "\u062C\u0632\u064A\u0631\u0629 \u0647\u064A\u0631\u062F \u0648\u0645\u0627\u0643\u062F\u0648\u0646\u0627\u0644\u062F"), _react.default.createElement("option", {
+          value: "CF"
+        }, "\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u0627\u0641\u0631\u064A\u0642\u064A\u0627 \u0627\u0644\u0648\u0633\u0637\u0649"), _react.default.createElement("option", {
+          value: "CZ"
+        }, "\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u0627\u0644\u062A\u0634\u064A\u0643"), _react.default.createElement("option", {
+          value: "DO"
+        }, "\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u0627\u0644\u062F\u0648\u0645\u064A\u0646\u064A\u0643"), _react.default.createElement("option", {
+          value: "CD"
+        }, "\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u0627\u0644\u0643\u0648\u0646\u063A\u0648 \u0627\u0644\u062F\u064A\u0645\u0642\u0631\u0627\u0637\u064A\u0629"), _react.default.createElement("option", {
+          value: "ZA"
+        }, "\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u062C\u0646\u0648\u0628 \u0627\u0641\u0631\u064A\u0642\u064A\u0627"), _react.default.createElement("option", {
+          value: "GT"
+        }, "\u062C\u0648\u0627\u062A\u064A\u0645\u0627\u0644\u0627"), _react.default.createElement("option", {
+          value: "GP"
+        }, "\u062C\u0648\u0627\u062F\u0644\u0648\u0628"), _react.default.createElement("option", {
+          value: "GU"
+        }, "\u062C\u0648\u0627\u0645"), _react.default.createElement("option", {
+          value: "GE"
+        }, "\u062C\u0648\u0631\u062C\u064A\u0627"), _react.default.createElement("option", {
+          value: "GS"
+        }, "\u062C\u0648\u0631\u062C\u064A\u0627 \u0627\u0644\u062C\u0646\u0648\u0628\u064A\u0629 \u0648\u062C\u0632\u0631 \u0633\u0627\u0646\u062F\u0648\u064A\u062A\u0634 \u0627\u0644\u062C\u0646\u0648\u0628\u064A\u0629"), _react.default.createElement("option", {
+          value: "DJ"
+        }, "\u062C\u064A\u0628\u0648\u062A\u064A"), _react.default.createElement("option", {
+          value: "JE"
+        }, "\u062C\u064A\u0631\u0633\u064A"), _react.default.createElement("option", {
+          value: "DM"
+        }, "\u062F\u0648\u0645\u064A\u0646\u064A\u0643\u0627"), _react.default.createElement("option", {
+          value: "RW"
+        }, "\u0631\u0648\u0627\u0646\u062F\u0627"), _react.default.createElement("option", {
+          value: "RU"
+        }, "\u0631\u0648\u0633\u064A\u0627"), _react.default.createElement("option", {
+          value: "BY"
+        }, "\u0631\u0648\u0633\u064A\u0627 \u0627\u0644\u0628\u064A\u0636\u0627\u0621"), _react.default.createElement("option", {
+          value: "RO"
+        }, "\u0631\u0648\u0645\u0627\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "RE"
+        }, "\u0631\u0648\u064A\u0646\u064A\u0648\u0646"), _react.default.createElement("option", {
+          value: "ZM"
+        }, "\u0632\u0627\u0645\u0628\u064A\u0627"), _react.default.createElement("option", {
+          value: "ZW"
+        }, "\u0632\u064A\u0645\u0628\u0627\u0628\u0648\u064A"), _react.default.createElement("option", {
+          value: "CI"
+        }, "\u0633\u0627\u062D\u0644 \u0627\u0644\u0639\u0627\u062C"), _react.default.createElement("option", {
+          value: "WS"
+        }, "\u0633\u0627\u0645\u0648\u0627"), _react.default.createElement("option", {
+          value: "AS"
+        }, "\u0633\u0627\u0645\u0648\u0627 \u0627\u0644\u0623\u0645\u0631\u064A\u0643\u064A\u0629"), _react.default.createElement("option", {
+          value: "SM"
+        }, "\u0633\u0627\u0646 \u0645\u0627\u0631\u064A\u0646\u0648"), _react.default.createElement("option", {
+          value: "PM"
+        }, "\u0633\u0627\u0646\u062A \u0628\u064A\u064A\u0631 \u0648\u0645\u064A\u0643\u0648\u0644\u0648\u0646"), _react.default.createElement("option", {
+          value: "VC"
+        }, "\u0633\u0627\u0646\u062A \u0641\u0646\u0633\u0646\u062A \u0648\u063A\u0631\u0646\u0627\u062F\u064A\u0646"), _react.default.createElement("option", {
+          value: "KN"
+        }, "\u0633\u0627\u0646\u062A \u0643\u064A\u062A\u0633 \u0648\u0646\u064A\u0641\u064A\u0633"), _react.default.createElement("option", {
+          value: "LC"
+        }, "\u0633\u0627\u0646\u062A \u0644\u0648\u0633\u064A\u0627"), _react.default.createElement("option", {
+          value: "MF"
+        }, "\u0633\u0627\u0646\u062A \u0645\u0627\u0631\u062A\u064A\u0646"), _react.default.createElement("option", {
+          value: "SH"
+        }, "\u0633\u0627\u0646\u062A \u0647\u064A\u0644\u0646\u0627"), _react.default.createElement("option", {
+          value: "ST"
+        }, "\u0633\u0627\u0648 \u062A\u0648\u0645\u064A \u0648\u0628\u0631\u064A\u0646\u0633\u064A\u0628\u064A"), _react.default.createElement("option", {
+          value: "LK"
+        }, "\u0633\u0631\u064A\u0644\u0627\u0646\u0643\u0627"), _react.default.createElement("option", {
+          value: "SJ"
+        }, "\u0633\u0641\u0627\u0644\u0628\u0627\u0631\u062F \u0648\u062C\u0627\u0646 \u0645\u0627\u064A\u0627\u0646"), _react.default.createElement("option", {
+          value: "SK"
+        }, "\u0633\u0644\u0648\u0641\u0627\u0643\u064A\u0627"), _react.default.createElement("option", {
+          value: "SI"
+        }, "\u0633\u0644\u0648\u0641\u064A\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "SG"
+        }, "\u0633\u0646\u063A\u0627\u0641\u0648\u0631\u0629"), _react.default.createElement("option", {
+          value: "SZ"
+        }, "\u0633\u0648\u0627\u0632\u064A\u0644\u0627\u0646\u062F"), _react.default.createElement("option", {
+          value: "SY"
+        }, "\u0633\u0648\u0631\u064A\u0627"), _react.default.createElement("option", {
+          value: "SR"
+        }, "\u0633\u0648\u0631\u064A\u0646\u0627\u0645"), _react.default.createElement("option", {
+          value: "CH"
+        }, "\u0633\u0648\u064A\u0633\u0631\u0627"), _react.default.createElement("option", {
+          value: "SL"
+        }, "\u0633\u064A\u0631\u0627\u0644\u064A\u0648\u0646"), _react.default.createElement("option", {
+          value: "SC"
+        }, "\u0633\u064A\u0634\u0644"), _react.default.createElement("option", {
+          value: "CL"
+        }, "\u0634\u064A\u0644\u064A"), _react.default.createElement("option", {
+          value: "RS"
+        }, "\u0635\u0631\u0628\u064A\u0627"), _react.default.createElement("option", {
+          value: "CS"
+        }, "\u0635\u0631\u0628\u064A\u0627 \u0648\u0627\u0644\u062C\u0628\u0644 \u0627\u0644\u0623\u0633\u0648\u062F"), _react.default.createElement("option", {
+          value: "TJ"
+        }, "\u0637\u0627\u062C\u0643\u0633\u062A\u0627\u0646"), _react.default.createElement("option", {
+          value: "OM"
+        }, "\u0639\u0645\u0627\u0646"), _react.default.createElement("option", {
+          value: "GM"
+        }, "\u063A\u0627\u0645\u0628\u064A\u0627"), _react.default.createElement("option", {
+          value: "GH"
+        }, "\u063A\u0627\u0646\u0627"), _react.default.createElement("option", {
+          value: "GF"
+        }, "\u063A\u0648\u064A\u0627\u0646\u0627"), _react.default.createElement("option", {
+          value: "GY"
+        }, "\u063A\u064A\u0627\u0646\u0627"), _react.default.createElement("option", {
+          value: "GN"
+        }, "\u063A\u064A\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "GQ"
+        }, "\u063A\u064A\u0646\u064A\u0627 \u0627\u0644\u0627\u0633\u062A\u0648\u0627\u0626\u064A\u0629"), _react.default.createElement("option", {
+          value: "GW"
+        }, "\u063A\u064A\u0646\u064A\u0627 \u0628\u064A\u0633\u0627\u0648"), _react.default.createElement("option", {
+          value: "VU"
+        }, "\u0641\u0627\u0646\u0648\u0627\u062A\u0648"), _react.default.createElement("option", {
+          value: "FR"
+        }, "\u0641\u0631\u0646\u0633\u0627"), _react.default.createElement("option", {
+          value: "PS"
+        }, "\u0641\u0644\u0633\u0637\u064A\u0646"), _react.default.createElement("option", {
+          value: "VE"
+        }, "\u0641\u0646\u0632\u0648\u064A\u0644\u0627"), _react.default.createElement("option", {
+          value: "FI"
+        }, "\u0641\u0646\u0644\u0646\u062F\u0627"), _react.default.createElement("option", {
+          value: "VN"
+        }, "\u0641\u064A\u062A\u0646\u0627\u0645"), _react.default.createElement("option", {
+          value: "FJ"
+        }, "\u0641\u064A\u062C\u064A"), _react.default.createElement("option", {
+          value: "CY"
+        }, "\u0642\u0628\u0631\u0635"), _react.default.createElement("option", {
+          value: "KG"
+        }, "\u0642\u0631\u063A\u064A\u0632\u0633\u062A\u0627\u0646"), _react.default.createElement("option", {
+          value: "QA"
+        }, "\u0642\u0637\u0631"), _react.default.createElement("option", {
+          value: "KZ"
+        }, "\u0643\u0627\u0632\u0627\u062E\u0633\u062A\u0627\u0646"), _react.default.createElement("option", {
+          value: "NC"
+        }, "\u0643\u0627\u0644\u064A\u062F\u0648\u0646\u064A\u0627 \u0627\u0644\u062C\u062F\u064A\u062F\u0629"), _react.default.createElement("option", {
+          value: "HR"
+        }, "\u0643\u0631\u0648\u0627\u062A\u064A\u0627"), _react.default.createElement("option", {
+          value: "KH"
+        }, "\u0643\u0645\u0628\u0648\u062F\u064A\u0627"), _react.default.createElement("option", {
+          value: "CA"
+        }, "\u0643\u0646\u062F\u0627"), _react.default.createElement("option", {
+          value: "CU"
+        }, "\u0643\u0648\u0628\u0627"), _react.default.createElement("option", {
+          value: "KR"
+        }, "\u0643\u0648\u0631\u064A\u0627 \u0627\u0644\u062C\u0646\u0648\u0628\u064A\u0629"), _react.default.createElement("option", {
+          value: "KP"
+        }, "\u0643\u0648\u0631\u064A\u0627 \u0627\u0644\u0634\u0645\u0627\u0644\u064A\u0629"), _react.default.createElement("option", {
+          value: "CR"
+        }, "\u0643\u0648\u0633\u062A\u0627\u0631\u064A\u0643\u0627"), _react.default.createElement("option", {
+          value: "CO"
+        }, "\u0643\u0648\u0644\u0648\u0645\u0628\u064A\u0627"), _react.default.createElement("option", {
+          value: "KI"
+        }, "\u0643\u064A\u0631\u064A\u0628\u0627\u062A\u064A"), _react.default.createElement("option", {
+          value: "KE"
+        }, "\u0643\u064A\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "LV"
+        }, "\u0644\u0627\u062A\u0641\u064A\u0627"), _react.default.createElement("option", {
+          value: "LA"
+        }, "\u0644\u0627\u0648\u0633"), _react.default.createElement("option", {
+          value: "LB"
+        }, "\u0644\u0628\u0646\u0627\u0646"), _react.default.createElement("option", {
+          value: "LU"
+        }, "\u0644\u0648\u0643\u0633\u0645\u0628\u0648\u0631\u062C"), _react.default.createElement("option", {
+          value: "LY"
+        }, "\u0644\u064A\u0628\u064A\u0627"), _react.default.createElement("option", {
+          value: "LR"
+        }, "\u0644\u064A\u0628\u064A\u0631\u064A\u0627"), _react.default.createElement("option", {
+          value: "LT"
+        }, "\u0644\u064A\u062A\u0648\u0627\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "LI"
+        }, "\u0644\u064A\u062E\u062A\u0646\u0634\u062A\u0627\u064A\u0646"), _react.default.createElement("option", {
+          value: "LS"
+        }, "\u0644\u064A\u0633\u0648\u062A\u0648"), _react.default.createElement("option", {
+          value: "MQ"
+        }, "\u0645\u0627\u0631\u062A\u064A\u0646\u064A\u0643"), _react.default.createElement("option", {
+          value: "MO"
+        }, "\u0645\u0627\u0643\u0627\u0648 \u0627\u0644\u0635\u064A\u0646\u064A\u0629"), _react.default.createElement("option", {
+          value: "MT"
+        }, "\u0645\u0627\u0644\u0637\u0627"), _react.default.createElement("option", {
+          value: "ML"
+        }, "\u0645\u0627\u0644\u064A"), _react.default.createElement("option", {
+          value: "MY"
+        }, "\u0645\u0627\u0644\u064A\u0632\u064A\u0627"), _react.default.createElement("option", {
+          value: "YT"
+        }, "\u0645\u0627\u064A\u0648\u062A"), _react.default.createElement("option", {
+          value: "MG"
+        }, "\u0645\u062F\u063A\u0634\u0642\u0631"), _react.default.createElement("option", {
+          value: "EG"
+        }, "\u0645\u0635\u0631"), _react.default.createElement("option", {
+          value: "MK"
+        }, "\u0645\u0642\u062F\u0648\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "MW"
+        }, "\u0645\u0644\u0627\u0648\u064A"), _react.default.createElement("option", {
+          value: "ZZ"
+        }, "\u0645\u0646\u0637\u0642\u0629 \u063A\u064A\u0631 \u0645\u0639\u0631\u0641\u0629"), _react.default.createElement("option", {
+          value: "MN"
+        }, "\u0645\u0646\u063A\u0648\u0644\u064A\u0627"), _react.default.createElement("option", {
+          value: "MR"
+        }, "\u0645\u0648\u0631\u064A\u062A\u0627\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "MU"
+        }, "\u0645\u0648\u0631\u064A\u0634\u064A\u0648\u0633"), _react.default.createElement("option", {
+          value: "MZ"
+        }, "\u0645\u0648\u0632\u0645\u0628\u064A\u0642"), _react.default.createElement("option", {
+          value: "MD"
+        }, "\u0645\u0648\u0644\u062F\u0627\u0641\u064A\u0627"), _react.default.createElement("option", {
+          value: "MC"
+        }, "\u0645\u0648\u0646\u0627\u0643\u0648"), _react.default.createElement("option", {
+          value: "MS"
+        }, "\u0645\u0648\u0646\u062A\u0633\u0631\u0627\u062A"), _react.default.createElement("option", {
+          value: "MM"
+        }, "\u0645\u064A\u0627\u0646\u0645\u0627\u0631"), _react.default.createElement("option", {
+          value: "FM"
+        }, "\u0645\u064A\u0643\u0631\u0648\u0646\u064A\u0632\u064A\u0627"), _react.default.createElement("option", {
+          value: "NA"
+        }, "\u0646\u0627\u0645\u064A\u0628\u064A\u0627"), _react.default.createElement("option", {
+          value: "NR"
+        }, "\u0646\u0648\u0631\u0648"), _react.default.createElement("option", {
+          value: "NP"
+        }, "\u0646\u064A\u0628\u0627\u0644"), _react.default.createElement("option", {
+          value: "NG"
+        }, "\u0646\u064A\u062C\u064A\u0631\u064A\u0627"), _react.default.createElement("option", {
+          value: "NI"
+        }, "\u0646\u064A\u0643\u0627\u0631\u0627\u062C\u0648\u0627"), _react.default.createElement("option", {
+          value: "NZ"
+        }, "\u0646\u064A\u0648\u0632\u064A\u0644\u0627\u0646\u062F\u0627"), _react.default.createElement("option", {
+          value: "NU"
+        }, "\u0646\u064A\u0648\u064A"), _react.default.createElement("option", {
+          value: "HT"
+        }, "\u0647\u0627\u064A\u062A\u064A"), _react.default.createElement("option", {
+          value: "HN"
+        }, "\u0647\u0646\u062F\u0648\u0631\u0627\u0633"), _react.default.createElement("option", {
+          value: "NL"
+        }, "\u0647\u0648\u0644\u0646\u062F\u0627"), _react.default.createElement("option", {
+          value: "HK"
+        }, "\u0647\u0648\u0646\u062C \u0643\u0648\u0646\u062C \u0627\u0644\u0635\u064A\u0646\u064A\u0629"))), _react.default.createElement("div", {
+          className: "col-xs-2"
+        }, _react.default.createElement("label", {
+          for: "ex2"
+        }, "\u0627\u0644\u0628\u0631\u064A\u062F \u0627\u0644\u0627\u0644\u0643\u062A\u0631\u0648\u0646\u064A"), _react.default.createElement("input", {
+          class: "custom-select",
+          id: "ex2",
+          type: "text"
+        })), _react.default.createElement("div", {
+          className: "col-xs-2"
+        }, _react.default.createElement("label", {
+          for: "ex3"
+        }, "\u0627\u0644\u0647\u0627\u062A\u0641"), _react.default.createElement("input", {
+          className: "custom-select",
+          id: "ex3",
+          type: "text"
+        }))), _react.default.createElement("div", {
+          className: "form-group row"
+        }, _react.default.createElement("div", {
+          class: "col-xs-2"
+        }, _react.default.createElement("label", {
+          for: "ex1"
+        }, "\u0627\u0644\u0627\u0633\u0645 \u0627\u0644\u0631\u0628\u0627\u0639\u064A"), _react.default.createElement("input", {
+          className: "custom-select",
+          id: "ex1",
+          type: "text"
+        })), _react.default.createElement("div", {
+          className: "col-xs-2"
+        }, _react.default.createElement("label", {
+          for: "ex3"
+        }, "\u0627\u0644\u062C\u0646\u0633\u064A\u0629"), _react.default.createElement("select", {
+          className: "custom-select"
+        }, _react.default.createElement("option", {
+          value: "AW"
+        }, "\u0622\u0648\u0631\u0628\u0627"), _react.default.createElement("option", {
+          value: "AZ"
+        }, "\u0623\u0630\u0631\u0628\u064A\u062C\u0627\u0646"), _react.default.createElement("option", {
+          value: "AM"
+        }, "\u0623\u0631\u0645\u064A\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "ES"
+        }, "\u0623\u0633\u0628\u0627\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "AU"
+        }, "\u0623\u0633\u062A\u0631\u0627\u0644\u064A\u0627"), _react.default.createElement("option", {
+          value: "AF"
+        }, "\u0623\u0641\u063A\u0627\u0646\u0633\u062A\u0627\u0646"), _react.default.createElement("option", {
+          value: "AL"
+        }, "\u0623\u0644\u0628\u0627\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "DE"
+        }, "\u0623\u0644\u0645\u0627\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "AG"
+        }, "\u0623\u0646\u062A\u064A\u062C\u0648\u0627 \u0648\u0628\u0631\u0628\u0648\u062F\u0627"), _react.default.createElement("option", {
+          value: "AO"
+        }, "\u0623\u0646\u062C\u0648\u0644\u0627"), _react.default.createElement("option", {
+          value: "AI"
+        }, "\u0623\u0646\u062C\u0648\u064A\u0644\u0627"), _react.default.createElement("option", {
+          value: "AD"
+        }, "\u0623\u0646\u062F\u0648\u0631\u0627"), _react.default.createElement("option", {
+          value: "UY"
+        }, "\u0623\u0648\u0631\u062C\u0648\u0627\u064A"), _react.default.createElement("option", {
+          value: "UZ"
+        }, "\u0623\u0648\u0632\u0628\u0643\u0633\u062A\u0627\u0646"), _react.default.createElement("option", {
+          value: "UG"
+        }, "\u0623\u0648\u063A\u0646\u062F\u0627"), _react.default.createElement("option", {
+          value: "UA"
+        }, "\u0623\u0648\u0643\u0631\u0627\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "IE"
+        }, "\u0623\u064A\u0631\u0644\u0646\u062F\u0627"), _react.default.createElement("option", {
+          value: "IS"
+        }, "\u0623\u064A\u0633\u0644\u0646\u062F\u0627"), _react.default.createElement("option", {
+          value: "ET"
+        }, "\u0627\u062B\u064A\u0648\u0628\u064A\u0627"), _react.default.createElement("option", {
+          value: "ER"
+        }, "\u0627\u0631\u064A\u062A\u0631\u064A\u0627"), _react.default.createElement("option", {
+          value: "EE"
+        }, "\u0627\u0633\u062A\u0648\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "IL"
+        }, "\u0627\u0633\u0631\u0627\u0626\u064A\u0644"), _react.default.createElement("option", {
+          value: "AR"
+        }, "\u0627\u0644\u0623\u0631\u062C\u0646\u062A\u064A\u0646"), _react.default.createElement("option", {
+          value: "JO"
+        }, "\u0627\u0644\u0623\u0631\u062F\u0646"), _react.default.createElement("option", {
+          value: "EC"
+        }, "\u0627\u0644\u0627\u0643\u0648\u0627\u062F\u0648\u0631"), _react.default.createElement("option", {
+          value: "AE"
+        }, "\u0627\u0644\u0627\u0645\u0627\u0631\u0627\u062A \u0627\u0644\u0639\u0631\u0628\u064A\u0629 \u0627\u0644\u0645\u062A\u062D\u062F\u0629"), _react.default.createElement("option", {
+          value: "BS"
+        }, "\u0627\u0644\u0628\u0627\u0647\u0627\u0645\u0627"), _react.default.createElement("option", {
+          value: "BH"
+        }, "\u0627\u0644\u0628\u062D\u0631\u064A\u0646"), _react.default.createElement("option", {
+          value: "BR"
+        }, "\u0627\u0644\u0628\u0631\u0627\u0632\u064A\u0644"), _react.default.createElement("option", {
+          value: "PT"
+        }, "\u0627\u0644\u0628\u0631\u062A\u063A\u0627\u0644"), _react.default.createElement("option", {
+          value: "BA"
+        }, "\u0627\u0644\u0628\u0648\u0633\u0646\u0629 \u0648\u0627\u0644\u0647\u0631\u0633\u0643"), _react.default.createElement("option", {
+          value: "GA"
+        }, "\u0627\u0644\u062C\u0627\u0628\u0648\u0646"), _react.default.createElement("option", {
+          value: "ME"
+        }, "\u0627\u0644\u062C\u0628\u0644 \u0627\u0644\u0623\u0633\u0648\u062F"), _react.default.createElement("option", {
+          value: "DZ"
+        }, "\u0627\u0644\u062C\u0632\u0627\u0626\u0631"), _react.default.createElement("option", {
+          value: "DK"
+        }, "\u0627\u0644\u062F\u0627\u0646\u0645\u0631\u0643"), _react.default.createElement("option", {
+          value: "CV"
+        }, "\u0627\u0644\u0631\u0623\u0633 \u0627\u0644\u0623\u062E\u0636\u0631"), _react.default.createElement("option", {
+          value: "SV"
+        }, "\u0627\u0644\u0633\u0644\u0641\u0627\u062F\u0648\u0631"), _react.default.createElement("option", {
+          value: "SN"
+        }, "\u0627\u0644\u0633\u0646\u063A\u0627\u0644"), _react.default.createElement("option", {
+          value: "SD"
+        }, "\u0627\u0644\u0633\u0648\u062F\u0627\u0646"), _react.default.createElement("option", {
+          value: "SE"
+        }, "\u0627\u0644\u0633\u0648\u064A\u062F"), _react.default.createElement("option", {
+          value: "EH"
+        }, "\u0627\u0644\u0635\u062D\u0631\u0627\u0621 \u0627\u0644\u063A\u0631\u0628\u064A\u0629"), _react.default.createElement("option", {
+          value: "SO"
+        }, "\u0627\u0644\u0635\u0648\u0645\u0627\u0644"), _react.default.createElement("option", {
+          value: "CN"
+        }, "\u0627\u0644\u0635\u064A\u0646"), _react.default.createElement("option", {
+          value: "IQ"
+        }, "\u0627\u0644\u0639\u0631\u0627\u0642"), _react.default.createElement("option", {
+          value: "VA"
+        }, "\u0627\u0644\u0641\u0627\u062A\u064A\u0643\u0627\u0646"), _react.default.createElement("option", {
+          value: "PH"
+        }, "\u0627\u0644\u0641\u064A\u0644\u0628\u064A\u0646"), _react.default.createElement("option", {
+          value: "AQ"
+        }, "\u0627\u0644\u0642\u0637\u0628 \u0627\u0644\u062C\u0646\u0648\u0628\u064A"), _react.default.createElement("option", {
+          value: "CM"
+        }, "\u0627\u0644\u0643\u0627\u0645\u064A\u0631\u0648\u0646"), _react.default.createElement("option", {
+          value: "CG"
+        }, "\u0627\u0644\u0643\u0648\u0646\u063A\u0648 - \u0628\u0631\u0627\u0632\u0627\u0641\u064A\u0644"), _react.default.createElement("option", {
+          value: "KW"
+        }, "\u0627\u0644\u0643\u0648\u064A\u062A"), _react.default.createElement("option", {
+          value: "HU"
+        }, "\u0627\u0644\u0645\u062C\u0631"), _react.default.createElement("option", {
+          value: "IO"
+        }, "\u0627\u0644\u0645\u062D\u064A\u0637 \u0627\u0644\u0647\u0646\u062F\u064A \u0627\u0644\u0628\u0631\u064A\u0637\u0627\u0646\u064A"), _react.default.createElement("option", {
+          value: "MA"
+        }, "\u0627\u0644\u0645\u063A\u0631\u0628"), _react.default.createElement("option", {
+          value: "TF"
+        }, "\u0627\u0644\u0645\u0642\u0627\u0637\u0639\u0627\u062A \u0627\u0644\u062C\u0646\u0648\u0628\u064A\u0629 \u0627\u0644\u0641\u0631\u0646\u0633\u064A\u0629"), _react.default.createElement("option", {
+          value: "MX"
+        }, "\u0627\u0644\u0645\u0643\u0633\u064A\u0643"), _react.default.createElement("option", {
+          value: "SA"
+        }, "\u0627\u0644\u0645\u0645\u0644\u0643\u0629 \u0627\u0644\u0639\u0631\u0628\u064A\u0629 \u0627\u0644\u0633\u0639\u0648\u062F\u064A\u0629"), _react.default.createElement("option", {
+          value: "GB"
+        }, "\u0627\u0644\u0645\u0645\u0644\u0643\u0629 \u0627\u0644\u0645\u062A\u062D\u062F\u0629"), _react.default.createElement("option", {
+          value: "NO"
+        }, "\u0627\u0644\u0646\u0631\u0648\u064A\u062C"), _react.default.createElement("option", {
+          value: "AT"
+        }, "\u0627\u0644\u0646\u0645\u0633\u0627"), _react.default.createElement("option", {
+          value: "NE"
+        }, "\u0627\u0644\u0646\u064A\u062C\u0631"), _react.default.createElement("option", {
+          value: "IN"
+        }, "\u0627\u0644\u0647\u0646\u062F"), _react.default.createElement("option", {
+          value: "US"
+        }, "\u0627\u0644\u0648\u0644\u0627\u064A\u0627\u062A \u0627\u0644\u0645\u062A\u062D\u062F\u0629 \u0627\u0644\u0623\u0645\u0631\u064A\u0643\u064A\u0629"), _react.default.createElement("option", {
+          value: "JP"
+        }, "\u0627\u0644\u064A\u0627\u0628\u0627\u0646"), _react.default.createElement("option", {
+          value: "YE"
+        }, "\u0627\u0644\u064A\u0645\u0646"), _react.default.createElement("option", {
+          value: "GR"
+        }, "\u0627\u0644\u064A\u0648\u0646\u0627\u0646"), _react.default.createElement("option", {
+          value: "ID"
+        }, "\u0627\u0646\u062F\u0648\u0646\u064A\u0633\u064A\u0627"), _react.default.createElement("option", {
+          value: "IR"
+        }, "\u0627\u064A\u0631\u0627\u0646"), _react.default.createElement("option", {
+          value: "IT"
+        }, "\u0627\u064A\u0637\u0627\u0644\u064A\u0627"), _react.default.createElement("option", {
+          value: "PG"
+        }, "\u0628\u0627\u0628\u0648\u0627 \u063A\u064A\u0646\u064A\u0627 \u0627\u0644\u062C\u062F\u064A\u062F\u0629"), _react.default.createElement("option", {
+          value: "PY"
+        }, "\u0628\u0627\u0631\u0627\u062C\u0648\u0627\u064A"), _react.default.createElement("option", {
+          value: "PK"
+        }, "\u0628\u0627\u0643\u0633\u062A\u0627\u0646"), _react.default.createElement("option", {
+          value: "PW"
+        }, "\u0628\u0627\u0644\u0627\u0648"), _react.default.createElement("option", {
+          value: "BW"
+        }, "\u0628\u062A\u0633\u0648\u0627\u0646\u0627"), _react.default.createElement("option", {
+          value: "PN"
+        }, "\u0628\u062A\u0643\u0627\u064A\u0631\u0646"), _react.default.createElement("option", {
+          value: "BB"
+        }, "\u0628\u0631\u0628\u0627\u062F\u0648\u0633"), _react.default.createElement("option", {
+          value: "BM"
+        }, "\u0628\u0631\u0645\u0648\u062F\u0627"), _react.default.createElement("option", {
+          value: "BN"
+        }, "\u0628\u0631\u0648\u0646\u0627\u064A"), _react.default.createElement("option", {
+          value: "BE"
+        }, "\u0628\u0644\u062C\u064A\u0643\u0627"), _react.default.createElement("option", {
+          value: "BG"
+        }, "\u0628\u0644\u063A\u0627\u0631\u064A\u0627"), _react.default.createElement("option", {
+          value: "BZ"
+        }, "\u0628\u0644\u064A\u0632"), _react.default.createElement("option", {
+          value: "BD"
+        }, "\u0628\u0646\u062C\u0644\u0627\u062F\u064A\u0634"), _react.default.createElement("option", {
+          value: "PA"
+        }, "\u0628\u0646\u0645\u0627"), _react.default.createElement("option", {
+          value: "BJ"
+        }, "\u0628\u0646\u064A\u0646"), _react.default.createElement("option", {
+          value: "BT"
+        }, "\u0628\u0648\u062A\u0627\u0646"), _react.default.createElement("option", {
+          value: "PR"
+        }, "\u0628\u0648\u0631\u062A\u0648\u0631\u064A\u0643\u0648"), _react.default.createElement("option", {
+          value: "BF"
+        }, "\u0628\u0648\u0631\u0643\u064A\u0646\u0627 \u0641\u0627\u0633\u0648"), _react.default.createElement("option", {
+          value: "BI"
+        }, "\u0628\u0648\u0631\u0648\u0646\u062F\u064A"), _react.default.createElement("option", {
+          value: "PL"
+        }, "\u0628\u0648\u0644\u0646\u062F\u0627"), _react.default.createElement("option", {
+          value: "BO"
+        }, "\u0628\u0648\u0644\u064A\u0641\u064A\u0627"), _react.default.createElement("option", {
+          value: "PF"
+        }, "\u0628\u0648\u0644\u064A\u0646\u064A\u0632\u064A\u0627 \u0627\u0644\u0641\u0631\u0646\u0633\u064A\u0629"), _react.default.createElement("option", {
+          value: "PE"
+        }, "\u0628\u064A\u0631\u0648"), _react.default.createElement("option", {
+          value: "TZ"
+        }, "\u062A\u0627\u0646\u0632\u0627\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "TH"
+        }, "\u062A\u0627\u064A\u0644\u0646\u062F"), _react.default.createElement("option", {
+          value: "TW"
+        }, "\u062A\u0627\u064A\u0648\u0627\u0646"), _react.default.createElement("option", {
+          value: "TM"
+        }, "\u062A\u0631\u0643\u0645\u0627\u0646\u0633\u062A\u0627\u0646"), _react.default.createElement("option", {
+          value: "TR"
+        }, "\u062A\u0631\u0643\u064A\u0627"), _react.default.createElement("option", {
+          value: "TT"
+        }, "\u062A\u0631\u064A\u0646\u064A\u062F\u0627\u062F \u0648\u062A\u0648\u0628\u0627\u063A\u0648"), _react.default.createElement("option", {
+          value: "TD"
+        }, "\u062A\u0634\u0627\u062F"), _react.default.createElement("option", {
+          value: "TG"
+        }, "\u062A\u0648\u062C\u0648"), _react.default.createElement("option", {
+          value: "TV"
+        }, "\u062A\u0648\u0641\u0627\u0644\u0648"), _react.default.createElement("option", {
+          value: "TK"
+        }, "\u062A\u0648\u0643\u064A\u0644\u0648"), _react.default.createElement("option", {
+          value: "TO"
+        }, "\u062A\u0648\u0646\u062C\u0627"), _react.default.createElement("option", {
+          value: "TN"
+        }, "\u062A\u0648\u0646\u0633"), _react.default.createElement("option", {
+          value: "TL"
+        }, "\u062A\u064A\u0645\u0648\u0631 \u0627\u0644\u0634\u0631\u0642\u064A\u0629"), _react.default.createElement("option", {
+          value: "JM"
+        }, "\u062C\u0627\u0645\u0627\u064A\u0643\u0627"), _react.default.createElement("option", {
+          value: "GI"
+        }, "\u062C\u0628\u0644 \u0637\u0627\u0631\u0642"), _react.default.createElement("option", {
+          value: "GD"
+        }, "\u062C\u0631\u064A\u0646\u0627\u062F\u0627"), _react.default.createElement("option", {
+          value: "GL"
+        }, "\u062C\u0631\u064A\u0646\u0644\u0627\u0646\u062F"), _react.default.createElement("option", {
+          value: "AX"
+        }, "\u062C\u0632\u0631 \u0623\u0648\u0644\u0627\u0646"), _react.default.createElement("option", {
+          value: "AN"
+        }, "\u062C\u0632\u0631 \u0627\u0644\u0623\u0646\u062A\u064A\u0644 \u0627\u0644\u0647\u0648\u0644\u0646\u062F\u064A\u0629"), _react.default.createElement("option", {
+          value: "TC"
+        }, "\u062C\u0632\u0631 \u0627\u0644\u062A\u0631\u0643 \u0648\u062C\u0627\u064A\u0643\u0648\u0633"), _react.default.createElement("option", {
+          value: "KM"
+        }, "\u062C\u0632\u0631 \u0627\u0644\u0642\u0645\u0631"), _react.default.createElement("option", {
+          value: "KY"
+        }, "\u062C\u0632\u0631 \u0627\u0644\u0643\u0627\u064A\u0645\u0646"), _react.default.createElement("option", {
+          value: "MH"
+        }, "\u062C\u0632\u0631 \u0627\u0644\u0645\u0627\u0631\u0634\u0627\u0644"), _react.default.createElement("option", {
+          value: "MV"
+        }, "\u062C\u0632\u0631 \u0627\u0644\u0645\u0644\u062F\u064A\u0641"), _react.default.createElement("option", {
+          value: "UM"
+        }, "\u062C\u0632\u0631 \u0627\u0644\u0648\u0644\u0627\u064A\u0627\u062A \u0627\u0644\u0645\u062A\u062D\u062F\u0629 \u0627\u0644\u0628\u0639\u064A\u062F\u0629 \u0627\u0644\u0635\u063A\u064A\u0631\u0629"), _react.default.createElement("option", {
+          value: "SB"
+        }, "\u062C\u0632\u0631 \u0633\u0644\u064A\u0645\u0627\u0646"), _react.default.createElement("option", {
+          value: "FO"
+        }, "\u062C\u0632\u0631 \u0641\u0627\u0631\u0648"), _react.default.createElement("option", {
+          value: "VI"
+        }, "\u062C\u0632\u0631 \u0641\u0631\u062C\u064A\u0646 \u0627\u0644\u0623\u0645\u0631\u064A\u0643\u064A\u0629"), _react.default.createElement("option", {
+          value: "VG"
+        }, "\u062C\u0632\u0631 \u0641\u0631\u062C\u064A\u0646 \u0627\u0644\u0628\u0631\u064A\u0637\u0627\u0646\u064A\u0629"), _react.default.createElement("option", {
+          value: "FK"
+        }, "\u062C\u0632\u0631 \u0641\u0648\u0643\u0644\u0627\u0646\u062F"), _react.default.createElement("option", {
+          value: "CK"
+        }, "\u062C\u0632\u0631 \u0643\u0648\u0643"), _react.default.createElement("option", {
+          value: "CC"
+        }, "\u062C\u0632\u0631 \u0643\u0648\u0643\u0648\u0633"), _react.default.createElement("option", {
+          value: "MP"
+        }, "\u062C\u0632\u0631 \u0645\u0627\u0631\u064A\u0627\u0646\u0627 \u0627\u0644\u0634\u0645\u0627\u0644\u064A\u0629"), _react.default.createElement("option", {
+          value: "WF"
+        }, "\u062C\u0632\u0631 \u0648\u0627\u0644\u0633 \u0648\u0641\u0648\u062A\u0648\u0646\u0627"), _react.default.createElement("option", {
+          value: "CX"
+        }, "\u062C\u0632\u064A\u0631\u0629 \u0627\u0644\u0643\u0631\u064A\u0633\u0645\u0627\u0633"), _react.default.createElement("option", {
+          value: "BV"
+        }, "\u062C\u0632\u064A\u0631\u0629 \u0628\u0648\u0641\u064A\u0647"), _react.default.createElement("option", {
+          value: "IM"
+        }, "\u062C\u0632\u064A\u0631\u0629 \u0645\u0627\u0646"), _react.default.createElement("option", {
+          value: "NF"
+        }, "\u062C\u0632\u064A\u0631\u0629 \u0646\u0648\u0631\u0641\u0648\u0643"), _react.default.createElement("option", {
+          value: "HM"
+        }, "\u062C\u0632\u064A\u0631\u0629 \u0647\u064A\u0631\u062F \u0648\u0645\u0627\u0643\u062F\u0648\u0646\u0627\u0644\u062F"), _react.default.createElement("option", {
+          value: "CF"
+        }, "\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u0627\u0641\u0631\u064A\u0642\u064A\u0627 \u0627\u0644\u0648\u0633\u0637\u0649"), _react.default.createElement("option", {
+          value: "CZ"
+        }, "\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u0627\u0644\u062A\u0634\u064A\u0643"), _react.default.createElement("option", {
+          value: "DO"
+        }, "\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u0627\u0644\u062F\u0648\u0645\u064A\u0646\u064A\u0643"), _react.default.createElement("option", {
+          value: "CD"
+        }, "\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u0627\u0644\u0643\u0648\u0646\u063A\u0648 \u0627\u0644\u062F\u064A\u0645\u0642\u0631\u0627\u0637\u064A\u0629"), _react.default.createElement("option", {
+          value: "ZA"
+        }, "\u062C\u0645\u0647\u0648\u0631\u064A\u0629 \u062C\u0646\u0648\u0628 \u0627\u0641\u0631\u064A\u0642\u064A\u0627"), _react.default.createElement("option", {
+          value: "GT"
+        }, "\u062C\u0648\u0627\u062A\u064A\u0645\u0627\u0644\u0627"), _react.default.createElement("option", {
+          value: "GP"
+        }, "\u062C\u0648\u0627\u062F\u0644\u0648\u0628"), _react.default.createElement("option", {
+          value: "GU"
+        }, "\u062C\u0648\u0627\u0645"), _react.default.createElement("option", {
+          value: "GE"
+        }, "\u062C\u0648\u0631\u062C\u064A\u0627"), _react.default.createElement("option", {
+          value: "GS"
+        }, "\u062C\u0648\u0631\u062C\u064A\u0627 \u0627\u0644\u062C\u0646\u0648\u0628\u064A\u0629 \u0648\u062C\u0632\u0631 \u0633\u0627\u0646\u062F\u0648\u064A\u062A\u0634 \u0627\u0644\u062C\u0646\u0648\u0628\u064A\u0629"), _react.default.createElement("option", {
+          value: "DJ"
+        }, "\u062C\u064A\u0628\u0648\u062A\u064A"), _react.default.createElement("option", {
+          value: "JE"
+        }, "\u062C\u064A\u0631\u0633\u064A"), _react.default.createElement("option", {
+          value: "DM"
+        }, "\u062F\u0648\u0645\u064A\u0646\u064A\u0643\u0627"), _react.default.createElement("option", {
+          value: "RW"
+        }, "\u0631\u0648\u0627\u0646\u062F\u0627"), _react.default.createElement("option", {
+          value: "RU"
+        }, "\u0631\u0648\u0633\u064A\u0627"), _react.default.createElement("option", {
+          value: "BY"
+        }, "\u0631\u0648\u0633\u064A\u0627 \u0627\u0644\u0628\u064A\u0636\u0627\u0621"), _react.default.createElement("option", {
+          value: "RO"
+        }, "\u0631\u0648\u0645\u0627\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "RE"
+        }, "\u0631\u0648\u064A\u0646\u064A\u0648\u0646"), _react.default.createElement("option", {
+          value: "ZM"
+        }, "\u0632\u0627\u0645\u0628\u064A\u0627"), _react.default.createElement("option", {
+          value: "ZW"
+        }, "\u0632\u064A\u0645\u0628\u0627\u0628\u0648\u064A"), _react.default.createElement("option", {
+          value: "CI"
+        }, "\u0633\u0627\u062D\u0644 \u0627\u0644\u0639\u0627\u062C"), _react.default.createElement("option", {
+          value: "WS"
+        }, "\u0633\u0627\u0645\u0648\u0627"), _react.default.createElement("option", {
+          value: "AS"
+        }, "\u0633\u0627\u0645\u0648\u0627 \u0627\u0644\u0623\u0645\u0631\u064A\u0643\u064A\u0629"), _react.default.createElement("option", {
+          value: "SM"
+        }, "\u0633\u0627\u0646 \u0645\u0627\u0631\u064A\u0646\u0648"), _react.default.createElement("option", {
+          value: "PM"
+        }, "\u0633\u0627\u0646\u062A \u0628\u064A\u064A\u0631 \u0648\u0645\u064A\u0643\u0648\u0644\u0648\u0646"), _react.default.createElement("option", {
+          value: "VC"
+        }, "\u0633\u0627\u0646\u062A \u0641\u0646\u0633\u0646\u062A \u0648\u063A\u0631\u0646\u0627\u062F\u064A\u0646"), _react.default.createElement("option", {
+          value: "KN"
+        }, "\u0633\u0627\u0646\u062A \u0643\u064A\u062A\u0633 \u0648\u0646\u064A\u0641\u064A\u0633"), _react.default.createElement("option", {
+          value: "LC"
+        }, "\u0633\u0627\u0646\u062A \u0644\u0648\u0633\u064A\u0627"), _react.default.createElement("option", {
+          value: "MF"
+        }, "\u0633\u0627\u0646\u062A \u0645\u0627\u0631\u062A\u064A\u0646"), _react.default.createElement("option", {
+          value: "SH"
+        }, "\u0633\u0627\u0646\u062A \u0647\u064A\u0644\u0646\u0627"), _react.default.createElement("option", {
+          value: "ST"
+        }, "\u0633\u0627\u0648 \u062A\u0648\u0645\u064A \u0648\u0628\u0631\u064A\u0646\u0633\u064A\u0628\u064A"), _react.default.createElement("option", {
+          value: "LK"
+        }, "\u0633\u0631\u064A\u0644\u0627\u0646\u0643\u0627"), _react.default.createElement("option", {
+          value: "SJ"
+        }, "\u0633\u0641\u0627\u0644\u0628\u0627\u0631\u062F \u0648\u062C\u0627\u0646 \u0645\u0627\u064A\u0627\u0646"), _react.default.createElement("option", {
+          value: "SK"
+        }, "\u0633\u0644\u0648\u0641\u0627\u0643\u064A\u0627"), _react.default.createElement("option", {
+          value: "SI"
+        }, "\u0633\u0644\u0648\u0641\u064A\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "SG"
+        }, "\u0633\u0646\u063A\u0627\u0641\u0648\u0631\u0629"), _react.default.createElement("option", {
+          value: "SZ"
+        }, "\u0633\u0648\u0627\u0632\u064A\u0644\u0627\u0646\u062F"), _react.default.createElement("option", {
+          value: "SY"
+        }, "\u0633\u0648\u0631\u064A\u0627"), _react.default.createElement("option", {
+          value: "SR"
+        }, "\u0633\u0648\u0631\u064A\u0646\u0627\u0645"), _react.default.createElement("option", {
+          value: "CH"
+        }, "\u0633\u0648\u064A\u0633\u0631\u0627"), _react.default.createElement("option", {
+          value: "SL"
+        }, "\u0633\u064A\u0631\u0627\u0644\u064A\u0648\u0646"), _react.default.createElement("option", {
+          value: "SC"
+        }, "\u0633\u064A\u0634\u0644"), _react.default.createElement("option", {
+          value: "CL"
+        }, "\u0634\u064A\u0644\u064A"), _react.default.createElement("option", {
+          value: "RS"
+        }, "\u0635\u0631\u0628\u064A\u0627"), _react.default.createElement("option", {
+          value: "CS"
+        }, "\u0635\u0631\u0628\u064A\u0627 \u0648\u0627\u0644\u062C\u0628\u0644 \u0627\u0644\u0623\u0633\u0648\u062F"), _react.default.createElement("option", {
+          value: "TJ"
+        }, "\u0637\u0627\u062C\u0643\u0633\u062A\u0627\u0646"), _react.default.createElement("option", {
+          value: "OM"
+        }, "\u0639\u0645\u0627\u0646"), _react.default.createElement("option", {
+          value: "GM"
+        }, "\u063A\u0627\u0645\u0628\u064A\u0627"), _react.default.createElement("option", {
+          value: "GH"
+        }, "\u063A\u0627\u0646\u0627"), _react.default.createElement("option", {
+          value: "GF"
+        }, "\u063A\u0648\u064A\u0627\u0646\u0627"), _react.default.createElement("option", {
+          value: "GY"
+        }, "\u063A\u064A\u0627\u0646\u0627"), _react.default.createElement("option", {
+          value: "GN"
+        }, "\u063A\u064A\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "GQ"
+        }, "\u063A\u064A\u0646\u064A\u0627 \u0627\u0644\u0627\u0633\u062A\u0648\u0627\u0626\u064A\u0629"), _react.default.createElement("option", {
+          value: "GW"
+        }, "\u063A\u064A\u0646\u064A\u0627 \u0628\u064A\u0633\u0627\u0648"), _react.default.createElement("option", {
+          value: "VU"
+        }, "\u0641\u0627\u0646\u0648\u0627\u062A\u0648"), _react.default.createElement("option", {
+          value: "FR"
+        }, "\u0641\u0631\u0646\u0633\u0627"), _react.default.createElement("option", {
+          value: "PS"
+        }, "\u0641\u0644\u0633\u0637\u064A\u0646"), _react.default.createElement("option", {
+          value: "VE"
+        }, "\u0641\u0646\u0632\u0648\u064A\u0644\u0627"), _react.default.createElement("option", {
+          value: "FI"
+        }, "\u0641\u0646\u0644\u0646\u062F\u0627"), _react.default.createElement("option", {
+          value: "VN"
+        }, "\u0641\u064A\u062A\u0646\u0627\u0645"), _react.default.createElement("option", {
+          value: "FJ"
+        }, "\u0641\u064A\u062C\u064A"), _react.default.createElement("option", {
+          value: "CY"
+        }, "\u0642\u0628\u0631\u0635"), _react.default.createElement("option", {
+          value: "KG"
+        }, "\u0642\u0631\u063A\u064A\u0632\u0633\u062A\u0627\u0646"), _react.default.createElement("option", {
+          value: "QA"
+        }, "\u0642\u0637\u0631"), _react.default.createElement("option", {
+          value: "KZ"
+        }, "\u0643\u0627\u0632\u0627\u062E\u0633\u062A\u0627\u0646"), _react.default.createElement("option", {
+          value: "NC"
+        }, "\u0643\u0627\u0644\u064A\u062F\u0648\u0646\u064A\u0627 \u0627\u0644\u062C\u062F\u064A\u062F\u0629"), _react.default.createElement("option", {
+          value: "HR"
+        }, "\u0643\u0631\u0648\u0627\u062A\u064A\u0627"), _react.default.createElement("option", {
+          value: "KH"
+        }, "\u0643\u0645\u0628\u0648\u062F\u064A\u0627"), _react.default.createElement("option", {
+          value: "CA"
+        }, "\u0643\u0646\u062F\u0627"), _react.default.createElement("option", {
+          value: "CU"
+        }, "\u0643\u0648\u0628\u0627"), _react.default.createElement("option", {
+          value: "KR"
+        }, "\u0643\u0648\u0631\u064A\u0627 \u0627\u0644\u062C\u0646\u0648\u0628\u064A\u0629"), _react.default.createElement("option", {
+          value: "KP"
+        }, "\u0643\u0648\u0631\u064A\u0627 \u0627\u0644\u0634\u0645\u0627\u0644\u064A\u0629"), _react.default.createElement("option", {
+          value: "CR"
+        }, "\u0643\u0648\u0633\u062A\u0627\u0631\u064A\u0643\u0627"), _react.default.createElement("option", {
+          value: "CO"
+        }, "\u0643\u0648\u0644\u0648\u0645\u0628\u064A\u0627"), _react.default.createElement("option", {
+          value: "KI"
+        }, "\u0643\u064A\u0631\u064A\u0628\u0627\u062A\u064A"), _react.default.createElement("option", {
+          value: "KE"
+        }, "\u0643\u064A\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "LV"
+        }, "\u0644\u0627\u062A\u0641\u064A\u0627"), _react.default.createElement("option", {
+          value: "LA"
+        }, "\u0644\u0627\u0648\u0633"), _react.default.createElement("option", {
+          value: "LB"
+        }, "\u0644\u0628\u0646\u0627\u0646"), _react.default.createElement("option", {
+          value: "LU"
+        }, "\u0644\u0648\u0643\u0633\u0645\u0628\u0648\u0631\u062C"), _react.default.createElement("option", {
+          value: "LY"
+        }, "\u0644\u064A\u0628\u064A\u0627"), _react.default.createElement("option", {
+          value: "LR"
+        }, "\u0644\u064A\u0628\u064A\u0631\u064A\u0627"), _react.default.createElement("option", {
+          value: "LT"
+        }, "\u0644\u064A\u062A\u0648\u0627\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "LI"
+        }, "\u0644\u064A\u062E\u062A\u0646\u0634\u062A\u0627\u064A\u0646"), _react.default.createElement("option", {
+          value: "LS"
+        }, "\u0644\u064A\u0633\u0648\u062A\u0648"), _react.default.createElement("option", {
+          value: "MQ"
+        }, "\u0645\u0627\u0631\u062A\u064A\u0646\u064A\u0643"), _react.default.createElement("option", {
+          value: "MO"
+        }, "\u0645\u0627\u0643\u0627\u0648 \u0627\u0644\u0635\u064A\u0646\u064A\u0629"), _react.default.createElement("option", {
+          value: "MT"
+        }, "\u0645\u0627\u0644\u0637\u0627"), _react.default.createElement("option", {
+          value: "ML"
+        }, "\u0645\u0627\u0644\u064A"), _react.default.createElement("option", {
+          value: "MY"
+        }, "\u0645\u0627\u0644\u064A\u0632\u064A\u0627"), _react.default.createElement("option", {
+          value: "YT"
+        }, "\u0645\u0627\u064A\u0648\u062A"), _react.default.createElement("option", {
+          value: "MG"
+        }, "\u0645\u062F\u063A\u0634\u0642\u0631"), _react.default.createElement("option", {
+          value: "EG"
+        }, "\u0645\u0635\u0631"), _react.default.createElement("option", {
+          value: "MK"
+        }, "\u0645\u0642\u062F\u0648\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "MW"
+        }, "\u0645\u0644\u0627\u0648\u064A"), _react.default.createElement("option", {
+          value: "ZZ"
+        }, "\u0645\u0646\u0637\u0642\u0629 \u063A\u064A\u0631 \u0645\u0639\u0631\u0641\u0629"), _react.default.createElement("option", {
+          value: "MN"
+        }, "\u0645\u0646\u063A\u0648\u0644\u064A\u0627"), _react.default.createElement("option", {
+          value: "MR"
+        }, "\u0645\u0648\u0631\u064A\u062A\u0627\u0646\u064A\u0627"), _react.default.createElement("option", {
+          value: "MU"
+        }, "\u0645\u0648\u0631\u064A\u0634\u064A\u0648\u0633"), _react.default.createElement("option", {
+          value: "MZ"
+        }, "\u0645\u0648\u0632\u0645\u0628\u064A\u0642"), _react.default.createElement("option", {
+          value: "MD"
+        }, "\u0645\u0648\u0644\u062F\u0627\u0641\u064A\u0627"), _react.default.createElement("option", {
+          value: "MC"
+        }, "\u0645\u0648\u0646\u0627\u0643\u0648"), _react.default.createElement("option", {
+          value: "MS"
+        }, "\u0645\u0648\u0646\u062A\u0633\u0631\u0627\u062A"), _react.default.createElement("option", {
+          value: "MM"
+        }, "\u0645\u064A\u0627\u0646\u0645\u0627\u0631"), _react.default.createElement("option", {
+          value: "FM"
+        }, "\u0645\u064A\u0643\u0631\u0648\u0646\u064A\u0632\u064A\u0627"), _react.default.createElement("option", {
+          value: "NA"
+        }, "\u0646\u0627\u0645\u064A\u0628\u064A\u0627"), _react.default.createElement("option", {
+          value: "NR"
+        }, "\u0646\u0648\u0631\u0648"), _react.default.createElement("option", {
+          value: "NP"
+        }, "\u0646\u064A\u0628\u0627\u0644"), _react.default.createElement("option", {
+          value: "NG"
+        }, "\u0646\u064A\u062C\u064A\u0631\u064A\u0627"), _react.default.createElement("option", {
+          value: "NI"
+        }, "\u0646\u064A\u0643\u0627\u0631\u0627\u062C\u0648\u0627"), _react.default.createElement("option", {
+          value: "NZ"
+        }, "\u0646\u064A\u0648\u0632\u064A\u0644\u0627\u0646\u062F\u0627"), _react.default.createElement("option", {
+          value: "NU"
+        }, "\u0646\u064A\u0648\u064A"), _react.default.createElement("option", {
+          value: "HT"
+        }, "\u0647\u0627\u064A\u062A\u064A"), _react.default.createElement("option", {
+          value: "HN"
+        }, "\u0647\u0646\u062F\u0648\u0631\u0627\u0633"), _react.default.createElement("option", {
+          value: "NL"
+        }, "\u0647\u0648\u0644\u0646\u062F\u0627"), _react.default.createElement("option", {
+          value: "HK"
+        }, "\u0647\u0648\u0646\u062C \u0643\u0648\u0646\u062C \u0627\u0644\u0635\u064A\u0646\u064A\u0629"))), _react.default.createElement("div", {
+          className: "col-xs-2"
+        }, _react.default.createElement("label", {
+          for: "ex2"
+        }, "\u0627\u0644\u0628\u0631\u064A\u062F \u0627\u0644\u0627\u0644\u0643\u062A\u0631\u0648\u0646\u064A"), _react.default.createElement("input", {
+          class: "custom-select",
+          id: "ex2",
+          type: "text"
+        })), _react.default.createElement("div", {
+          className: "col-xs-2"
+        }, _react.default.createElement("label", {
+          for: "ex3"
+        }, "\u0627\u0644\u0647\u0627\u062A\u0641"), _react.default.createElement("input", {
+          className: "custom-select",
+          id: "ex3",
+          type: "text"
+        }))))), _react.default.createElement("div", {
+          className: "infromation"
+        }, _react.default.createElement("form", {
+          className: "f"
+        }, _react.default.createElement("fieldset", null, _react.default.createElement("legend", {
+          className: "info"
+        }, "    \u064A\u0631\u0641\u0642 \u0645\u0639 \u0647\u0630 \u0627\u0644\u0627\u0633\u062A\u0645\u0627\u0631\u0629 \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062A \u0627\u0644\u0627\u062A\u064A\u0629     "), _react.default.createElement("li", {
+          className: "info1"
+        }, " \u0648\u062B\u064A\u0642\u0629 \u0645\u0635\u062F\u0642\u0629 \u062A\u0624\u064A\u062F \u0643\u0648\u0646 \u0627\u0644\u0645\u0646\u0638\u0645\u0629 \u0627\u0644\u0627\u062C\u0646\u0628\u064A\u0629 \u0627\u0644\u0623\u0645 \u0645\u0633\u062C\u0644\u0629 \u0641\u064A \u0628\u0644\u062F\u0647\u0627 \u0643\u0645\u0646\u0638\u0645\u0629 \u063A\u064A\u0631 \u062D\u0643\u0648\u0645\u064A\u0629 \u0648\u063A\u064A\u0631 \u0631\u0628\u062D\u064A\u0629 "), _react.default.createElement("li", {
+          className: "info1"
+        }, "  \u0635\u0648\u0631 \u0639\u0646 \u062C\u0648\u0627\u0632 \u0627\u0644\u0633\u0641\u0631 \u0627\u0644\u0646\u0627\u0641\u0630 \u0648\u0648\u062B\u064A\u0642\u0629 \u0627\u0644\u0627\u0642\u0627\u0645\u0629 \u0623\u0648 \u0633\u0645\u0629 \u0627\u0644\u062F\u062E\u0648\u0644 \u0644\u0631\u0626\u064A\u0633 \u0641\u0631\u0639 \u0644\u0631\u0626\u064A\u0633 \u0641\u0631\u0639 \u0627\u0644\u0645\u0646\u0638\u0645\u0629 \u0648\u0627\u0644\u0645\u0646\u062A\u0633\u0628\u064A\u0646 \u0627\u0644\u0627\u062C\u0627\u0646\u0628  "), _react.default.createElement("li", {
+          className: "info1"
+        }, "\u0628\u064A\u0627\u0646 \u0645\u0641\u0635\u0644 \u0628\u0627\u0644\u0646\u0634\u0627\u0637\u0627\u062A \u0627\u0644\u062A\u064A \u064A\u0633\u0639\u0649 \u0641\u0631\u0639 \u0627\u0644\u0645\u0646\u0638\u0645\u0629 \u0627\u0644\u0627\u062C\u0646\u0628\u064A\u0629 \u062A\u0646\u0641\u064A\u0630\u0647\u0627 \u0641\u064A \u0627\u0644\u0639\u0631\u0627\u0642"), _react.default.createElement("li", {
+          className: "info1"
+        }, "\u0627\u0644\u0646\u0638\u0627\u0645 \u0627\u0644\u062F\u0627\u062E\u0644\u064A \u0644\u0644\u0645\u0646\u0638\u0645\u0629"), _react.default.createElement("li", {
+          className: "info1"
+        }, "\u062A\u0642\u0631\u064A\u0631 \u0639\u0646 \u0646\u0634\u0627\u0637\u0627\u062A \u0627\u0644\u0645\u0646\u0638\u0645\u0629 \u0627\u0644\u0627\u0645 \u062E\u0627\u0631\u062C \u0627\u0644\u0639\u0631\u0627\u0642"), _react.default.createElement("li", {
+          className: "info1"
+        }, "\u062C\u0645\u064A\u0639 \u0627\u0644\u0648\u062B\u0627\u0626\u0642 \u0627\u0644\u0645\u0642\u062F\u0645\u0629 \u0636\u0645\u0646 \u0627\u0644\u0641\u0642\u0631\u0627\u062A (1_2_3_4)\u0645\u062A\u0631\u062C\u0645\u0629 \u0627\u0644\u0649 \u0627\u0644\u0644\u063A\u0629 \u0627\u0644\u0639\u0631\u0628\u064A\u0629 \u0645\u0646 \u062C\u0647\u0629 \u0645\u0639\u062A\u0645\u062F\u0629 \u0644\u062F\u0649 \u062C\u0645\u0639\u064A\u0629 \u0627\u0644\u0645\u062A\u0631\u062C\u0645\u064A\u0646_\u0627\u0644\u0639\u0631\u0627\u0642\u064A\u064A\u0646"), _react.default.createElement("li", {
+          className: "info1"
+        }, "\u0627\u0644\u0641\u0642\u0631\u0629 (1)\u0645\u0635\u062F\u0642\u0629 \u0645\u0646 \u0645\u0645\u062B\u0644\u064A\u0629 \u0627\u0644\u0639\u0631\u0627\u0642 \u0641\u064A \u0628\u0644\u062F \u0627\u0644\u0645\u0646\u0638\u0645\u0629 \u0627\u0644\u0627\u0645 \u0648\u0645\u0635\u062F\u0642\u0629 \u0645\u0646 \u0648\u0632\u0627\u0631\u0629 \u0627\u0644\u062E\u0627\u0631\u062C\u064A\u0629 \u0627\u0644\u0639\u0631\u0627\u0642\u064A\u0629")))), _react.default.createElement("div", null, _react.default.createElement("a", {
+          href: "/component/send.html"
+        }, _react.default.createElement("button", {
+          className: "jss",
+          tabindex: "0",
+          type: "file"
+        }, "\u062A\u0633\u062C\u064A\u0644"), _react.default.createElement("button", {
+          onclick: "http:localhost:1234/component/send.html"
+        }, "Continue")), _react.default.createElement("input", {
+          type: "button",
+          value: "button name",
+          onclick: "./send.js"
+        }), _react.default.createElement(_evergreenUi.CornerDialog, {
+          title: "We\u2019d love to hear from you!",
+          isShown: state.isShown,
+          onCloseComplete: function onCloseComplete() {
+            return setState({
+              isShown: false
+            });
+          }
+        }, "Help shape Segment\u2019s data governance product roadmap. If you\u2019re willing to provide feedback, let\u2019s chat."), _react.default.createElement(_evergreenUi.Button, {
+          onClick: function onClick() {
+            return setState({
+              isShown: true
+            });
+          }
+        }, "Show \u201CGet in Touch\u201D Corner Dialog")), _react.default.createElement("button", {
+          onclick: "myFunction()"
+        }, "Try it"), _react.default.createElement("button", {
+          type: "button",
+          value: "Submit",
+          onClick: "Call the external js file"
+        }));
+      });
+    }
+  }]);
+
+  return Add;
+}(_react.default.Component);
+
+var _default = Add;
 exports.default = _default;
 },{"react":"node_modules/react/index.js","evergreen-ui":"node_modules/evergreen-ui/esm/index.js","../context":"context.js"}],"app.js":[function(require,module,exports) {
 "use strict";
@@ -61988,6 +66136,10 @@ var _header = _interopRequireDefault(require("./component/header"));
 var _context = _interopRequireDefault(require("./context"));
 
 var _content = _interopRequireDefault(require("./component/content"));
+
+var _add = _interopRequireDefault(require("./component/add"));
+
+var _send = _interopRequireDefault(require("./component/send"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -62009,50 +66161,23 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
 
-// import Select from "./select.js";
-//initialize firebase
-// var config = {
-//   apiKey: "AIzaSyA-7E8uwpkdLOZ8VU_qlXrjR1pZLhdtH-4",
-//   authDomain: "racheta-51136.firebaseapp.com",
-//   databaseURL: "https://racheta-51136.firebaseio.com",
-//   projectId: "racheta-51136",
-//   storageBucket: "racheta-51136.appspot.com",
-//   messagingSenderId: "738135326378"
-// };
-// firebase.initializeApp(config);
-// import React, { Component } from 'react'
 var App =
 /*#__PURE__*/
 function (_React$Component) {
   _inherits(App, _React$Component);
 
-  function App() {
+  function App(props) {
     var _this;
 
     _classCallCheck(this, App);
 
-    _this = _possibleConstructorReturn(this, _getPrototypeOf(App).call(this));
+    _this = _possibleConstructorReturn(this, _getPrototypeOf(App).call(this, props));
     _this.state = {
-      pres: [{}],
-      age: "",
       name: "",
-      selectedOption: [],
-      isAdd: false,
-      isList: true
-    }; //   firebase
-    //     .firestore()
-    //     .collection("racheta")
-    //     .orderBy("date", "desc")
-    //     .onSnapshot(snapshot => {
-    //       let pres = [];
-    //       snapshot.forEach(doc => {
-    //         pres.push(doc.data());
-    //         this.setState({
-    //           pres: pres
-    //         });
-    //       });
-    //     });
-
+      firstName: "",
+      lastName: "",
+      items: []
+    };
     return _this;
   }
 
@@ -62068,11 +66193,6 @@ function (_React$Component) {
             onChangeName: function onChangeName(value) {
               _this2.setState({
                 name: value
-              });
-            },
-            onChangeAge: function onChangeAge(value) {
-              _this2.setState({
-                age: value
               });
             },
             toggle: function toggle() {
@@ -62093,7 +66213,7 @@ function (_React$Component) {
             }
           }
         }
-      }, _react.default.createElement(_header.default, null), _react.default.createElement(_content.default, null));
+      }, _react.default.createElement(_header.default, null), _react.default.createElement(_content.default, null), _react.default.createElement(_add.default, null), _react.default.createElement("send", null));
     }
   }]);
 
@@ -62101,7 +66221,7 @@ function (_React$Component) {
 }(_react.default.Component);
 
 _reactDom.default.render(_react.default.createElement(App, null), document.getElementById("root"));
-},{"react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","./component/header":"component/header.js","./context":"context.js","./component/content":"component/content.js"}],"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","./component/header":"component/header.js","./context":"context.js","./component/content":"component/content.js","./component/add":"component/add.js","./component/send":"component/send.html"}],"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -62128,7 +66248,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58290" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57482" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
@@ -62270,5 +66390,125 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.parcelRequire, id);
   });
 }
-},{}]},{},["../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","app.js"], null)
+},{}],"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
+var bundleURL = null;
+
+function getBundleURLCached() {
+  if (!bundleURL) {
+    bundleURL = getBundleURL();
+  }
+
+  return bundleURL;
+}
+
+function getBundleURL() {
+  // Attempt to find the URL of the current script and use that as the base URL
+  try {
+    throw new Error();
+  } catch (err) {
+    var matches = ('' + err.stack).match(/(https?|file|ftp):\/\/[^)\n]+/g);
+
+    if (matches) {
+      return getBaseURL(matches[0]);
+    }
+  }
+
+  return '/';
+}
+
+function getBaseURL(url) {
+  return ('' + url).replace(/^((?:https?|file|ftp):\/\/.+)\/[^/]+$/, '$1') + '/';
+}
+
+exports.getBundleURL = getBundleURLCached;
+exports.getBaseURL = getBaseURL;
+},{}],"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-loader.js":[function(require,module,exports) {
+var getBundleURL = require('./bundle-url').getBundleURL;
+
+function loadBundlesLazy(bundles) {
+  if (!Array.isArray(bundles)) {
+    bundles = [bundles];
+  }
+
+  var id = bundles[bundles.length - 1];
+
+  try {
+    return Promise.resolve(require(id));
+  } catch (err) {
+    if (err.code === 'MODULE_NOT_FOUND') {
+      return new LazyPromise(function (resolve, reject) {
+        loadBundles(bundles.slice(0, -1)).then(function () {
+          return require(id);
+        }).then(resolve, reject);
+      });
+    }
+
+    throw err;
+  }
+}
+
+function loadBundles(bundles) {
+  return Promise.all(bundles.map(loadBundle));
+}
+
+var bundleLoaders = {};
+
+function registerBundleLoader(type, loader) {
+  bundleLoaders[type] = loader;
+}
+
+module.exports = exports = loadBundlesLazy;
+exports.load = loadBundles;
+exports.register = registerBundleLoader;
+var bundles = {};
+
+function loadBundle(bundle) {
+  var id;
+
+  if (Array.isArray(bundle)) {
+    id = bundle[1];
+    bundle = bundle[0];
+  }
+
+  if (bundles[bundle]) {
+    return bundles[bundle];
+  }
+
+  var type = (bundle.substring(bundle.lastIndexOf('.') + 1, bundle.length) || bundle).toLowerCase();
+  var bundleLoader = bundleLoaders[type];
+
+  if (bundleLoader) {
+    return bundles[bundle] = bundleLoader(getBundleURL() + bundle).then(function (resolved) {
+      if (resolved) {
+        module.bundle.register(id, resolved);
+      }
+
+      return resolved;
+    });
+  }
+}
+
+function LazyPromise(executor) {
+  this.executor = executor;
+  this.promise = null;
+}
+
+LazyPromise.prototype.then = function (onSuccess, onError) {
+  if (this.promise === null) this.promise = new Promise(this.executor);
+  return this.promise.then(onSuccess, onError);
+};
+
+LazyPromise.prototype.catch = function (onError) {
+  if (this.promise === null) this.promise = new Promise(this.executor);
+  return this.promise.catch(onError);
+};
+},{"./bundle-url":"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/loaders/browser/html-loader.js":[function(require,module,exports) {
+module.exports = function loadHTMLBundle(bundle) {
+  return fetch(bundle).then(function (res) {
+    return res.text();
+  });
+};
+},{}],0:[function(require,module,exports) {
+var b=require("../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-loader.js");b.register("html",require("../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/loaders/browser/html-loader.js"));b.load([["send.113cd457.html","component/send.html"]]).then(function(){require("app.js");});
+},{}]},{},["../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js",0], null)
 //# sourceMappingURL=/app.c328ef1a.map

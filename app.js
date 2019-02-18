@@ -4,53 +4,27 @@ import ReactDOM from "react-dom";
  import Header from "./component/header";
 import Context from "./context";
 import Content from "./component/content";
-// import Select from "./select.js";
-
-
-//initialize firebase
-// var config = {
-//   apiKey: "AIzaSyA-7E8uwpkdLOZ8VU_qlXrjR1pZLhdtH-4",
-//   authDomain: "racheta-51136.firebaseapp.com",
-//   databaseURL: "https://racheta-51136.firebaseio.com",
-//   projectId: "racheta-51136",
-//   storageBucket: "racheta-51136.appspot.com",
-//   messagingSenderId: "738135326378"
-// };
-// firebase.initializeApp(config);
-// import React, { Component } from 'react'
-
+import Add from "./component/add";
+import send from "./component/send";
 class App extends React.Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
-      pres: [{}],
-      age: "",
       name: "",
-      selectedOption: [],
-      isAdd: false,
-      isList: true
+      firstName: "",
+      lastName: "",
+      items: []
+      
     };
-
-  //   firebase
-  //     .firestore()
-  //     .collection("racheta")
-  //     .orderBy("date", "desc")
-  //     .onSnapshot(snapshot => {
-  //       let pres = [];
-
-  //       snapshot.forEach(doc => {
-  //         pres.push(doc.data());
-  //         this.setState({
-  //           pres: pres
-  //         });
-  //       });
-  //     });
-   }
+  }
 
   render() {
+   
     return (
+      
       <Context.Provider
         value={{
+          
           state: this.state,
           actions: {
             onChangeName: value => {
@@ -58,11 +32,8 @@ class App extends React.Component {
                 name: value
               });
             },
-            onChangeAge: value => {
-              this.setState({
-                age: value
-              });
-            },
+            
+        
             toggle: () => {
               if (this.state.isAdd == false) {
                 this.setState({
@@ -77,12 +48,16 @@ class App extends React.Component {
              handleChange: selectedOption => {
               this.setState({ selectedOption });
              }
+             
           }
         }}
+
       >
+      
         <Header />
         <Content/>
-        {/* <Pre_list/> */}
+        <Add/>
+        <send/>
       </Context.Provider>
     );
   }
